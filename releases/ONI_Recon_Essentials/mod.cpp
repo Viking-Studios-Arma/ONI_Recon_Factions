@@ -1,7 +1,7 @@
-name = "ONI Recon 111 Essentials";
-picture = "ONI_Recon_111.paa";
+name = "ONI Recon Essentials";
+picture = "ONI_Recon.paa";
 hidePicture = "true";
 hideName = "false";
 actionName = "Discord";
 action = "https://discord.gg/UjmVpqrEqW";
-description = "Halo Custom Textures for Oni Recon 111 Unit";
+description = "Halo Custom Textures for Oni Recon Unit";
