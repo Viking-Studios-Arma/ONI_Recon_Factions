@@ -43,15 +43,17 @@ class cfgWeapons
 	class ONI_Helmet_Medic: ONI_Helmet
 	{
 		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Medic_co.paa","VSH\data\ONI_Visor_co.paa"};
+		displayName = "ONI Medic";
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet";
 			camo = "B";
 		};
 	};
-	class ONI_Helmet_X: OPTRE_UNSC_Commando_Helmet
+	class ONI_Helmet_Carmichael: OPTRE_UNSC_Commando_Helmet
 	{
 		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Carmichael_co.paa","VSH\data\ONI_Visor_co.paa"};
+		displayName = "Carmichael";
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet";
@@ -61,10 +63,31 @@ class cfgWeapons
 	class ONI_Helmet_Celt: OPTRE_UNSC_Commando_Helmet
 	{
 		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Celt_co.paa","VSH\data\ONI_Visor_co.paa"};
+		displayName = "ONI Celt";
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet";
 			camo = "sheepshagger";
+		};
+	};
+	class ONI_Helmet_Hex: OPTRE_UNSC_Commando_Helmet
+	{
+		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Hex_co.paa","VSH\data\ONI_Visor_co.paa"};
+		displayName = "ONI Hex";
+		class XtdGearInfo
+		{
+			model = "ONI_Helmet";
+			camo = "H";
+		};
+	};
+	class ONI_Helmet_Storm: OPTRE_UNSC_Commando_Helmet
+	{
+		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Stormwire_co.paa","VSH\data\ONI_Visor_co.paa"};
+		displayName = "ONI Storm";
+		class XtdGearInfo
+		{
+			model = "ONI_Helmet";
+			camo = "S";
 		};
 	};
 	class ONI_Flight_Pilot: OPTRE_UNSC_VX16_Helmet_blk
@@ -145,9 +168,11 @@ class XtdGearModels
 			class camo
 			{
 				changeingame = 0;
-				values[] = {"A","B","sheepshagger","X"};
+				values[] = {"A","B","sheepshagger","X","H","S"};
 				class A { label = "Rifleman"; };
 				class B	{ label = "Medic"; };
+				class H	{ label = "Hex"; };
+				class S	{ label = "Stormwire"; };
 				class sheepshagger { label = "Celt"; };
 				class X	{ label = "Carmichael"; };
 			};
