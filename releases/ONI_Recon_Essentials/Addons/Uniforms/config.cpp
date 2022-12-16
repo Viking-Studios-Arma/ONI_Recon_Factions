@@ -2,118 +2,192 @@ class cfgPatches
 {
     class ONI_Recon_Uniforms
     {
-        units[]=
-        {            
-           "ONI_Recon_V_Slim",
-        };
-        weapons[]=
-        {
-           "ONI_Recon_Slim",
-        };
+        name = "ONI Recon Essentials Uniforms";
+        dlc = "ONI_Recon";
+        author = "Viking Studios";
+        Authors[] = {"Amateur-god","Celt"};
+        versionStr = "v1.0.0";
+        units[]={"ONI_Recon_Army_Soldier_Slim"};
+        weapons[]={"ONI_Recon_V_Slim"};
         requiredVersion=0.1;
-        requiredAddons[]=
-        {
-            "OPTRE_UNSC_Units_Army",
-            "OPTRE_Core"
-        };
+        requiredAddons[]={"OPTRE_UNSC_Units_Army","OPTRE_Core"};
     };
 
 };
+class CfgVehicles
+{
+    class OPTRE_UNSC_Army_Soldier_BLK_SlimLeg;
+    class ONI_Recon_Army_Soldier_Blk_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
+    {
+        hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_black_co.paa","VSU\data\ONI_uniform_b_black_co.paa"};
+        uniformClass = "ONI_Recon_Uniform_Blk_Slim";
+    };    
+    class ONI_Recon_Army_Soldier_BlkUrb_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
+    {
+        hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_black_co.paa","VSU\data\ONI_uniform_b_urban_co.paa"};
+        uniformClass = "ONI_Recon_Uniform_BlkUrb_Slim";
+    };
+    class ONI_Recon_Army_Soldier_Urb_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
+    {
+        hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_urban_co.paa","VSU\data\ONI_uniform_b_urban_co.paa"};
+        uniformClass = "ONI_Recon_Uniform_Urb_Slim";
+    };   
+    class ONI_Recon_Army_Soldier_BlkMar_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
+    {
+        hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_black_co.paa","VSU\data\ONI_uniform_b_marine_co.paa"};
+        uniformClass = "ONI_Recon_Uniform_BlkMar_Slim";
+    }; 
+    class ONI_Recon_Army_Soldier_BlkWdl_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
+    {
+        hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_black_co.paa","VSU\data\ONI_uniform_b_woodland_co.paa"};
+        uniformClass = "ONI_Recon_Uniform_BlkWdl_Slim";
+    };
+    class ONI_Recon_Army_Soldier_Mar_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
+    {
+        hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_marine_co.paa","VSU\data\ONI_uniform_b_marine_co.paa"};
+        uniformClass = "ONI_Recon_Uniform_Mar_Slim";
+    }; 
+    class ONI_Recon_Army_Soldier_Wdl_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
+    {
+        hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_woodland_co.paa","VSU\data\ONI_uniform_b_woodland_co.paa"};
+        uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
+    };     
+};
+
+
 class CfgWeapons
 {
-    class UniformItem;
-    class Uniform_Base;
-    class HeadgearItem;
-    class ONI_Recon_Slim: Uniform_Base
+    class ItemInfo;
+    class OPTRE_UNSC_Army_Uniform_BLK_SlimLeg;
+    class ONI_Recon_Uniform_Blk_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
     {
-        scope = 2;
-        scopeArsenal=2;
-        dlc="ONI Recon";
-        author="Amateur-God";
-        displayName="ONI BDU (Slim)";
-        picture="\optre_unsc_units\army\icons\army_uniform_DES";
-        model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-        CBRN_protection=1;
-        hiddenSelections[] = {"camo","camo2","insignia","clan","A_BaseLeg",/*"A_SlimLeg"*/};
-        hiddenSelectionsTextures[] = {"Uniforms\data\ONI_uniform_a_black_CO.paa","Uniforms\data\ONI_uniform_b_black_CO.paa"};
-        class ItemInfo : UniformItem
+        displayName = "ONI BDU (Black)";
+        class XtdGearInfo 
         {
-            containerClass="Supply150";
-            mass=40;
-            uniformClass="ONI_Recon_V_Slim";
-            uniformType="Neopren";
-            hiddenSelections[] = {"camo","camo2","insignia","clan","A_BaseLeg",/*"A_SlimLeg"*/};
-            class HitpointsProtectionInfo
-            {
-                class Neck
-                {
-                    hitpointName="HitNeck";
-                    armor=30;
-                    passThrough=0.1;
-                };
-                class Legs
-                {
-                    hitpointName="HitLegs";
-                    armor=30;
-                    passThrough=0.1;
-                };
-                class Arms
-                {
-                    hitpointName="HitArms";
-                    armor=30;
-                    passThrough=0.1;
-                };
-                class Hands
-                {
-                    hitpointName="HitHands";
-                    armor=30;
-                    passThrough=0.1;
-                };
-                class Chest
-                {
-                    hitpointName="HitChest";
-                    armor=30;
-                    passThrough=0.1;
-                };
-                class Diaphragm
-                {
-                    hitpointName="HitDiaphragm";
-                    armor=30;
-                    passThrough=0.1;
-                };
-                class Abdomen
-                {
-                    hitpointName="HitAbdomen";
-                    armor=30;
-                    passThrough=0.1;
-                };
-                class Pelvis
-                {
-                    hitpointName="HitPelvis";
-                    armor=30;
-                    passThrough=0.1;
-                };
-                class Body
-                {
-                    hitpointName="HitBody";
-                    armor=30;
-                    passThrough=0.1;
-                };
-            };
+            model = "ONI_BDU";
+            Top = "A";
+            Trousers = "A"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_Blk_Slim";
         };
     };
-class CfgVehicles
+    class ONI_Recon_Uniform_BlkUrb_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
     {
-        class OPTRE_UNSC_Army_Soldier_WDL;
-        class ONI_Recon_V_Slim : OPTRE_UNSC_Army_Soldier_WDL
+        displayName = "ONI BDU (Black/Urban)";
+        class XtdGearInfo 
         {
-            scope = 1;
-            dlc = "ONI_Recon";
-            author = "Amateur-God";
-            model = "\OPTRE_UNSC_Units\Army\uniform.p3d";
-            uniformClass = "ONI_Recon_Slim";
-            hiddenSelections[] ={"camo","camo2","insignia","clan","A_BaseLeg",/*"A_SlimLeg"*/};
-            hiddenSelectionsTextures[] = {"Uniforms\data\ONI_uniform_a_black_CO.paa","Uniforms\data\ONI_uniform_b_black_CO.paa"};
+            model = "ONI_BDU";
+            Top = "A";
+            Trousers = "B"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_BlkUrb_Slim";
+        };
+    };
+    class ONI_Recon_Uniform_BlkMar_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
+    {
+        displayName = "ONI BDU (Black/Marine)";
+        class XtdGearInfo 
+        {
+            model = "ONI_BDU";
+            Top = "A";
+            Trousers = "C"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_BlkMar_Slim";
+        };
+    };
+    class ONI_Recon_Uniform_BlkWdl_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
+    {
+        displayName = "ONI BDU (Black/Woodland)";
+        class XtdGearInfo 
+        {
+            model = "ONI_BDU";
+            Top = "A";
+            Trousers = "D"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_BlkWdl_Slim";
+        };
+    };
+    class ONI_Recon_Uniform_Urb_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
+    {
+        displayName = "ONI BDU (Urban)";
+        class XtdGearInfo 
+        {
+            model = "ONI_BDU";
+            Top = "B";
+            Trousers = "B"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_Urb_Slim";
+        };
+    };
+    class ONI_Recon_Uniform_Mar_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
+    {
+        displayName = "ONI BDU (Marine)";
+        class XtdGearInfo 
+        {
+            model = "ONI_BDU";
+            Top = "C";
+            Trousers = "C"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_Mar_Slim";
+        };
+    };
+    class ONI_Recon_Uniform_Wdl_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
+    {
+        displayName = "ONI BDU (woodland)";
+        class XtdGearInfo 
+        {
+            model = "ONI_BDU";
+            Top = "D";
+            Trousers = "D"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_Wdl_Slim";
+        };
+    };
+};
+class XtdGearModels 
+{
+    class CfgWeapons 
+    {
+        class ONI_BDU
+        {
+            label = "ONI BDU";
+            author = "Viking Studios";
+            options[] = {"Top", "Trousers"};
+
+            class Top 
+            {
+                changeingame = 0;
+                values[] = {"A","B","C","D"};
+
+                class A { label = "Black"; };
+                class B { label = "Urban"; };
+                class C { label = "Marine"; };
+                class D { label = "Woodland"; };
+            };
+            class Trousers 
+            {
+                changeingame = 0;
+                values[] = {"A","B","C","D"};
+
+                class A { label = "Black"; };
+                class B { label = "Urban"; };
+                class C { label = "Marine"; };
+                class D { label = "Woodland"; };
+            };
         };
     };
 };

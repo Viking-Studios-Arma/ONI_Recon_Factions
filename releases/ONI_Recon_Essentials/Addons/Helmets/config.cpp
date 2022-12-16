@@ -27,22 +27,40 @@ class cfgWeapons
 	class OPTRE_UNSC_VX16_Helmet_MaskSV;
 	class OPTRE_UNSC_VX16_Helmet_MaskS_blk;
 	class OPTRE_UNSC_Operator_Helmet;
-	class ONI_Helmet: OPTRE_UNSC_Commando_Helmet
+	class ONI_Helmet_Base: OPTRE_UNSC_Commando_Helmet
+	{
+		class ItemInfo;
+	}
+	class ONI_Helmet: ONI_Helmet_Base
 	{
 		scope = 2;
 		author = "Viking Studios";
 		displayName = "ONI Helmet";
-		hiddenSelections[] = {"camo","Visor"};
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Black_co.paa","VSH\data\ONI_Visor_co.paa"};
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Black_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet";
 			camo = "A";
 		};
+		class ItemInfo: ItemInfo
+        {
+            hiddenSelections[]={"camo1", "camo2"};
+			hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Black_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
+			hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};            
+        }
+	};
+	class ONI_Helmet_dp: ONI_Helmet
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
 	};
 	class ONI_Helmet_Medic: ONI_Helmet
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Medic_co.paa","VSH\data\ONI_Visor_co.paa"};
+		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Medic_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Medic";
 		class XtdGearInfo
 		{
@@ -50,9 +68,16 @@ class cfgWeapons
 			camo = "B";
 		};
 	};
-	class ONI_Helmet_Carmichael: OPTRE_UNSC_Commando_Helmet
+	class ONI_Helmet_Medic_dp: ONI_Helmet_Medic
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Carmichael_co.paa","VSH\data\ONI_Visor_co.paa"};
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+	}
+	class ONI_Helmet_Carmichael: ONI_Helmet
+	{
+		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Carmichael_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "Carmichael";
 		class XtdGearInfo
 		{
@@ -60,9 +85,17 @@ class cfgWeapons
 			camo = "X";
 		};
 	};
-	class ONI_Helmet_Celt: OPTRE_UNSC_Commando_Helmet
+	class ONI_Helmet_Carmichael_dp: ONI_Helmet_Carmichael
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Celt_co.paa","VSH\data\ONI_Visor_co.paa"};
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+
+	};
+	class ONI_Helmet_Celt: ONI_Helmet
+	{
+		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Celt_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Celt";
 		class XtdGearInfo
 		{
@@ -70,9 +103,16 @@ class cfgWeapons
 			camo = "sheepshagger";
 		};
 	};
-	class ONI_Helmet_Hex: OPTRE_UNSC_Commando_Helmet
+	class ONI_Helmet_Celt_dp: ONI_Helmet_Celt
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Hex_co.paa","VSH\data\ONI_Visor_co.paa"};
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+	}
+	class ONI_Helmet_Hex: ONI_Helmet
+	{
+		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Hex_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Hex";
 		class XtdGearInfo
 		{
@@ -80,15 +120,28 @@ class cfgWeapons
 			camo = "H";
 		};
 	};
-	class ONI_Helmet_Storm: OPTRE_UNSC_Commando_Helmet
+	class ONI_Helmet_Hex_dp: ONI_Helmet_Hex
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Stormwire_co.paa","VSH\data\ONI_Visor_co.paa"};
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+	}
+	class ONI_Helmet_Storm: ONI_Helmet
+	{
+		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Stormwire_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Storm";
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet";
 			camo = "S";
 		};
+	};
+	class ONI_Helmet_Storm_dp: ONI_Helmet_Storm
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
 	};
 	class ONI_Flight_Pilot: OPTRE_UNSC_VX16_Helmet_blk
 	{
@@ -100,10 +153,22 @@ class cfgWeapons
 			visor = "B";
 		};
 	};
+	class ONI_Flight_Pilot_dp: ONI_Flight_Pilot
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+	};
 	class ONI_Flight_Pilot_two: OPTRE_UNSC_Operator_Helmet
 	{
 		author = "Viking Studios";
 		displayName = "ONI Pilot 2";
+	};
+	class ONI_Flight_Pilot_Two_dp: ONI_Flight_Pilot_two
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
 	};
 	class ONI_Pilot_Helmet_VA: OPTRE_UNSC_VX16_HelmetV_blk
 	{
@@ -115,6 +180,12 @@ class cfgWeapons
 			visor = "A";
 		};
 	};
+	class ONI_Pilot_Helmet_VA_dp: ONI_Pilot_Helmet_VA
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+	};
 	class ONI_Pilot_LT_Helmet_VA: OPTRE_UNSC_VX16_Helmet_Mask_blk
 	{
 		author = "Viking Studios";
@@ -124,6 +195,12 @@ class cfgWeapons
 			model = "ONI_Flight_LT";
 			visor = "A";
 		};
+	};
+	class ONI_Pilot_LT_Helmet_VA_dp: ONI_Pilot_LT_Helmet_VA
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
 	};
 	class ONI_Pilot_LT_Helmet_VBB: OPTRE_UNSC_VX16_Helmet_MaskV_blk
 	{
@@ -135,6 +212,12 @@ class cfgWeapons
 			visor = "B";
 		};
 	};
+	class ONI_Pilot_LT_Helmet_VBB_dp: ONI_Pilot_LT_Helmet_VBB
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+	};
 	class ONI_Pilot_CPT_Helmet_VBB: OPTRE_UNSC_VX16_Helmet_MaskSV
 	{
 		author = "Viking Studios";
@@ -145,6 +228,12 @@ class cfgWeapons
 			visor = "B";
 		};
 	};
+	class ONI_Pilot_CPT_Helmet_VBB_dp: ONI_Pilot_CPT_Helmet_VBB
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+	};
 	class ONI_Pilot_CPT_Helmet_VAB: OPTRE_UNSC_VX16_Helmet_MaskS_blk
 	{
 		author = "Viking Studios";
@@ -154,6 +243,12 @@ class cfgWeapons
 			model = "ONI_Flight_CPT";
 			visor = "A";
 		};
+	};
+	class ONI_Pilot_CPT_Helmet_VAB_dp: ONI_Pilot_CPT_Helmet_VAB
+	{
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
 	};
 };
 class XtdGearModels
@@ -216,4 +311,4 @@ class XtdGearModels
 			};
 		};
 	};
-}
+};
