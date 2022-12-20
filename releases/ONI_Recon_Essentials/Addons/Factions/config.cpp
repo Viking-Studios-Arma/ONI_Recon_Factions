@@ -175,5 +175,22 @@ class cfgVehicles
 #include "Drones\Drones.hpp"
 #include "Helicopters\Helicopters.hpp"
 #include "Backpacks\Backpacks.hpp"
+};
 
+class cfgGroups
+{  
+  class WEST
+  {
+    name="BLUFOR";
+    class ONI_Recon_Faction
+    {
+      name="ONI Recon";
+    
+    #include "Groups\Blk.hpp"
+    #include "Groups\Urb.hpp"
+    #include "Groups\Wdl.hpp"
+    #include "Groups\Mar.hpp"
+
+    };
+  };
 };

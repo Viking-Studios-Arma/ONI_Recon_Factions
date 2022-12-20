@@ -176,7 +176,7 @@
     backpack="ONI_Recon_Essentials_Rifleman_HMG_pack";
   };
 
-  class ONI_Recon_Essentials_IC_HMG: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_Essentials_IC_HMG: ONI_Recon_Essentials_Team_Leader
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_HMG";
@@ -194,7 +194,7 @@
     backpack="ONI_Recon_Essentials_IC_HMG_pack";
   };
 
-  class ONI_Recon_Essentials_Medic_HMG: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_Essentials_Medic_HMG: ONI_Recon_Essentials_Medic
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_HMG";
@@ -212,7 +212,7 @@
     backpack="ONI_Recon_Essentials_Medic_HMG_pack";
   };
 
-  class ONI_Recon_Essentials_Sniper: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_Essentials_Sniper: ONI_Recon_Essentials_Team_Leader
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Snipers_Blk";
@@ -230,7 +230,7 @@
     backpack="ONI_Recon_Essentials_Sniper_pack";
   };
 
-  class ONI_Recon_Essentials_Spotter: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_Essentials_Spotter: ONI_Recon_Essentials_Medic
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Snipers_Blk";

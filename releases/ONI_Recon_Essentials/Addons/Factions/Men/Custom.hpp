@@ -1,4 +1,4 @@
-  class ONI_Recon_Essentials_Carmichael: ONI_Recon_Essentials_Rifleman
+  class ONI_Recon_Essentials_Carmichael: ONI_Recon_Essentials_Team_Leader
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Custom";
@@ -15,7 +15,7 @@
     respawnLinkedItems[]={"ItemMap","ItemCompass","TFAR_microdagr","TFAR_anprc152","ItemGPS","OPTRE_NVG_HUL","ONI_Helmet_Carmichael","ONI_Armour_Carmichael","OPTRE_NVG_HUL"};
     backpack="ONI_Recon_Essentials_Rifleman_pack";
   };
-  class ONI_Recon_Essentials_Celt: ONI_Recon_Essentials_Rifleman
+  class ONI_Recon_Essentials_Celt: ONI_Recon_Essentials_Team_Leader
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Custom";
@@ -32,7 +32,7 @@
     respawnLinkedItems[]={"ItemMap","ItemCompass","TFAR_microdagr","TFAR_anprc152","ItemGPS","OPTRE_NVG_HUL","ONI_Helmet_Celt","ONI_Armour_Celt","OPTRE_NVG_HUL"};
     backpack="ONI_Recon_Essentials_Rifleman_pack";
   };
-  class ONI_Recon_Essentials_Storm: ONI_Recon_Essentials_Rifleman
+  class ONI_Recon_Essentials_Storm: ONI_Recon_Essentials_Team_Leader
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Custom";
@@ -49,7 +49,7 @@
     respawnLinkedItems[]={"ItemMap","ItemCompass","TFAR_microdagr","TFAR_anprc152","ItemGPS","OPTRE_NVG_HUL","ONI_Helmet_Storm","ONI_Armour_Storm","OPTRE_NVG_HUL"};
     backpack="ONI_Recon_Essentials_Rifleman_pack";
   };
-  class ONI_Recon_Essentials_Hex: ONI_Recon_Essentials_Rifleman
+  class ONI_Recon_Essentials_Hex: ONI_Recon_Essentials_EOD
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Custom";

@@ -37,8 +37,8 @@ class cfgWeapons
 		author = "Viking Studios";
 		displayName = "ONI Helmet";
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Black_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Black_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet";
@@ -47,8 +47,8 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
         {
             hiddenSelections[]={"camo1", "camo2"};
-			hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Black_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
-			hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};            
+			hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Black_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
+			hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};            
         }
 	};
 	class ONI_Helmet_dp: ONI_Helmet
@@ -59,8 +59,8 @@ class cfgWeapons
 	};
 	class ONI_Helmet_Medic: ONI_Helmet
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Medic_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Medic_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Medic";
 		class XtdGearInfo
 		{
@@ -76,8 +76,8 @@ class cfgWeapons
 	}
 	class ONI_Helmet_Carmichael: ONI_Helmet
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Carmichael_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Carmichael_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "Carmichael";
 		class XtdGearInfo
 		{
@@ -94,8 +94,8 @@ class cfgWeapons
 	};
 	class ONI_Helmet_Celt: ONI_Helmet
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Celt_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Celt_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Celt";
 		class XtdGearInfo
 		{
@@ -111,8 +111,8 @@ class cfgWeapons
 	}
 	class ONI_Helmet_Hex: ONI_Helmet
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Hex_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Hex_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Hex";
 		class XtdGearInfo
 		{
@@ -128,8 +128,8 @@ class cfgWeapons
 	}
 	class ONI_Helmet_Storm: ONI_Helmet
 	{
-		hiddenSelectionsTextures[] = {"VSH\data\ONI_Helmet_Stormwire_co.paa","VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"VSH\data\ONI.rvmat","VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Stormwire_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Storm";
 		class XtdGearInfo
 		{
