@@ -7,8 +7,8 @@ class cfgPatches
         author = "Viking Studios";
         Authors[] = {"Amateur-god"};
         versionStr = "v2.0.0";
-        units[]={"ONI_Recon_Army_Soldier_Slim"};
-        weapons[]={"ONI_Recon_V_Slim"};
+        units[]={"ONI_Recon_Army_Soldier_Blk_Slim","ONI_Recon_Army_Soldier_BlkUrb_Slim","ONI_Recon_Army_Soldier_Urb_Slim","ONI_Recon_Army_Soldier_BlkMar_Slim","ONI_Recon_Army_Soldier_BlkWdl_Slim","ONI_Recon_Army_Soldier_Mar_Slim","ONI_Recon_Army_Soldier_Wdl_Slim","ONI_Recon_Army_Soldier_UrbWdl_Slim","ONI_Recon_Army_Soldier_MarWdl_Slim"};
+        weapons[]={"ONI_Recon_Uniform_Blk_Slim","ONI_Recon_Uniform_BlkUrb_Slim","ONI_Recon_Uniform_Urb_Slim","ONI_Recon_Uniform_BlkMar_Slim","ONI_Recon_Uniform_BlkWdl_Slim","ONI_Recon_Uniform_Mar_Slim","ONI_Recon_Uniform_Wdl_Slim","ONI_Recon_Uniform_UrbWdl_Slim","ONI_Recon_Uniform_MarWdl_Slim"};
         requiredVersion=0.1;
         requiredAddons[]={"OPTRE_UNSC_Units_Army","OPTRE_Core"};
     };
