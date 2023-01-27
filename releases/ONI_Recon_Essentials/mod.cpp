@@ -4,4 +4,4 @@ hidePicture = "true";
 hideName = "false";
 actionName = "Discord";
 action = "https://discord.gg/UjmVpqrEqW";
-description = "Halo Custom Textures for Oni Recon Unit";
+description = "An Aux mod for the Halo ONI Recon Unit";

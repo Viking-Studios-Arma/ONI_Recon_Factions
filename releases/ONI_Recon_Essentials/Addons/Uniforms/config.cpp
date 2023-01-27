@@ -5,10 +5,10 @@ class cfgPatches
         name = "ONI Recon Essentials Uniforms";
         dlc = "ONI_Recon";
         author = "Viking Studios";
-        Authors[] = {"Amateur-god","Celt"};
-        versionStr = "v1.0.0";
-        units[]={"ONI_Recon_Army_Soldier_Slim"};
-        weapons[]={"ONI_Recon_V_Slim"};
+        Authors[] = {"Amateur-god"};
+        versionStr = "v2.0.0";
+        units[]={"ONI_Recon_Army_Soldier_Blk_Slim","ONI_Recon_Army_Soldier_BlkUrb_Slim","ONI_Recon_Army_Soldier_Urb_Slim","ONI_Recon_Army_Soldier_BlkMar_Slim","ONI_Recon_Army_Soldier_BlkWdl_Slim","ONI_Recon_Army_Soldier_Mar_Slim","ONI_Recon_Army_Soldier_Wdl_Slim","ONI_Recon_Army_Soldier_UrbWdl_Slim","ONI_Recon_Army_Soldier_MarWdl_Slim"};
+        weapons[]={"ONI_Recon_Uniform_Blk_Slim","ONI_Recon_Uniform_BlkUrb_Slim","ONI_Recon_Uniform_Urb_Slim","ONI_Recon_Uniform_BlkMar_Slim","ONI_Recon_Uniform_BlkWdl_Slim","ONI_Recon_Uniform_Mar_Slim","ONI_Recon_Uniform_Wdl_Slim","ONI_Recon_Uniform_UrbWdl_Slim","ONI_Recon_Uniform_MarWdl_Slim"};
         requiredVersion=0.1;
         requiredAddons[]={"OPTRE_UNSC_Units_Army","OPTRE_Core"};
     };
@@ -51,7 +51,17 @@ class CfgVehicles
     {
         hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_woodland_co.paa","VSU\data\ONI_uniform_b_woodland_co.paa"};
         uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
-    };     
+    }; 
+        class ONI_Recon_Army_Soldier_UrbWdl_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
+    {
+        hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_urban_co.paa","VSU\data\ONI_uniform_b_woodland_co.paa"};
+        uniformClass = "ONI_Recon_Uniform_UrbWdl_Slim";
+    }; 
+        class ONI_Recon_Army_Soldier_MarWdl_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
+    {
+        hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_marine_co.paa","VSU\data\ONI_uniform_b_woodland_co.paa"};
+        uniformClass = "ONI_Recon_Uniform_MarWdl_Slim";
+    };   
 };
 
 
@@ -62,6 +72,7 @@ class CfgWeapons
     class ONI_Recon_Uniform_Blk_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
     {
         displayName = "ONI BDU (Black)";
+        scope = 2;
         class XtdGearInfo 
         {
             model = "ONI_BDU";
@@ -76,6 +87,7 @@ class CfgWeapons
     class ONI_Recon_Uniform_BlkUrb_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
     {
         displayName = "ONI BDU (Black/Urban)";
+        scope = 2;
         class XtdGearInfo 
         {
             model = "ONI_BDU";
@@ -90,6 +102,7 @@ class CfgWeapons
     class ONI_Recon_Uniform_BlkMar_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
     {
         displayName = "ONI BDU (Black/Marine)";
+        scope = 2;
         class XtdGearInfo 
         {
             model = "ONI_BDU";
@@ -101,23 +114,10 @@ class CfgWeapons
             uniformClass = "ONI_Recon_Army_Soldier_BlkMar_Slim";
         };
     };
-    class ONI_Recon_Uniform_BlkWdl_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
-    {
-        displayName = "ONI BDU (Black/Woodland)";
-        class XtdGearInfo 
-        {
-            model = "ONI_BDU";
-            Top = "A";
-            Trousers = "D"
-        };
-        class ItemInfo: ItemInfo
-        {
-            uniformClass = "ONI_Recon_Army_Soldier_BlkWdl_Slim";
-        };
-    };
     class ONI_Recon_Uniform_Urb_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
     {
         displayName = "ONI BDU (Urban)";
+        scope = 2;
         class XtdGearInfo 
         {
             model = "ONI_BDU";
@@ -132,6 +132,7 @@ class CfgWeapons
     class ONI_Recon_Uniform_Mar_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
     {
         displayName = "ONI BDU (Marine)";
+        scope = 2;
         class XtdGearInfo 
         {
             model = "ONI_BDU";
@@ -143,9 +144,55 @@ class CfgWeapons
             uniformClass = "ONI_Recon_Army_Soldier_Mar_Slim";
         };
     };
+    class ONI_Recon_Uniform_BlkWdl_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
+    {
+        displayName = "ONI BDU (Black/Woodland)";
+        scope = 2;
+        class XtdGearInfo 
+        {
+            model = "ONI_BDU";
+            Top = "A";
+            Trousers = "D"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_BlkWdl_Slim";
+        };
+    };
+        class ONI_Recon_Uniform_UrbWdl_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
+    {
+        displayName = "ONI BDU (Urban/Woodland)";
+        scope = 2;
+        class XtdGearInfo 
+        {
+            model = "ONI_BDU";
+            Top = "B";
+            Trousers = "D"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_UrbWdl_Slim";
+        };
+    };
+        class ONI_Recon_Uniform_MarWdl_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
+    {
+        displayName = "ONI BDU (Marine/Woodland)";
+        scope = 2;
+        class XtdGearInfo 
+        {
+            model = "ONI_BDU";
+            Top = "C";
+            Trousers = "D"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformClass = "ONI_Recon_Army_Soldier_MarWdl_Slim";
+        };
+    };
     class ONI_Recon_Uniform_Wdl_Slim : OPTRE_UNSC_Army_Uniform_BLK_SlimLeg
     {
         displayName = "ONI BDU (woodland)";
+        scope = 2;
         class XtdGearInfo 
         {
             model = "ONI_BDU";
