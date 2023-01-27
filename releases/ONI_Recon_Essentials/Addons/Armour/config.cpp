@@ -7,8 +7,8 @@ class CfgPatches
         name = "ONI Recon Essentials";
         dlc = "ONI_Recon";
         author = "Viking Studios";
-        Authors[] = {"Amateur-god"};
-        versionStr = "v2.0.0";
+        Authors[] = {"Amateur-god","Celt"};
+        versionStr = "v1.0.0";
 		units[] = {};
 		weapons[] = {"ONI_Armour","ONI_Armour_Base","ONI_Armour_Base_MX","ONI_Armour_Base_SC","ONI_Armour_Base_Demo","ONI_Armour_Medic","ONI_Armour_Mx","ONI_Armour_Scout","ONI_Armour_Demo"};
 		requiredVersion = 0.1;
