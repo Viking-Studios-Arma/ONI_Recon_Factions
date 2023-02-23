@@ -139,11 +139,11 @@ class cfgVehicles
 {
   class OPTRE_UNSC_Airforce_Soldier_Airman;
   class OPTRE_UNSC_Marine_Soldier_Rifleman_AR;
-  class ONI_Rucksack;
+  class ONI_Recon_Rucksack;
   class OPTRE_UNSC_Marine_Soldier_Corpsman;
-  class ONI_Rucksack_Medic;
+  class ONI_Recon_Rucksack_Medic;
   class OPTRE_UNSC_Marine_Soldier_TeamLead;
-  class ONI_Rucksack_IC;
+  class ONI_Recon_Rucksack_IC;
   class OPTRE_M12_LRV;
   class OPTRE_M914_RV;
   class OPTRE_M813_TT;
