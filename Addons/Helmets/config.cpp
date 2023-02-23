@@ -4,13 +4,16 @@ class CfgPatches
 {
 	class ONI_Recon_Helmets
 	{
-		name = "ONI Recon Essentials";
-		dlc = "ONI_Recon";
+		// Addon identity
+		name = "ONI Recon Essentials - Helmets";
 		author = "Viking Studios";
-		Authors[] = {"Amateur-god"};
+		authors[] = {"Amateur-god"};
+		url = "https://discord.gg/bkdGvUNFbb";
+		version = 1.0;
+		versionAr[] = {1,0,0,0};
 		versionStr = "v1.0.0";
 		units[] = {};
-		weapons[] = {"ONI_Helmet","ONI_Helmet_Medic","ONI_Helmet_X","ONI_Flight_Pilot","ONI_Flight_Pilot_two","ONI_Pilot_Helmet_VA","ONI_Pilot_LT_Helmet_VA","ONI_Pilot_LT_Helmet_VBB","ONI_Pilot_CPT_Helmet_VBB","ONI_Pilot_CPT_Helmet_VAB"};
+		weapons[] = {"ONI_Recon_Helmet","ONI_Recon_Helmet_Medic","ONI_Recon_Helmet_X","ONI_Flight_Pilot","ONI_Flight_Pilot_two","ONI_Pilot_Helmet_VA","ONI_Pilot_LT_Helmet_VA","ONI_Pilot_LT_Helmet_VBB","ONI_Pilot_CPT_Helmet_VBB","ONI_Pilot_CPT_Helmet_VAB"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"OPTRE_Core"};
 	};
@@ -27,11 +30,11 @@ class cfgWeapons
 	class OPTRE_UNSC_VX16_Helmet_MaskSV;
 	class OPTRE_UNSC_VX16_Helmet_MaskS_blk;
 	class OPTRE_UNSC_Operator_Helmet;
-	class ONI_Helmet_Base: OPTRE_UNSC_Commando_Helmet
+	class ONI_Recon_Helmet_Base: OPTRE_UNSC_Commando_Helmet
 	{
 		class ItemInfo;
 	}
-	class ONI_Helmet: ONI_Helmet_Base
+	class ONI_Recon_Helmet: ONI_Recon_Helmet_Base
 	{
 		scope = 2;
 		author = "Viking Studios";
@@ -51,13 +54,13 @@ class cfgWeapons
 			hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};            
         }
 	};
-	class ONI_Helmet_dp: ONI_Helmet
+	class ONI_Recon_Helmet_dp: ONI_Recon_Helmet
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	};
-	class ONI_Helmet_Medic: ONI_Helmet
+	class ONI_Recon_Helmet_Medic: ONI_Recon_Helmet
 	{
 		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Medic_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
 		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
@@ -68,13 +71,13 @@ class cfgWeapons
 			camo = "B";
 		};
 	};
-	class ONI_Helmet_Medic_dp: ONI_Helmet_Medic
+	class ONI_Recon_Helmet_Medic_dp: ONI_Recon_Helmet_Medic
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	}
-	class ONI_Helmet_Carmichael: ONI_Helmet
+	class ONI_Recon_Helmet_Carmichael: ONI_Recon_Helmet
 	{
 		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Carmichael_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
 		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
@@ -85,14 +88,14 @@ class cfgWeapons
 			camo = "X";
 		};
 	};
-	class ONI_Helmet_Carmichael_dp: ONI_Helmet_Carmichael
+	class ONI_Recon_Helmet_Carmichael_dp: ONI_Recon_Helmet_Carmichael
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 
 	};
-	class ONI_Helmet_Celt: ONI_Helmet
+	class ONI_Recon_Helmet_Celt: ONI_Recon_Helmet
 	{
 		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Celt_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
 		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
@@ -103,13 +106,13 @@ class cfgWeapons
 			camo = "sheepshagger";
 		};
 	};
-	class ONI_Helmet_Celt_dp: ONI_Helmet_Celt
+	class ONI_Recon_Helmet_Celt_dp: ONI_Recon_Helmet_Celt
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	}
-	class ONI_Helmet_Hex: ONI_Helmet
+	class ONI_Recon_Helmet_Hex: ONI_Recon_Helmet
 	{
 		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Hex_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
 		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
@@ -120,13 +123,13 @@ class cfgWeapons
 			camo = "H";
 		};
 	};
-	class ONI_Helmet_Hex_dp: ONI_Helmet_Hex
+	class ONI_Recon_Helmet_Hex_dp: ONI_Recon_Helmet_Hex
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	}
-	class ONI_Helmet_Storm: ONI_Helmet
+	class ONI_Recon_Helmet_Storm: ONI_Recon_Helmet
 	{
 		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Stormwire_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
 		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
@@ -137,13 +140,13 @@ class cfgWeapons
 			camo = "S";
 		};
 	};
-	class ONI_Helmet_Storm_dp: ONI_Helmet_Storm
+	class ONI_Recon_Helmet_Storm_dp: ONI_Recon_Helmet_Storm
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	};
-	class ONI_Flight_Pilot: OPTRE_UNSC_VX16_Helmet_blk
+	class ONI_Recon_Flight_Pilot: OPTRE_UNSC_VX16_Helmet_blk
 	{
 		author = "Viking Studios";
 		displayName = "ONI Pilot";
@@ -153,24 +156,24 @@ class cfgWeapons
 			visor = "B";
 		};
 	};
-	class ONI_Flight_Pilot_dp: ONI_Flight_Pilot
+	class ONI_Recon_Flight_Pilot_dp: ONI_Recon_Flight_Pilot
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	};
-	class ONI_Flight_Pilot_two: OPTRE_UNSC_Operator_Helmet
+	class ONI_Recon_Flight_Pilot_two: OPTRE_UNSC_Operator_Helmet
 	{
 		author = "Viking Studios";
 		displayName = "ONI Pilot 2";
 	};
-	class ONI_Flight_Pilot_Two_dp: ONI_Flight_Pilot_two
+	class ONI_Recon_Flight_Pilot_Two_dp: ONI_Recon_Flight_Pilot_two
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	};
-	class ONI_Pilot_Helmet_VA: OPTRE_UNSC_VX16_HelmetV_blk
+	class ONI_Recon_Pilot_Helmet_VA: OPTRE_UNSC_VX16_HelmetV_blk
 	{
 		author = "Viking Studios";
 		displayName = "ONI Pilot";
@@ -180,13 +183,13 @@ class cfgWeapons
 			visor = "A";
 		};
 	};
-	class ONI_Pilot_Helmet_VA_dp: ONI_Pilot_Helmet_VA
+	class ONI_Recon_Pilot_Helmet_VA_dp: ONI_Recon_Pilot_Helmet_VA
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	};
-	class ONI_Pilot_LT_Helmet_VA: OPTRE_UNSC_VX16_Helmet_Mask_blk
+	class ONI_Recon_Pilot_LT_Helmet_VA: OPTRE_UNSC_VX16_Helmet_Mask_blk
 	{
 		author = "Viking Studios";
 		displayName = "ONI Pilot PO2";
@@ -196,13 +199,13 @@ class cfgWeapons
 			visor = "A";
 		};
 	};
-	class ONI_Pilot_LT_Helmet_VA_dp: ONI_Pilot_LT_Helmet_VA
+	class ONI_Recon_Pilot_LT_Helmet_VA_dp: ONI_Recon_Pilot_LT_Helmet_VA
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	};
-	class ONI_Pilot_LT_Helmet_VBB: OPTRE_UNSC_VX16_Helmet_MaskV_blk
+	class ONI_Recon_Pilot_LT_Helmet_VBB: OPTRE_UNSC_VX16_Helmet_MaskV_blk
 	{
 		author = "Viking Studios";
 		displayName = "ONI Pilot PO2";
@@ -212,13 +215,13 @@ class cfgWeapons
 			visor = "B";
 		};
 	};
-	class ONI_Pilot_LT_Helmet_VBB_dp: ONI_Pilot_LT_Helmet_VBB
+	class ONI_Recon_Pilot_LT_Helmet_VBB_dp: ONI_Recon_Pilot_LT_Helmet_VBB
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	};
-	class ONI_Pilot_CPT_Helmet_VBB: OPTRE_UNSC_VX16_Helmet_MaskSV
+	class ONI_Recon_Pilot_CPT_Helmet_VBB: OPTRE_UNSC_VX16_Helmet_MaskSV
 	{
 		author = "Viking Studios";
 		displayName = "ONI Pilot WO2";
@@ -228,13 +231,13 @@ class cfgWeapons
 			visor = "B";
 		};
 	};
-	class ONI_Pilot_CPT_Helmet_VBB_dp: ONI_Pilot_CPT_Helmet_VBB
+	class ONI_Recon_Pilot_CPT_Helmet_VBB_dp: ONI_Recon_Pilot_CPT_Helmet_VBB
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	};
-	class ONI_Pilot_CPT_Helmet_VAB: OPTRE_UNSC_VX16_Helmet_MaskS_blk
+	class ONI_Recon_Pilot_CPT_Helmet_VAB: OPTRE_UNSC_VX16_Helmet_MaskS_blk
 	{
 		author = "Viking Studios";
 		displayName = "ONI Pilot WO2";
@@ -244,7 +247,7 @@ class cfgWeapons
 			visor = "A";
 		};
 	};
-	class ONI_Pilot_CPT_Helmet_VAB_dp: ONI_Pilot_CPT_Helmet_VAB
+	class ONI_Recon_Pilot_CPT_Helmet_VAB_dp: ONI_Recon_Pilot_CPT_Helmet_VAB
 	{
 		scope = 1;
 		scopeArsenal = 1;
@@ -255,7 +258,7 @@ class XtdGearModels
 {
 	class CfgWeapons
 	{
-		class ONI_Helmet
+		class ONI_Recon_Helmet
 		{
 			label = "ONI Helmets";
 			author = "Viking Studios";
@@ -272,7 +275,7 @@ class XtdGearModels
 				class X	{ label = "Carmichael"; };
 			};
 		};
-		class ONI_Flight_Pilot
+		class ONI_Recon_Flight_Pilot
 		{
 			label = "ONI Pilot Helmets";
 			author = "Viking Studios";
@@ -285,7 +288,7 @@ class XtdGearModels
 				class A { label = "Down"; };
 			};
 		};
-		class ONI_Flight_LT
+		class ONI_Recon_Flight_LT
 		{
 			label = "ONI Pilot Helmets";
 			author = "Viking Studios";
@@ -297,7 +300,7 @@ class XtdGearModels
 				class A { label = "Down"; };
 			};
 		};
-		class ONI_Flight_CPT
+		class ONI_Recon_Flight_CPT
 		{
 			label = "ONI Pilot Helmets";
 			author = "Viking Studios";

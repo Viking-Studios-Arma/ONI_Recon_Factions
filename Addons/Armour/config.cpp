@@ -4,13 +4,16 @@ class CfgPatches
 {
 	class ONI_Recon_Armour
 	{
-        name = "ONI Recon Essentials";
-        dlc = "ONI_Recon";
-        author = "Viking Studios";
-        Authors[] = {"Amateur-god","Celt"};
-        versionStr = "v1.0.0";
+		// Addon identity
+		name = "ONI Recon Essentials - Armour";
+		author = "Viking Studios";
+		authors[] = {"Amateur-god"};
+		url = "https://discord.gg/bkdGvUNFbb";
+		version = 1.0;
+		versionAr[] = {1,0,0,0};
+		versionStr = "v1.0.0";
 		units[] = {};
-		weapons[] = {"ONI_Armour","ONI_Armour_Base","ONI_Armour_Base_MX","ONI_Armour_Base_SC","ONI_Armour_Base_Demo","ONI_Armour_Medic","ONI_Armour_Mx","ONI_Armour_Scout","ONI_Armour_Demo"};
+		weapons[] = {"ONI_Recon_Armour","ONI_Recon_Armour_Base","ONI_Recon_Armour_Base_MX","ONI_Recon_Armour_Base_SC","ONI_Recon_Armour_Base_Demo","ONI_Recon_Armour_Medic","ONI_Recon_Armour_Mx","ONI_Recon_Armour_Scout","ONI_Recon_Armour_Demo"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"OPTRE_Core"};
 	};
@@ -23,27 +26,27 @@ class cfgWeapons
     class OPTRE_UNSC_M52D_Armor_Scout;
     class OPTRE_UNSC_M52D_Armor_Demolitions;
     class OPTRE_UNSC_M52A_Armor_Pilot_AF;
-    class ONI_Armour_Base: OPTRE_UNSC_M52D_Armor_Rifleman
+    class ONI_Recon_Armour_Base: OPTRE_UNSC_M52D_Armor_Rifleman
     {
         class ItemInfo;
     };
-    class ONI_Armour_Base_MX: OPTRE_UNSC_M52D_Armor_Marksman
+    class ONI_Recon_Armour_Base_MX: OPTRE_UNSC_M52D_Armor_Marksman
     {
         class ItemInfo;
     };
-    class ONI_Armour_Base_SC: OPTRE_UNSC_M52D_Armor_Scout
+    class ONI_Recon_Armour_Base_SC: OPTRE_UNSC_M52D_Armor_Scout
     {
         class ItemInfo;
     };
-    class ONI_Armour_Base_Demo: OPTRE_UNSC_M52D_Armor_Demolitions
+    class ONI_Recon_Armour_Base_Demo: OPTRE_UNSC_M52D_Armor_Demolitions
     {
         class ItemInfo;
     };
-    class ONI_Armour_Base_Crew: OPTRE_UNSC_M52A_Armor_Pilot_AF
+    class ONI_Recon_Armour_Base_Crew: OPTRE_UNSC_M52A_Armor_Pilot_AF
     {
         class ItemInfo;
     };
-    class ONI_Armour_Crew: ONI_Armour_Base_Crew
+    class ONI_Recon_Armour_Crew: ONI_Recon_Armour_Base_Crew
     {
         scope = 2;
         author = "Viking Studios";
@@ -58,7 +61,7 @@ class cfgWeapons
             camo = "Crew";
         };
     };
-    class ONI_Armour: ONI_Armour_Base
+    class ONI_Recon_Armour: ONI_Recon_Armour_Base
 	{
 		scope = 2;
 		author = "Viking Studios";
@@ -73,7 +76,7 @@ class cfgWeapons
             camo = "A";
         };
     };
-    class ONI_Armour_Medic: ONI_Armour {
+    class ONI_Recon_Armour_Medic: ONI_Recon_Armour {
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_medic_co.paa"};
         displayName = "ONI Armour Medic";
         class XtdGearInfo {
@@ -81,7 +84,7 @@ class cfgWeapons
             camo = "B";
         };
     };
-    class ONI_Armour_Mx: ONI_Armour_Base_MX {
+    class ONI_Recon_Armour_Mx: ONI_Recon_Armour_Base_MX {
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_co.paa"};
         displayName = "ONI Armour Marksman";
             class ItemInfo: ItemInfo
@@ -93,7 +96,7 @@ class cfgWeapons
                 camo = "C";
         };
     };
-    class ONI_Armour_Sniper: OPTRE_UNSC_M52D_Armor_Sniper {
+    class ONI_Recon_Armour_Sniper: OPTRE_UNSC_M52D_Armor_Sniper {
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_co.paa"};
         displayName = "ONI Armour Sniper";
         class XtdGearInfo {
@@ -101,7 +104,7 @@ class cfgWeapons
             camo = "D";
         };
     };
-    class ONI_Armour_Scout: ONI_Armour_Base_SC {
+    class ONI_Recon_Armour_Scout: ONI_Recon_Armour_Base_SC {
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_co.paa"};
         displayName = "ONI Armour Scout";
             class ItemInfo: ItemInfo
@@ -113,7 +116,7 @@ class cfgWeapons
             camo = "E";
         };
     };
-    class ONI_Armour_Demo: ONI_Armour_Base_Demo {
+    class ONI_Recon_Armour_Demo: ONI_Recon_Armour_Base_Demo {
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_co.paa"};
         displayName = "ONI Armour Demo/EOD";
                 class ItemInfo: ItemInfo
@@ -125,7 +128,7 @@ class cfgWeapons
             camo = "F";
         };
     };
-    class ONI_Armour_Carmichael: ONI_Armour_Base_MX {
+    class ONI_Recon_Armour_Carmichael: ONI_Recon_Armour_Base_MX {
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_Carmichael_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_Carmichael_co.paa"};
         displayName = "ONI Armour Carmichael";
                 class ItemInfo: ItemInfo
@@ -137,7 +140,7 @@ class cfgWeapons
             camo = "G";
         };
     };
-    class ONI_Armour_Hex: ONI_Armour_Demo {
+    class ONI_Recon_Armour_Hex: ONI_Recon_Armour_Demo {
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_Hex_co.paa","\VSA\data\ONI_Legs_Hex_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_Hex_co.paa"};
         displayName = "ONI Armour Hex";
                 class ItemInfo: ItemInfo
@@ -149,7 +152,7 @@ class cfgWeapons
             camo = "H";
         };
     };
-    class ONI_Armour_Celt: ONI_Armour_Scout {
+    class ONI_Recon_Armour_Celt: ONI_Recon_Armour_Scout {
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_Celt_co.paa","\VSA\data\Armour_ONI_Celt_co.paa","\VSA\data\ONI_Legs_Celt_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_Celt_co.paa"};
         displayName = "ONI Armour Celt";
                 class ItemInfo: ItemInfo
@@ -161,7 +164,7 @@ class cfgWeapons
             camo = "sheepshagger";
         };
     };
-    class ONI_Armour_Storm: ONI_Armour_Base {
+    class ONI_Recon_Armour_Storm: ONI_Recon_Armour_Base {
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_storm_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_Storm_co.paa"};
         displayName = "ONI Armour Storm";
                 class ItemInfo: ItemInfo
@@ -176,7 +179,7 @@ class cfgWeapons
 };
 	class XtdGearModels {
     class CfgWeapons {
-        class ONI_Armour {
+        class ONI_Recon_Armour {
             label = "ONI Armour";
             author = "Viking Studios";
             options[] = {"camo"};

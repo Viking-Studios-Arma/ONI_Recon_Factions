@@ -1,19 +1,19 @@
-#define _ARMA_
+#define _ARMA_Recon_Armour
 //Hi welcome to my code, hope you have fun playing arma. PS. Drink Water
 
 
-class CfgPatches
-{
-    class ONI_Recon_Backpacks
-    {
-        name = "ONI Recon Essentials";
-        dlc = "ONI_Recon"
-        author = "Viking Studios";
-        Authors[] = {"Amateur-god"};
-        versionStr = "v1.0.0";
-        units[] = {"ONI_Rucksack_Base","ONI_Rucksack_Base_Medic","ONI_Rucksack_Base_IC","ONI_Rucksack","ONI_Rucksack_Medic","ONI_Rucksack_IC"};
+class CfgPatches {
+	class ONI_Recon_Backpacks {
+		// Addon identity
+		name = "ONI Recon Essentials - Backpacks";
+		author = "Viking Studios";
+		authors[] = {"Amateur-god"};
+		url = "https://discord.gg/bkdGvUNFbb";
+		version = 1.0;
+		versionAr[] = {1,0,0,0};
+		versionStr = "v1.0.0";
+        units[] = {"ONI_Recon_Rucksack_Base","ONI_Recon_Rucksack_Base_Medic","ONI_Recon_Rucksack_Base_IC","ONI_Recon_Rucksack","ONI_Recon_Rucksack_Medic","ONI_Recon_Rucksack_IC"};
         weapons[] = {};
-        requiredVersion = 0.1;
         requiredAddons[] = {"OPTRE_Core"};
     };
 };
@@ -24,7 +24,7 @@ class cfgVehicles
     class OPTRE_ILCS_Rucksack_Heavy;
     class OPTRE_ILCS_Rucksack_Medical;
     // Base Back pack, dont use in arsenal
-    class ONI_Rucksack_Base: OPTRE_ILCS_Rucksack_Heavy
+    class ONI_Recon_Rucksack_Base: OPTRE_ILCS_Rucksack_Heavy
     {
         scope = 1;
         isbackpack = 1;
@@ -36,7 +36,7 @@ class cfgVehicles
         maximumLoad = 2000;
     };
     // Base Back pack for Medic dont use in arsenal
-    class ONI_Rucksack_Base_Medic: OPTRE_ILCS_Rucksack_Medical
+    class ONI_Recon_Rucksack_Base_Medic: OPTRE_ILCS_Rucksack_Medical
     {
         scope = 1;
         //<-----This        
@@ -48,7 +48,7 @@ class cfgVehicles
         maximumLoad = 2000;
     };
     // Base Back pack for IC dont use in arsenal
-    class ONI_Rucksack_Base_IC: OPTRE_ANPRC_521_Black
+    class ONI_Recon_Rucksack_Base_IC: OPTRE_ANPRC_521_Black
     {
         scope = 1;
         isbackpack = 1;
@@ -60,24 +60,24 @@ class cfgVehicles
         maximumLoad = 2000;
     };
     // Base General backpack
-    class ONI_Rucksack: ONI_Rucksack_Base
+    class ONI_Recon_Rucksack: ONI_Recon_Rucksack_Base
     {
         scope = 2;
         displayName = "ONI Rucksacks";
         maximumLoad = 650;
             class XtdGearInfo {
-            model = "ONI_Rucksacks";
+            model = "ONI_Recon_Rucksacks";
             camo = "A";
         };
     };
     // Medic BackPack
-        class ONI_Rucksack_Medic: ONI_Rucksack_Base_Medic
+        class ONI_Recon_Rucksack_Medic: ONI_Recon_Rucksack_Base_Medic
     {
         scope = 2;
         displayName = "ONI Rucksacks";
         maximumLoad = 700;
             class XtdGearInfo {
-            model = "ONI_Rucksacks";
+            model = "ONI_Recon_Rucksacks";
             camo = "B";
         };
     };
@@ -86,13 +86,13 @@ class cfgVehicles
     physics is cool, the sun will explode and engulf earth in a little over 7 billion years
     so may as well say Fuck it YOLO
     */
-        class ONI_Rucksack_IC: ONI_Rucksack_Base_IC
+        class ONI_Recon_Rucksack_IC: ONI_Recon_Rucksack_Base_IC
     {
         scope = 2;
         displayName = "ONI Rucksacks";        
         maximumLoad = 450;
             class XtdGearInfo {
-            model = "ONI_Rucksacks";
+            model = "ONI_Recon_Rucksacks";
             camo = "C";
         };
     };
@@ -100,10 +100,10 @@ class cfgVehicles
 //IDK why im writing this stuff in here, no one is going to read it.
     class XtdGearModels {
     class CfgVehicles {
-        class ONI_Rucksacks {
+        class ONI_Recon_Rucksacks {
             label = "ONI Rucksacks";
             author = "Viking Studios";
-            options[] = { "camo" };
+            options[] = { "Role" };
 
             class camo {
                 changeingame = 0;
