@@ -1,4 +1,4 @@
-  class ONI_Recon_Pilot: OPTRE_UNSC_Airforce_Soldier_Airman
+  class ONI_Recon_Pilot: OPTRE_UNSC_Airforce_Soldier_Airman //Flying Boy
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Crew";
@@ -15,7 +15,7 @@
     respawnLinkedItems[]={"ItemMap","ItemCompass","TFAR_microdagr","TFAR_anprc152","ItemGPS","OPTRE_NVG_HUL","ONI_Recon_Helmet","ONI_Recon_Armour_Crew","OPTRE_NVG_HUL"};
     backpack="";
   };
-  class ONI_Recon_Armour_Crew: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_Armour_Crew: OPTRE_UNSC_Marine_Soldier_Rifleman_AR //Ground Boy
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Crew";

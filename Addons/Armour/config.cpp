@@ -1,5 +1,4 @@
-#define _ARMA_
-
+//This is the armour section of the mod
 class CfgPatches
 {
 	class ONI_Recon_Armour
@@ -26,22 +25,28 @@ class cfgWeapons
     class OPTRE_UNSC_M52D_Armor_Scout;
     class OPTRE_UNSC_M52D_Armor_Demolitions;
     class OPTRE_UNSC_M52A_Armor_Pilot_AF;
+    //Base armour do not use in the arsenal
     class ONI_Recon_Armour_Base: OPTRE_UNSC_M52D_Armor_Rifleman
     {
         class ItemInfo;
     };
+    //Base armour do not use in the arsenal
     class ONI_Recon_Armour_Base_MX: OPTRE_UNSC_M52D_Armor_Marksman
     {
         class ItemInfo;
     };
+    //Base armour do not use in the arsenal
     class ONI_Recon_Armour_Base_SC: OPTRE_UNSC_M52D_Armor_Scout
     {
         class ItemInfo;
+// <------  The Meaning of Life, The Universe and Everything
     };
+    //Base armour do not use in the arsenal
     class ONI_Recon_Armour_Base_Demo: OPTRE_UNSC_M52D_Armor_Demolitions
     {
         class ItemInfo;
     };
+    //Base armour do not use in the arsenal
     class ONI_Recon_Armour_Base_Crew: OPTRE_UNSC_M52A_Armor_Pilot_AF
     {
         class ItemInfo;
@@ -84,7 +89,7 @@ class cfgWeapons
             camo = "B";
         };
     };
-    class ONI_Recon_Armour_Mx: ONI_Recon_Armour_Base_MX {
+    class ONI_Recon_Armour_Mx: ONI_Recon_Armour_Base_MX { // Lomg range Acurate pew pew
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_co.paa"};
         displayName = "ONI Armour Marksman";
             class ItemInfo: ItemInfo
@@ -96,7 +101,7 @@ class cfgWeapons
                 camo = "C";
         };
     };
-    class ONI_Recon_Armour_Sniper: OPTRE_UNSC_M52D_Armor_Sniper {
+    class ONI_Recon_Armour_Sniper: OPTRE_UNSC_M52D_Armor_Sniper { // Very Long range pew pews
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_co.paa"};
         displayName = "ONI Armour Sniper";
         class XtdGearInfo {
@@ -104,7 +109,7 @@ class cfgWeapons
             camo = "D";
         };
     };
-    class ONI_Recon_Armour_Scout: ONI_Recon_Armour_Base_SC {
+    class ONI_Recon_Armour_Scout: ONI_Recon_Armour_Base_SC { // For the sneaky sneak boys
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_co.paa"};
         displayName = "ONI Armour Scout";
             class ItemInfo: ItemInfo
@@ -116,7 +121,7 @@ class cfgWeapons
             camo = "E";
         };
     };
-    class ONI_Recon_Armour_Demo: ONI_Recon_Armour_Base_Demo {
+    class ONI_Recon_Armour_Demo: ONI_Recon_Armour_Base_Demo { // For those who like to make things go BOOM
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_co.paa"};
         displayName = "ONI Armour Demo/EOD";
                 class ItemInfo: ItemInfo
@@ -128,7 +133,7 @@ class cfgWeapons
             camo = "F";
         };
     };
-    class ONI_Recon_Armour_Carmichael: ONI_Recon_Armour_Base_MX {
+    class ONI_Recon_Armour_Carmichael: ONI_Recon_Armour_Base_MX { // Is me mario (Ps. im not actually called mario)
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_Carmichael_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_Carmichael_co.paa"};
         displayName = "ONI Armour Carmichael";
                 class ItemInfo: ItemInfo
@@ -161,7 +166,7 @@ class cfgWeapons
             };  
         class XtdGearInfo {
             model= "ONI_Armour";
-            camo = "sheepshagger";
+            camo = "sheepshagger"; //Because he's welsh
         };
     };
     class ONI_Recon_Armour_Storm: ONI_Recon_Armour_Base {
@@ -173,7 +178,7 @@ class cfgWeapons
             };  
         class XtdGearInfo {
             model= "ONI_Armour";
-            camo = "purple";
+            camo = "purple"; // Because he seems to really like purple theme
         };
     };
 };
@@ -197,7 +202,7 @@ class cfgWeapons
                 class F { label = "Demolitions"; };
                 class G { label = "Carmichael"; };
                 class H { label = "Hex"; };
-                class sheepshagger { label = "Celt"; };
+                class sheepshagger { label = "Celt"; }; // <-- I wrote this classname months ago and i still laugh at it everytime i see it in the code 
                 class purple { label = "Storm"; };
 
             };

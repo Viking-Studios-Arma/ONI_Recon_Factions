@@ -1,7 +1,4 @@
-#define _ARMA_Recon_Armour
 //Hi welcome to my code, hope you have fun playing arma. PS. Drink Water
-
-
 class CfgPatches {
 	class ONI_Recon_Backpacks {
 		// Addon identity
@@ -17,7 +14,7 @@ class CfgPatches {
         requiredAddons[] = {"OPTRE_Core"};
     };
 };
-//what is the meaning of life?
+//what is the meaning of life, The Universe and everything?
 class cfgVehicles
 {
     class OPTRE_ANPRC_521_Black;
@@ -38,11 +35,11 @@ class cfgVehicles
     // Base Back pack for Medic dont use in arsenal
     class ONI_Recon_Rucksack_Base_Medic: OPTRE_ILCS_Rucksack_Medical
     {
-        scope = 1;
-        //<-----This        
+        scope = 1;      
         isbackpack = 1;
         reversed = 1;
         mapSize = 2;
+        //<-----This  
         vehicleClass = Backpacks;
         displayName = "ONI Rucksacks Base Medic";
         maximumLoad = 2000;

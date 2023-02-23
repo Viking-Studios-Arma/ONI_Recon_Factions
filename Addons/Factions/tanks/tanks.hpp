@@ -20,7 +20,7 @@
     typicalCargo[]={"ONI_Recon_Armour_Crew"};
   };
 
-  class ONI_Recon_M808S_Scorpion_MBT: OPTRE_M808S
+  class ONI_Recon_M808S_Scorpion_MBT: OPTRE_M808S //Shall i make an anime waifu version?
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Tanks";

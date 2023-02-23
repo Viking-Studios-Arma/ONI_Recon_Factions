@@ -1,4 +1,4 @@
-class ONI_Recon_OPTRE_MA37K_acc_pointer_IROPTRE_M12_Optic: OPTRE_MA37K
+class ONI_Recon_OPTRE_MA37K_acc_pointer_IROPTRE_M12_Optic: OPTRE_MA37K //May add an anime texture to guns, may not.
   {
     displayName="MA37K Carbine";
     scope=1;
@@ -131,7 +131,7 @@ class ONI_Recon_OPTRE_MA37K_acc_pointer_IROPTRE_M12_Optic: OPTRE_MA37K
     };
   };
 
-  class ONI_Recon_OPTRE_M247H_Etilka: OPTRE_M247H_Etilka
+  class ONI_Recon_OPTRE_M247H_Etilka: OPTRE_M247H_Etilka //IYKYK
   {
     displayName="M247H HMG 'Etilka'";
     scope=1;

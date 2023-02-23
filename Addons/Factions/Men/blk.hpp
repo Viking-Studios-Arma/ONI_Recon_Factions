@@ -51,7 +51,7 @@
     backpack="ONI_Recon_Medic_pack";
   };
 
-  class ONI_Recon_Team_Leader: OPTRE_UNSC_Marine_Soldier_TeamLead
+  class ONI_Recon_Team_Leader: OPTRE_UNSC_Marine_Soldier_TeamLead //Hi Future me........ Go eat, we both know you probably havent eaten at all today and youve probably been sat with your head in code for the past 9 hours, so go eat....
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Blk";

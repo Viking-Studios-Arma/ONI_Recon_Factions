@@ -37,7 +37,7 @@
   };
 
 
-  class ONI_Recon_Medic_pack: ONI_Recon_Rucksack_Medic
+  class ONI_Recon_Medic_pack: ONI_Recon_Rucksack_Medic // Lots of drugs
   {
     scope=1;
     class TransportMagazines
@@ -159,7 +159,7 @@
   };
 
 
-  class ONI_Recon_HMG_pack: ONI_Recon_Rucksack
+  class ONI_Recon_HMG_pack: ONI_Recon_Rucksack // Big Gun boy
   {
     scope=1;
     class TransportMagazines

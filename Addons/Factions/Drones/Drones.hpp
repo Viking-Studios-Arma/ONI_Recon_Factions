@@ -9,7 +9,7 @@
     typicalCargo[]={"B_AI_F"};
   };
 
-  class ONI_Recon_F99_Wombat_GunPod: OPTRE_Wombat
+  class ONI_Recon_F99_Wombat_GunPod: OPTRE_Wombat // Where Man?
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Drones";

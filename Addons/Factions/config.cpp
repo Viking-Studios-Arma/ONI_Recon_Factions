@@ -164,7 +164,7 @@ class cfgVehicles
   class OPTRE_Wombat_B;
   class OPTRE_UNSC_falcon;
   class OPTRE_UNSC_falcon_unarmed;
-
+//I didn't want a long config file so here have some includes 
 #include "Men\blk.hpp"
 #include "Men\urb.hpp"
 #include "Men\Wdl.hpp"

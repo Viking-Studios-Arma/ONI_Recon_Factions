@@ -1,4 +1,4 @@
-  class ONI_Recon_UH144_Falcon: OPTRE_UNSC_falcon
+  class ONI_Recon_UH144_Falcon: OPTRE_UNSC_falcon // Pew
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Helicopters";
@@ -15,7 +15,7 @@
 		enableRadio = 1;
   };
 
-  class ONI_Recon_UH144_Falcon_Unarmed: OPTRE_UNSC_falcon_unarmed
+  class ONI_Recon_UH144_Falcon_Unarmed: OPTRE_UNSC_falcon_unarmed // No Pew
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Helicopters";
