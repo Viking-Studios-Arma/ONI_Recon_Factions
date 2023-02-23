@@ -9,7 +9,7 @@
     typicalCargo[]={"ONI_Recon_Team_Leader"};
   };
 
-  class ONI_Recon_M112_Wet_Patrol_Craft_Unarmed: optre_catfish_unarmed_f
+  class ONI_Recon_M112_Wet_Patrol_Craft_Unarmed: optre_catfish_unarmed_f // Dont sink please
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Boats";

@@ -3,7 +3,7 @@ class cfgPatches
   class ONI_Recon_Factions
   {
 		// Addon identity
-		name = "ONI Recon Essentials - factions";
+		name = "ONI Recon Essentials - Factions";
 		author = "Viking Studios";
 		authors[] = {"Amateur-god"};
 		url = "https://discord.gg/bkdGvUNFbb";
@@ -164,7 +164,7 @@ class cfgVehicles
   class OPTRE_Wombat_B;
   class OPTRE_UNSC_falcon;
   class OPTRE_UNSC_falcon_unarmed;
-
+//I didn't want a long config file so here have some includes 
 #include "Men\blk.hpp"
 #include "Men\urb.hpp"
 #include "Men\Wdl.hpp"
