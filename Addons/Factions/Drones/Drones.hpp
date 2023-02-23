@@ -1,4 +1,4 @@
-  class ONI_Recon_Essentials_F99_Wombat: OPTRE_Wombat_S
+  class ONI_Recon_F99_Wombat: OPTRE_Wombat_S
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Drones";
@@ -9,7 +9,7 @@
     typicalCargo[]={"B_AI_F"};
   };
 
-  class ONI_Recon_Essentials_F99_Wombat_GunPod: OPTRE_Wombat
+  class ONI_Recon_F99_Wombat_GunPod: OPTRE_Wombat
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Drones";
@@ -20,7 +20,7 @@
     typicalCargo[]={"B_AI_F"};
   };
 
-  class ONI_Recon_Essentials_F99_Wombat_MissilePod: OPTRE_Wombat_B
+  class ONI_Recon_F99_Wombat_MissilePod: OPTRE_Wombat_B
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Drones";

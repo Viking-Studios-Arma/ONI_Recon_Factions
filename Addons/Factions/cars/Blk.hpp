@@ -14,28 +14,28 @@ class ONI_Recon_Faction
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Team_Leader";
+            vehicle="ONI_Recon_Team_Leader";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_AT";
+            vehicle="ONI_Recon_AT";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_AT";
+            vehicle="ONI_Recon_AT";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Medic";
+            vehicle="ONI_Recon_Medic";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
@@ -48,28 +48,28 @@ class ONI_Recon_Faction
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Team_Leader";
+            vehicle="ONI_Recon_Team_Leader";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_LMG";
+            vehicle="ONI_Recon_LMG";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_MG";
+            vehicle="ONI_Recon_MG";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Medic";
+            vehicle="ONI_Recon_Medic";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
@@ -82,28 +82,28 @@ class ONI_Recon_Faction
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Team_Leader";
+            vehicle="ONI_Recon_Team_Leader";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Medic";
+            vehicle="ONI_Recon_Medic";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Rifleman";
+            vehicle="ONI_Recon_Rifleman";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Rifleman";
+            vehicle="ONI_Recon_Rifleman";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
@@ -116,28 +116,28 @@ class ONI_Recon_Faction
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Team_Leader";
+            vehicle="ONI_Recon_Team_Leader";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Medic";
+            vehicle="ONI_Recon_Medic";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_EOD";
+            vehicle="ONI_Recon_EOD";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Rifleman";
+            vehicle="ONI_Recon_Rifleman";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
@@ -150,28 +150,28 @@ class ONI_Recon_Faction
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Team_Leader";
+            vehicle="ONI_Recon_Team_Leader";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Medic";
+            vehicle="ONI_Recon_Medic";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Marksman";
+            vehicle="ONI_Recon_Marksman";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Rifleman";
+            vehicle="ONI_Recon_Rifleman";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
@@ -188,28 +188,28 @@ class ONI_Recon_Faction
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_IC_HMG";
+            vehicle="ONI_Recon_IC_HMG";
             rank="COLONEL";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Medic_HMG";
+            vehicle="ONI_Recon_Medic_HMG";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Rifleman_HMG";
+            vehicle="ONI_Recon_Rifleman_HMG";
             rank="PRIVATE";
             position[]={0,-30,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_HMG";
+            vehicle="ONI_Recon_HMG";
             rank="PRIVATE";
             position[]={0,-45,0};
           };
@@ -222,14 +222,14 @@ class ONI_Recon_Faction
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Sniper";
+            vehicle="ONI_Recon_Sniper";
             rank="COLONEL";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Essentials_Spotter";
+            vehicle="ONI_Recon_Spotter";
             rank="PRIVATE";
             position[]={0,-15,0};
           };

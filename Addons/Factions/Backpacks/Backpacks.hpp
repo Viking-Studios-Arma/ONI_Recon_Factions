@@ -1,6 +1,6 @@
 
 
-  class ONI_Recon_Essentials_Rifleman_pack: ONI_Rucksack
+  class ONI_Recon_Rifleman_pack: ONI_Recon_Rucksack
   {
     scope=1;
     class TransportMagazines
@@ -17,7 +17,7 @@
   };
 
 
-  class ONI_Recon_Essentials_AT_pack: ONI_Rucksack
+  class ONI_Recon_AT_pack: ONI_Recon_Rucksack
   {
     scope=1;
     class TransportMagazines
@@ -37,7 +37,7 @@
   };
 
 
-  class ONI_Recon_Essentials_Medic_pack: ONI_Rucksack_Medic
+  class ONI_Recon_Medic_pack: ONI_Recon_Rucksack_Medic
   {
     scope=1;
     class TransportMagazines
@@ -66,7 +66,7 @@
   };
 
 
-  class ONI_Recon_Essentials_Team_Leader_pack: ONI_Rucksack_IC
+  class ONI_Recon_Team_Leader_pack: ONI_Recon_Rucksack_IC
   {
     scope=1;
     class TransportMagazines
@@ -87,7 +87,7 @@
   };
 
 
-  class ONI_Recon_Essentials_EOD_pack: ONI_Rucksack
+  class ONI_Recon_EOD_pack: ONI_Recon_Rucksack
   {
     scope=1;
     class TransportMagazines
@@ -111,7 +111,7 @@
   };
 
 
-  class ONI_Recon_Essentials_Marksman_pack: ONI_Rucksack
+  class ONI_Recon_Marksman_pack: ONI_Recon_Rucksack
   {
     scope=1;
     class TransportMagazines{};
@@ -124,7 +124,7 @@
   };
 
 
-  class ONI_Recon_Essentials_LMG_pack: ONI_Rucksack
+  class ONI_Recon_LMG_pack: ONI_Recon_Rucksack
   {
     scope=1;
     class TransportMagazines
@@ -141,7 +141,7 @@
   };
 
 
-  class ONI_Recon_Essentials_MG_pack: ONI_Rucksack
+  class ONI_Recon_MG_pack: ONI_Recon_Rucksack
   {
     scope=1;
     class TransportMagazines
@@ -159,7 +159,7 @@
   };
 
 
-  class ONI_Recon_Essentials_HMG_pack: ONI_Rucksack
+  class ONI_Recon_HMG_pack: ONI_Recon_Rucksack
   {
     scope=1;
     class TransportMagazines
@@ -177,7 +177,7 @@
   };
 
 
-  class ONI_Recon_Essentials_Rifleman_HMG_pack: ONI_Rucksack
+  class ONI_Recon_Rifleman_HMG_pack: ONI_Recon_Rucksack
   {
     scope=1;
     class TransportMagazines
@@ -193,7 +193,7 @@
   };
 
 
-  class ONI_Recon_Essentials_IC_HMG_pack: ONI_Rucksack_IC
+  class ONI_Recon_IC_HMG_pack: ONI_Recon_Rucksack_IC
   {
     scope=1;
     class TransportMagazines
@@ -209,7 +209,7 @@
   };
 
 
-  class ONI_Recon_Essentials_Medic_HMG_pack: ONI_Rucksack_Medic
+  class ONI_Recon_Medic_HMG_pack: ONI_Recon_Rucksack_Medic
   {
     scope=1;
     class TransportMagazines
@@ -237,7 +237,7 @@
   };
 
 
-  class ONI_Recon_Essentials_Sniper_pack: ONI_Rucksack_IC
+  class ONI_Recon_Sniper_pack: ONI_Recon_Rucksack_IC
   {
     scope=1;
     class TransportMagazines
@@ -265,7 +265,7 @@
   };
 
 
-  class ONI_Recon_Essentials_Spotter_pack: ONI_Rucksack_IC
+  class ONI_Recon_Spotter_pack: ONI_Recon_Rucksack_IC
   {
     scope=1;
     class TransportMagazines
