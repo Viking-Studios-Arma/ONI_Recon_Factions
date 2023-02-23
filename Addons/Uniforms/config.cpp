@@ -46,6 +46,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_urban_co.paa","VSU\data\ONI_uniform_b_urban_co.paa"};
         uniformClass = "ONI_Recon_Uniform_Urb_Slim";
     };  
+    //Why am i doing this?
     class ONI_Recon_Army_Soldier_UrbMar_Slim: OPTRE_UNSC_Army_Soldier_BLK_SlimLeg
     {
         hiddenSelectionsTextures[] = {"VSU\data\ONI_uniform_a_urban_co.paa","VSU\data\ONI_uniform_b_urban_co.paa"};
@@ -98,7 +99,7 @@ class CfgVehicles
     };     
 };
 
-
+// I lost my sanity somewhere, have you seen it?
 class CfgWeapons
 {
     class ItemInfo;

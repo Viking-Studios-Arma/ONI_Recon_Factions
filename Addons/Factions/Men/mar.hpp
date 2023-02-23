@@ -52,7 +52,7 @@
     backpack="ONI_Recon_Medic_pack";
   };
 
-  class ONI_Recon_Team_Leader_Mar: OPTRE_UNSC_Marine_Soldier_TeamLead
+  class ONI_Recon_Team_Leader_Mar: OPTRE_UNSC_Marine_Soldier_TeamLead // Who put you in charge?
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Mar";

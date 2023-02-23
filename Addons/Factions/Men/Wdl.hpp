@@ -34,7 +34,7 @@
     backpack="ONI_Recon_AT_pack";
   };
 
-  class ONI_Recon_Medic_Wdl: OPTRE_UNSC_Marine_Soldier_Corpsman
+  class ONI_Recon_Medic_Wdl: OPTRE_UNSC_Marine_Soldier_Corpsman // This guy has lots of drugs (Allegedly)
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Wdl";
@@ -106,7 +106,7 @@
     backpack="ONI_Recon_Marksman_pack";
   };
 
-  class ONI_Recon_LMG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_LMG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR //I dont love you, Like i did, Yesterdayyyyyy
   {
     faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Wdl";
