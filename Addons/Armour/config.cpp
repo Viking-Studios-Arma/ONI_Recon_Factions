@@ -4,7 +4,7 @@ class CfgPatches
 	class ONI_Recon_Armour
 	{
 		// Addon identity
-		name = "ONI Recon Essentials - Armour";
+		name = "ONI Recon - Armour";
 		author = "Viking Studios";
 		authors[] = {"Amateur-god"};
 		url = "https://discord.gg/bkdGvUNFbb";

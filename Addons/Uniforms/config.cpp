@@ -2,7 +2,7 @@ class cfgPatches
 {
     class ONI_Recon_Uniforms
     {
-        name = "ONI Recon Essentials Uniforms";
+        name = "ONI Recon - Uniforms";
         dlc = "ONI_Recon";
         author = "Viking Studios";
         Authors[] = {"Amateur-god"};

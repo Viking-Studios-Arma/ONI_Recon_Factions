@@ -3,7 +3,7 @@ class cfgPatches
   class ONI_Recon_Factions
   {
 		// Addon identity
-		name = "ONI Recon Essentials - Factions";
+		name = "ONI Recon - Factions";
 		author = "Viking Studios";
 		authors[] = {"Amateur-god"};
 		url = "https://discord.gg/bkdGvUNFbb";

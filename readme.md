@@ -27,4 +27,4 @@ Whilst ONI Recon Essentials doesn't depend on the following mods, some individua
 ## Naming conventions
 For standardisation between class names and to prevent any possible future conflicts with class names the following naming convention has been developed:
 - for code: ONI_Recon
-- for presentation: ONI Recon Essentials
+- for presentation: ONI Recon - {Addon Name}
