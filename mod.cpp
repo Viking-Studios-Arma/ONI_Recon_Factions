@@ -4,4 +4,4 @@ hidePicture = "true";
 hideName = "false";
 actionName = "Discord";
 action = "https://discord.gg/UjmVpqrEqW";
-description = "Halo Custom Textures for Oni Recon Unit";
+description = "Custom ONI Recon mod, making the ONI a more fun/varied (however non-canonical) agency/Faction to play";
