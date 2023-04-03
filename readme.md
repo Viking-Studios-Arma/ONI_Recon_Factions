@@ -23,6 +23,8 @@ Whilst ONI Recon Essentials doesn't depend on the following mods, some individua
 - [Operation TREBUCHET ACE Compat](https://steamcommunity.com/workshop/filedetails/?id=1267657613)
 - [Operation TREBUCHET First Contact ACE Compat](https://steamcommunity.com/workshop/filedetails/?id=1572642262)
 - [Task Force Arrowhead Radio (BETA!!!)](https://steamcommunity.com/workshop/filedetails/?id=894678801)
+- [ACE3 Arsenal Extended - Core](https://steamcommunity.com/sharedfiles/filedetails/?id=2522638637)
+- [Ace Arsenal Category Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2850254784)
 
 ## Naming conventions
 For standardisation between class names and to prevent any possible future conflicts with class names the following naming convention has been developed:
