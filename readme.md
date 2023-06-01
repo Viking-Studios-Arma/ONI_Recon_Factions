@@ -30,3 +30,9 @@ Whilst ONI Recon Essentials doesn't depend on the following mods, some individua
 For standardisation between class names and to prevent any possible future conflicts with class names the following naming convention has been developed:
 - for code: ONI_Recon
 - for presentation: ONI Recon - {Addon Name}
+</p>
+<br />
+
+<p align="center">
+	<img src="https://steamuserimages-a.akamaihd.net/ugc/1886471824531751901/7FA6B6603F79254E10C1E9894CE892F8CC90E4EE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false%27%20);" alt="Medic Helmet Back" />
+	<br />
