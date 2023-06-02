@@ -43,7 +43,7 @@ For standardisation between class names and to prevent any possible future confl
 |Medic Armour Front (Full)|Medic Armour Back (Full)|Standard Armour Front (Full)|
 |<img width="1604" alt="Medic Armour Front (Full)" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325487291/3FF5D505158EAF1F48175C62A43EF294095BD70A/" >|<img width="1604" alt="Medic Armour Back (Full)" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325487483/29872B12959F5EEB911D90B5E6574D0B10140A9B/" >|<img width="1604" alt="Standard Armour Front (Full)" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488607/3836867BCABB2F11FBCCDC959707EC671EC97357/" />|
 | 			    | 				| 			    |
-|Standard Helmet + Upper Body Side|Standard Helmet Front|Standard Helmet Front|
+|Standard Helmet + Upper Body Side|Standard Helmet Front|Standard Helmet + Upper Body Back|
 |<img width="1604" alt="Standard Helmet + Upper Body Side" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488897/6E1015E14448B630D80B7205428D5CAB89547D26/" >|<img width="1604" alt="Standard Helmet Front" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488001/7DD068ACFFCBBE2079A9A37B6E8A29A77857C2B1/" >|<img width="1604" alt="Standard Helmet + Upper Body Back" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488224/46CB77B4AAFBA52C19408BC97DAF4C729112E1DB/" >|
 | 			    | 				| 			    |
 ||Standard Armour Back (Full)||
