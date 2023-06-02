@@ -89,7 +89,7 @@ class cfgWeapons
             camo = "B";
         };
     };
-    class ONI_Recon_Armour_Mx: ONI_Recon_Armour_Base_MX { // Lomg range Acurate pew pew
+    class ONI_Recon_Armour_Mx: ONI_Recon_Armour_Base_MX { // Long range Acurate pew pew
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_co.paa"};
         displayName = "ONI Armour Marksman";
             class ItemInfo: ItemInfo
@@ -133,7 +133,7 @@ class cfgWeapons
             camo = "F";
         };
     };
-    class ONI_Recon_Armour_Carmichael: ONI_Recon_Armour_Base_MX { // Is me mario (Ps. im not actually called mario)
+    class ONI_Recon_Armour_Carmichael: ONI_Recon_Armour_Base_MX { // Is me, mario (Ps. im not actually called mario)
         hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_Carmichael_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI_Armour_Carmichael_co.paa"};
         displayName = "ONI Armour Carmichael";
                 class ItemInfo: ItemInfo
@@ -142,7 +142,7 @@ class cfgWeapons
             };  
         class XtdGearInfo {
             model= "ONI_Armour";
-            camo = "G";
+            camo = "AG";
         };
     };
     class ONI_Recon_Armour_Hex: ONI_Recon_Armour_Demo {
@@ -191,7 +191,7 @@ class cfgWeapons
 
             class camo {
                 changeingame = 0;
-                values[] = {"A", "B", "C", "D", "E", "F", "G", "H", "sheepshagger", "purple", "Crew" };
+                values[] = {"A", "B", "C", "D", "E", "F", "AG", "H", "sheepshagger", "purple", "Crew" };
 
                 class A { label = "Rifleman"; };
                 class B { label = "Medic"; };
@@ -200,10 +200,10 @@ class cfgWeapons
                 class E { label = "Scout"; };
                 class Crew { label = "Crew"; };
                 class F { label = "Demolitions"; };
-                class G { label = "Carmichael"; };
-                class H { label = "Hex"; };
+                class AG { label = "Carmichael"; }; // AG for Amteur-God
+                class H { label = "Hex"; }; // H for Hex
                 class sheepshagger { label = "Celt"; }; // <-- I wrote this classname months ago and i still laugh at it everytime i see it in the code 
-                class purple { label = "Storm"; };
+                class purple { label = "Storm"; }; // Because he loves purple
 
             };
         };
