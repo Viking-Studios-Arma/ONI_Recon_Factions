@@ -33,7 +33,18 @@ For standardisation between class names and to prevent any possible future confl
 </p>
 <br />
 
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" src="https://steamuserimages-a.akamaihd.net/ugc/1886471824531751901/7FA6B6603F79254E10C1E9894CE892F8CC90E4EE/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false%27%20);" alt="Medic Helmet Back" />   |  <img width="1604" alt="ONI Recon Helmet and armour" src="https://steamuserimages-a.akamaihd.net/ugc/1886471824531753811/7FF307042F92433C2128BD2B8026EEAA42F2A4A5/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=#000000&letterbox=false">|<img width="1604" alt="Medic Helmet" src="https://steamuserimages-a.akamaihd.net/ugc/1886471824531754462/02A84FDBD5C5B0E48279B2E88FBD5EA481EBB460/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=#000000&letterbox=false">|
+## Preview images of the Medic and standard Armour and Helmet
 
+| 			    | 				| 			    |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|Medic Helmet Back|Medic Helmet Front|Medic Armour Side|
+|<img width="1604" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325485483/8D0CAB0BD329124FDD81C264D317888196160629/" alt="Medic Helmet Back" />   |  <img width="1604" alt="Medic Helmet Front" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325486082/C1E8B5D0E36770943CE1FBF8257814C3E2444A4C/">|<img width="1604" alt="Medic Armour Side" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325486572/F85C7F575BA30034E157B1EC4AD84B30BE8A390E/" />
+| 			    | 				| 			    |
+|Medic Armour Front (Full)|Medic Armour Back (Full)|Standard Armour Front (Full)|
+|<img width="1604" alt="Medic Armour Front (Full)" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325487291/3FF5D505158EAF1F48175C62A43EF294095BD70A/" >|<img width="1604" alt="Medic Armour Back (Full)" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325487483/29872B12959F5EEB911D90B5E6574D0B10140A9B/" >|<img width="1604" alt="Standard Armour Front (Full)" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488607/3836867BCABB2F11FBCCDC959707EC671EC97357/" />|
+| 			    | 				| 			    |
+|Standard Helmet + Upper Body Side|Standard Helmet Front|Standard Helmet + Upper Body Back|
+|<img width="1604" alt="Standard Helmet + Upper Body Side" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488897/6E1015E14448B630D80B7205428D5CAB89547D26/" >|<img width="1604" alt="Standard Helmet Front" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488001/7DD068ACFFCBBE2079A9A37B6E8A29A77857C2B1/" >|<img width="1604" alt="Standard Helmet + Upper Body Back" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488224/46CB77B4AAFBA52C19408BC97DAF4C729112E1DB/" >|
+| 			    | 				| 			    |
+||Standard Armour Back (Full)||
+||<img width="1604" alt="Standard Armour Back (Full)" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488432/71D1A6792DE875DFD75943DD658486AA62DD494A/" >
