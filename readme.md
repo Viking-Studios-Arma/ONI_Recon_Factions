@@ -7,6 +7,22 @@
 	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2877010969">
 		<img src="https://img.shields.io/steam/subscriptions/2877010969?style=for-the-badge" alt="Steam Subscriptions">
 	</a>
+	
+</p>
+</p>
+<p align="center">
+	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2265703421">
+		<img src="https://img.shields.io/steam/size/2265703421?label=Download&logo=steam" alt="Download" />
+	</a>
+	<a href="https://github.com/Viking-Studios-Arma/ONI_Recon_Factions/releases">
+		<img src="https://img.shields.io/github/release/Viking-Studios-Arma/ONI_Recon_Factions.svg?label=Version" alt="Version" />
+	</a>
+	<a href="https://github.com/Viking-Studios-Arma/ONI_Recon_Factions/issues">
+		<img src="http://img.shields.io/github/issues-raw/Viking-Studios-Arma/ONI_Recon_Factions.svg?label=Issues&style=flat" alt="Issues" />
+	</a>
+	<a href="Viking-Studios-Arma/ONI_Recon_Factions/blob/main/LICENSE">
+		<img src="https://img.shields.io/github/license/Viking-Studios-Arma/ONI_Recon_Factions.svg?style=flat&label=Licence" alt="License">
+	</a>
 </p>
 
 <p align="center"><sup><strong>Introducing a new Non-Canon UNSC ONI Faction to OPTRE and making life easier for members of ONI Recon.</strong></sup></p>
