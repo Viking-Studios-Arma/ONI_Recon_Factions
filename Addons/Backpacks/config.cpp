@@ -29,7 +29,7 @@ class cfgVehicles
         mapSize = 2;
         vehicleClass = Backpacks;
         allowedSlots[] = {901};
-        displayName = "ONI Rucksacks Base";
+        displayName = "[ONI] Rucksacks Base";
         maximumLoad = 2000;
     };
     // Base Back pack for Medic dont use in arsenal
@@ -41,7 +41,7 @@ class cfgVehicles
         mapSize = 2;
         //<-----This  
         vehicleClass = Backpacks;
-        displayName = "ONI Rucksacks Base Medic";
+        displayName = "[ONI] Rucksacks Base Medic";
         maximumLoad = 2000;
     };
     // Base Back pack for IC dont use in arsenal
@@ -53,17 +53,17 @@ class cfgVehicles
         mapSize = 2;
         vehicleClass = Backpacks;
         allowedSlots[] = {901};
-        displayName = "ONI Rucksacks Base IC";
+        displayName = "[ONI] Rucksacks Base IC";
         maximumLoad = 2000;
     };
     // Base General backpack
     class ONI_Recon_Rucksack: ONI_Recon_Rucksack_Base
     {
         scope = 2;
-        displayName = "ONI Rucksacks";
+        displayName = "[ONI] Backpacks";
         maximumLoad = 650;
             class XtdGearInfo {
-            model = "ONI_Recon_Rucksacks";
+            model = "ONI_Recon_Backpack";
             camo = "A";
         };
     };
@@ -71,10 +71,10 @@ class cfgVehicles
         class ONI_Recon_Rucksack_Medic: ONI_Recon_Rucksack_Base_Medic
     {
         scope = 2;
-        displayName = "ONI Rucksacks";
+        displayName = "[ONI] Backpacks";
         maximumLoad = 700;
             class XtdGearInfo {
-            model = "ONI_Recon_Rucksacks";
+            model = "ONI_Recon_Backpack";
             camo = "B";
         };
     };
@@ -86,25 +86,30 @@ class cfgVehicles
         class ONI_Recon_Rucksack_IC: ONI_Recon_Rucksack_Base_IC
     {
         scope = 2;
-        displayName = "ONI Rucksacks";        
+        displayName = "[ONI] Backpacks";        
         maximumLoad = 450;
             class XtdGearInfo {
-            model = "ONI_Recon_Rucksacks";
+            model = "ONI_Recon_Backpack";
             camo = "C";
         };
     };
 };
 //IDK why im writing this stuff in here, no one is going to read it.
-    class XtdGearModels {
-    class CfgVehicles {
-        class ONI_Recon_Rucksacks {
-            label = "ONI Rucksacks";
+ /*42*/
+class XtdGearModels 
+{
+    class cfgVehicles 
+    {
+        class ONI_Recon_Backpack
+        {
+            label = "[ONI] Bacpacks";
             author = "Viking Studios";
-            options[] = { "Role" };
+            options[] = {"Type"};
 
-            class camo {
+            class Type 
+            {
                 changeingame = 0;
-                values[] = { "A", "B", /*42*/ "C" };
+                values[] = {"A","B","C"};
 
                 class A { label = "Rifleman"; };
                 class B { label = "Medic"; };

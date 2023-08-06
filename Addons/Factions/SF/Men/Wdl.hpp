@@ -1,9 +1,9 @@
-  class ONI_Recon_Rifleman_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_SF_Rifleman_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="Rifleman Woodland";
+    displayName="Rifleman";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_MA5C_OPTRE_MA5C_SmartLink","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_MA5C_OPTRE_MA5C_SmartLink","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -16,12 +16,12 @@
     backpack="ONI_Recon_Rifleman_pack";
   };
 
-  class ONI_Recon_AT_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_SF_AT_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="AT Woodland";
+    displayName="AT";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_MA5C_OPTRE_MA5C_SmartLink","ONI_Recon_OPTRE_M41_SSR","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_MA5C_OPTRE_MA5C_SmartLink","ONI_Recon_OPTRE_M41_SSR","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -34,12 +34,12 @@
     backpack="ONI_Recon_AT_pack";
   };
 
-  class ONI_Recon_Medic_Wdl: OPTRE_UNSC_Marine_Soldier_Corpsman // This guy has lots of drugs (Allegedly)
+  class ONI_Recon_SF_Medic_Wdl: OPTRE_UNSC_Marine_Soldier_Corpsman // This guy has lots of drugs (Allegedly)
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="Medic Woodland";
+    displayName="Medic";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_MA37K_acc_pointer_IROPTRE_M12_Optic","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_MA37K_acc_pointer_IROPTRE_M12_Optic","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -52,12 +52,12 @@
     backpack="ONI_Recon_Medic_pack";
   };
 
-  class ONI_Recon_Team_Leader_Wdl: OPTRE_UNSC_Marine_Soldier_TeamLead
+  class ONI_Recon_SF_Team_Leader_Wdl: OPTRE_UNSC_Marine_Soldier_TeamLead
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="Team Leader Woodland";
+    displayName="Team Leader";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"OPTRE_Smartfinder","ONI_Recon_OPTRE_MA5CGL_OPTRE_MA5C_SmartLink","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"OPTRE_Smartfinder","ONI_Recon_OPTRE_MA5CGL_OPTRE_MA5C_SmartLink","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -70,12 +70,12 @@
     backpack="ONI_Recon_Team_Leader_pack";
   };
 
-  class ONI_Recon_EOD_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_SF_EOD_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="EOD Woodland";
+    displayName="EOD";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_MA37K_acc_pointer_IROPTRE_M12_Optic","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_MA37K_acc_pointer_IROPTRE_M12_Optic","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -88,12 +88,12 @@
     backpack="ONI_Recon_EOD_pack";
   };
 
-  class ONI_Recon_Marksman_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_SF_Marksman_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="Marksman Woodland";
+    displayName="Marksman";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_M393_DMR_OPTRE_M392_Scope","ONI_Recon_OPTRE_M7_Folded_OPTRE_M7_FlashlightOPTRE_M7_Sight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_M393_DMR_OPTRE_M392_Scope","ONI_Recon_OPTRE_M7_Folded_OPTRE_M7_FlashlightOPTRE_M7_Sight","Put","Throw"};
@@ -106,12 +106,12 @@
     backpack="ONI_Recon_Marksman_pack";
   };
 
-  class ONI_Recon_LMG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR //I dont love you, Like i did, Yesterdayyyyyy
+  class ONI_Recon_SF_LMG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR //I dont love you, Like i did, Yesterdayyyyyy
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="LMG Woodland";
+    displayName="LMG";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_M73_OPTRE_M73_SmartLinkbipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_M73_OPTRE_M73_SmartLinkbipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -124,12 +124,12 @@
     backpack="ONI_Recon_LMG_pack";
   };
 
-  class ONI_Recon_MG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_SF_MG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="MG Woodland";
+    displayName="MG";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_M247_OPTRE_M393_ACOGbipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_M247_OPTRE_M393_ACOGbipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -142,12 +142,12 @@
     backpack="ONI_Recon_MG_pack";
   };
 
-  class ONI_Recon_HMG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_SF_HMG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="HMG Woodland";
+    displayName="HMG";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_M247H_Etilka","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_M247H_Etilka","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -160,12 +160,12 @@
     backpack="ONI_Recon_HMG_pack";
   };
 
-  class ONI_Recon_Rifleman_HMG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
+  class ONI_Recon_SF_Rifleman_HMG_Wdl: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="Rifleman HMG Woodland";
+    displayName="HMG Rifleman";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_HMG38_OPTRE_HMG38_CarryHandlebipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_HMG38_OPTRE_HMG38_CarryHandlebipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -178,12 +178,12 @@
     backpack="ONI_Recon_Rifleman_HMG_pack";
   };
 
-  class ONI_Recon_IC_HMG_Wdl: ONI_Recon_Team_Leader_Wdl
+  class ONI_Recon_SF_IC_HMG_Wdl: ONI_Recon_SF_Team_Leader_Wdl
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="IC HMG Woodland";
+    displayName="HMG IC";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_HMG38_OPTRE_HMG38_CarryHandlebipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_HMG38_OPTRE_HMG38_CarryHandlebipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -196,12 +196,12 @@
     backpack="ONI_Recon_IC_HMG_pack";
   };
 
-  class ONI_Recon_Medic_HMG_Wdl: ONI_Recon_Medic_Wdl
+  class ONI_Recon_SF_Medic_HMG_Wdl: ONI_Recon_SF_Medic_Wdl
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="Medic HMG Woodland";
+    displayName="HMG Medic";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_HMG38_OPTRE_HMG38_CarryHandlebipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_HMG38_OPTRE_HMG38_CarryHandlebipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
@@ -214,12 +214,12 @@
     backpack="ONI_Recon_Medic_HMG_pack";
   };
 
-  class ONI_Recon_Sniper_Wdl: ONI_Recon_Team_Leader_Wdl
+  class ONI_Recon_SF_Sniper_Wdl: ONI_Recon_SF_Team_Leader_Wdl
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="Sniper Woodland";
+    displayName="Sniper";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_SRS99C_OPTRE_SRS99C_Scope","ONI_Recon_OPTRE_M7_Folded_OPTRE_M7_silencerOPTRE_M7_LaserOPTRE_M7_Sight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_SRS99C_OPTRE_SRS99C_Scope","ONI_Recon_OPTRE_M7_Folded_OPTRE_M7_silencerOPTRE_M7_LaserOPTRE_M7_Sight","Put","Throw"};
@@ -232,12 +232,12 @@
     backpack="ONI_Recon_Sniper_pack";
   };
 
-  class ONI_Recon_Spotter_Wdl: ONI_Recon_Medic_Wdl
+  class ONI_Recon_SF_Spotter_Wdl: ONI_Recon_SF_Medic_Wdl
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Wdl";
     editorSubcategory = "ONI_Recon_Faction_SF_Wdl";
     side=1;
-    displayName="Spotter Woodland";
+    displayName="Spotter";
     uniformClass = "ONI_Recon_Uniform_Wdl_Slim";
     weapons[]={"ONI_Recon_OPTRE_Commando_Black_OPTRE_MA5Suppressoracc_pointer_IROPTRE_M393_ACOGbipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
     respawnWeapons[]={"ONI_Recon_OPTRE_Commando_Black_OPTRE_MA5Suppressoracc_pointer_IROPTRE_M393_ACOGbipod_01_F_blk","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};

@@ -1,18 +1,18 @@
     class ONI_Recon_Faction_SF_Blk
   {
-    displayName="Men (Black)";
+    displayName="Special Forces";
   };
     class ONI_Recon_Faction_SF_Urb
   {
-    displayName="Men (Urban)";
+    displayName="Special Forces";
   };
     class ONI_Recon_Faction_SF_Mar
   {
-    displayName="Men (Marine)";
+    displayName="Special Forces";
   };
     class ONI_Recon_Faction_SF_Wdl
   {
-    displayName="Men (Woodland)";
+    displayName="Special Forces";
   };
   //Ground Support
     class ONI_Recon_Faction_Cars
@@ -52,5 +52,5 @@
   //Crew
       class ONI_Recon_Faction_Crew
   {
-    displayName="Men (Crew)";
+    displayName="Crew";
   };

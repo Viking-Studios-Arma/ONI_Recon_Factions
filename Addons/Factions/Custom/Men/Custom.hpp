@@ -1,6 +1,6 @@
-  class ONI_Recon_Carmichael: ONI_Recon_Team_Leader
+  class ONI_Recon_Carmichael: ONI_Recon_SF_Team_Leader
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Cus";
     editorSubcategory = "ONI_Recon_Faction_Custom";
     side=1;
     displayName="Carmichael";
@@ -15,9 +15,9 @@
     respawnLinkedItems[]={"ItemMap","ItemCompass","TFAR_microdagr","TFAR_anprc152","ItemGPS","OPTRE_NVG_HUL","ONI_Recon_Helmet_SF_Carmichael","ONI_Recon_Armour_SF_Carmichael","OPTRE_NVG_HUL"};
     backpack="ONI_Recon_Rifleman_pack";
   };
-  class ONI_Recon_Celt: ONI_Recon_Team_Leader
+  class ONI_Recon_Celt: ONI_Recon_SF_Team_Leader
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Cus";
     editorSubcategory = "ONI_Recon_Faction_Custom";
     side=1;
     displayName="Celt";
@@ -32,9 +32,9 @@
     respawnLinkedItems[]={"ItemMap","ItemCompass","TFAR_microdagr","TFAR_anprc152","ItemGPS","OPTRE_NVG_HUL","ONI_Recon_Helmet_SF_Celt","ONI_Recon_Armour_SF_Celt","OPTRE_NVG_HUL"};
     backpack="ONI_Recon_Rifleman_pack";
   };
-  class ONI_Recon_Storm: ONI_Recon_Team_Leader
+  class ONI_Recon_Storm: ONI_Recon_SF_Team_Leader
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Cus";
     editorSubcategory = "ONI_Recon_Faction_Custom";
     side=1;
     displayName="Stormwire";
@@ -49,9 +49,9 @@
     respawnLinkedItems[]={"ItemMap","ItemCompass","TFAR_microdagr","TFAR_anprc152","ItemGPS","OPTRE_NVG_HUL","ONI_Recon_Helmet_SF_Storm","ONI_Recon_Armour_SF_Storm","OPTRE_NVG_HUL"};
     backpack="ONI_Recon_Rifleman_pack";
   };
-  class ONI_Recon_Hex: ONI_Recon_EOD
+  class ONI_Recon_Hex: ONI_Recon_SF_EOD
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Cus";
     editorSubcategory = "ONI_Recon_Faction_Custom";
     side=1;
     displayName="Hex";

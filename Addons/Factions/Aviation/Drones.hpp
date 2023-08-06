@@ -1,6 +1,6 @@
   class ONI_Recon_F99_Wombat: OPTRE_Wombat_S
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Avi";
     editorSubcategory = "ONI_Recon_Faction_Drones";
     side=1;
     displayName="F99 Wombat";
@@ -11,7 +11,7 @@
 
   class ONI_Recon_F99_Wombat_GunPod: OPTRE_Wombat // Where Man?
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Avi";
     editorSubcategory = "ONI_Recon_Faction_Drones";
     side=1;
     displayName="F99 Wombat GunPod";
@@ -22,7 +22,7 @@
 
   class ONI_Recon_F99_Wombat_MissilePod: OPTRE_Wombat_B
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Avi";
     editorSubcategory = "ONI_Recon_Faction_Drones";
     side=1;
     displayName="F99 Wombat MissilePod";

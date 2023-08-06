@@ -12,7 +12,7 @@ class CfgPatches
 		versionAr[] = {1,0,0,0};
 		versionStr = "v1.0.0";
 		units[] = {};
-		weapons[] = {"ONI_Recon_Armour","ONI_Recon_Armour_Base_SF_","ONI_Recon_Armour_Base_SF__MX","ONI_Recon_Armour_Base_SF__SC","ONI_Recon_Armour_Base_SF__Demo","ONI_Recon_Armour_SF_Medic","ONI_Recon_Armour_SF_Mx","ONI_Recon_Armour_SF_Scout","ONI_Recon_Armour_SF_Demo"};
+		weapons[] = {"ONI_Recon_Armour_SF","ONI_Recon_Armour_Base_SF_","ONI_Recon_Armour_Base_SF__MX","ONI_Recon_Armour_Base_SF__SC","ONI_Recon_Armour_Base_SF__Demo","ONI_Recon_Armour_SF_Medic","ONI_Recon_Armour_SF_Mx","ONI_Recon_Armour_SF_Scout","ONI_Recon_Armour_SF_Demo"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"OPTRE_Core"};
 	};
@@ -55,8 +55,8 @@ class cfgWeapons
     {
         scope = 2;
         author = "Viking Studios";
-        displayName = "ONI Armour Crew";
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
+        displayName = "[ONI] Crew Armour";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
         class ItemInfo: ItemInfo 
         {
         containerclass = Supply210;
@@ -70,128 +70,128 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Viking Studios";
-		displayName = "ONI Armour";
-		hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
+		displayName = "[ONI] Special Forces Armour";
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
             class ItemInfo: ItemInfo
             {
                 containerclass = Supply210;
             };	        
             class XtdGearInfo {
-            model = "ONI SF Armour";
+            model = "ONI_SF_Armour";
             camo = "A";
         };
     };
     class ONI_Recon_Armour_SF_Medic: ONI_Recon_Armour_SF {
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_medic_co.paa"};
-        displayName = "ONI Armour Medic";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_medic_co.paa"};
+        displayName = "[ONI] Special Forces Armour Medic";
         class XtdGearInfo {
-        	model= "ONI SF Armour";
+        	model= "ONI_SF_Armour";
             camo = "B";
         };
     };
     class ONI_Recon_Armour_SF_Mx: ONI_Recon_Armour_Base_SF_MX { // Lomg range Acurate pew pew
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
-        displayName = "ONI Armour Marksman";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
+        displayName = "[ONI] Special Forces Armour Marksman";
             class ItemInfo: ItemInfo
             {
                 containerclass = Supply210;
             };  
             class XtdGearInfo {
-                model= "ONI SF Armour";
+                model= "ONI_SF_Armour";
                 camo = "C";
         };
     };
     class ONI_Recon_Armour_SF_Sniper: OPTRE_UNSC_M52D_Armor_Sniper { // Very Long range pew pews
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
-        displayName = "ONI Armour Sniper";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
+        displayName = "[ONI] Special Forces Armour Sniper";
         class XtdGearInfo {
-            model= "ONI SF Armour";
+            model= "ONI_SF_Armour";
             camo = "D";
         };
     };
     class ONI_Recon_Armour_SF_Scout: ONI_Recon_Armour_Base_SF_SC { // For the sneaky sneak boys
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
-        displayName = "ONI Armour Scout";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
+        displayName = "[ONI] Special Forces Armour Scout";
             class ItemInfo: ItemInfo
             {
                 containerclass = Supply210;
             };  
         class XtdGearInfo {
-            model= "ONI SF Armour";
+            model= "ONI_SF_Armour";
             camo = "E";
         };
     };
     class ONI_Recon_Armour_SF_Demo: ONI_Recon_Armour_Base_SF_Demo { // For those who like to make things go BOOM
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
-        displayName = "ONI Armour Demo/EOD";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
+        displayName = "[ONI] Special Forces Armour Demo/EOD";
                 class ItemInfo: ItemInfo
             {
                 containerclass = Supply210;
             };  
         class XtdGearInfo {
-            model= "ONI SF Armour";
+            model= "ONI_SF_Armour";
             camo = "F";
         };
     };
     class ONI_Recon_Armour_SF_Carmichael: ONI_Recon_Armour_Base_SF_MX { // Is me mario (Ps. im not actually called mario)
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_Carmichael_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_Carmichael_co.paa"};
-        displayName = "ONI Armour Carmichael";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_Carmichael_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_Carmichael_co.paa"};
+        displayName = "[ONI] Special Forces Armour Carmichael";
                 class ItemInfo: ItemInfo
             {
                 containerclass = Supply210;
             };  
         class XtdGearInfo {
-            model= "ONI SF Armour";
-            camo = "G";
+            model= "ONI_SF_Armour";
+            camo = "AG";
         };
     };
     class ONI_Recon_Armour_SF_Hex: ONI_Recon_Armour_SF_Demo {
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_Hex_co.paa","\VS_ONI\Armour\data\ONI_Legs_Hex_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_Hex_co.paa"};
-        displayName = "ONI Armour Hex";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_Hex_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_Hex_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_Hex_co.paa"};
+        displayName = "[ONI] Special Forces Armour Hex";
                 class ItemInfo: ItemInfo
             {
                 containerclass = Supply210;
             };  
         class XtdGearInfo {
-            model= "ONI SF Armour";
+            model= "ONI_SF_Armour";
             camo = "H";
         };
     };
     class ONI_Recon_Armour_SF_Celt: ONI_Recon_Armour_SF_Scout {
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_Celt_co.paa","\VS_ONI\Armour\data\Armour_ONI_Celt_co.paa","\VS_ONI\Armour\data\ONI_Legs_Celt_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_Celt_co.paa"};
-        displayName = "ONI Armour Celt";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_Celt_co.paa","\x\VS_ONI\Armour\data\Armour_ONI_Celt_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_Celt_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_Celt_co.paa"};
+        displayName = "[ONI] Special Forces Armour Celt";
                 class ItemInfo: ItemInfo
             {
                 containerclass = Supply210;
             };  
         class XtdGearInfo {
-            model= "ONI SF Armour";
+            model= "ONI_SF_Armour";
             camo = "sheepshagger"; //Because he's welsh
         };
     };
     class ONI_Recon_Armour_SF_Storm: ONI_Recon_Armour_Base_SF {
-        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_storm_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_Storm_co.paa"};
-        displayName = "ONI Armour Storm";
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_storm_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_Storm_co.paa"};
+        displayName = "[ONI] Special Forces Armour Storm";
                 class ItemInfo: ItemInfo
             {
                 containerclass = Supply210;
             };  
         class XtdGearInfo {
-            model= "ONI SF Armour";
+            model= "ONI_SF_Armour";
             camo = "purple"; // Because he seems to really like purple theme
         };
     };
 };
 	class XtdGearModels {
     class CfgWeapons {
-        class ONI_Recon_SF_Armour {
-            label = "ONI SF Armour";
+        class ONI_SF_Armour {
+            label = "[ONI] Special Forces Armour";
             author = "Viking Studios";
             options[] = {"camo"};
 
             class camo {
                 changeingame = 0;
-                values[] = {"A", "B", "C", "D", "E", "F", "G", "H", "sheepshagger", "purple"};
+                values[] = {"A", "B", "C", "D", "E", "F", "AG", "H", "sheepshagger", "purple"};
 
                 class A { label = "Rifleman"; };
                 class B { label = "Medic"; };
@@ -207,7 +207,7 @@ class cfgWeapons
             };
         };
         class ONI_Recon_Crew_Armour {
-            label = "ONI Crew Armour";
+            label = "[ONI] Crew Armour";
             author = "Viking Studios";
             options[] = {"camo"};
             class camo {

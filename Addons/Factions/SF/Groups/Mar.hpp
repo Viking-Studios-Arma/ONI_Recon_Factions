@@ -4,230 +4,224 @@
 
         class ONI_B_Rifle_Team_Marine
         {
-          name="Rifle Team Marine";
+          name="Rifle Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Mar";
+            vehicle="ONI_Recon_SF_Team_Leader_Mar";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Mar";
+            vehicle="ONI_Recon_SF_Medic_Mar";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_Mar";
+            vehicle="ONI_Recon_SF_Rifleman_Mar";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_Mar";
+            vehicle="ONI_Recon_SF_Rifleman_Mar";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };
         class ONI_B_AT_Team_Marine
         {
-          name="AT Team Marine";
+          name="AT Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Mar";
+            vehicle="ONI_Recon_SF_Team_Leader_Mar";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Mar";
+            vehicle="ONI_Recon_SF_Medic_Mar";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_AT_Mar";
+            vehicle="ONI_Recon_SF_AT_Mar";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_AT_Mar";
+            vehicle="ONI_Recon_SF_AT_Mar";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };
         class ONI_B_EOD_Team_Marine
         {
-          name="EOD Team Marine";
+          name="EOD Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Mar";
+            vehicle="ONI_Recon_SF_Team_Leader_Mar";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Mar";
+            vehicle="ONI_Recon_SF_Medic_Mar";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_Mar";
+            vehicle="ONI_Recon_SF_Rifleman_Mar";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_EOD_Mar";
+            vehicle="ONI_Recon_SF_EOD_Mar";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };
         class ONI_B_MG_Team_Marine
         {
-          name="MG Team Marine";
+          name="MG Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Mar";
+            vehicle="ONI_Recon_SF_Team_Leader_Mar";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Mar";
+            vehicle="ONI_Recon_SF_Medic_Mar";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_MG_Mar";
+            vehicle="ONI_Recon_SF_MG_Mar";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_LMG_Mar";
+            vehicle="ONI_Recon_SF_LMG_Mar";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };
         class ONI_B_MX_Team_Marine
         {
-          name="MX Team Marine";
+          name="MX Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Mar";
+            vehicle="ONI_Recon_SF_Team_Leader_Mar";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Mar";
+            vehicle="ONI_Recon_SF_Medic_Mar";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_Mar";
+            vehicle="ONI_Recon_SF_Rifleman_Mar";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Marksman_Mar";
+            vehicle="ONI_Recon_SF_Marksman_Mar";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };
-      };        
-      class ONI_SpecOps_Marine
-      {
-        name="Special Forces (Marine)";
-
-
         class ONI_B_HMG_Team_Marine
         {
-          name="HMG Team Marine";
+          name="HMG Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_HMG_Mar";
+            vehicle="ONI_Recon_SF_HMG_Mar";
             rank="PRIVATE";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_IC_HMG_Mar";
+            vehicle="ONI_Recon_SF_IC_HMG_Mar";
             rank="COLONEL";
             position[]={0,-15,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Medic_HMG_Mar";
+            vehicle="ONI_Recon_SF_Medic_HMG_Mar";
             rank="PRIVATE";
             position[]={0,-30,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_HMG_Mar";
+            vehicle="ONI_Recon_SF_Rifleman_HMG_Mar";
             rank="PRIVATE";
             position[]={0,-45,0};
           };
         };
         class ONI_B_Sniper_Team_Marine
         {
-          name="Sniper Team Marine";
+          name="Sniper Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Sniper_Mar";
+            vehicle="ONI_Recon_SF_Sniper_Mar";
             rank="COLONEL";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Spotter_Mar";
+            vehicle="ONI_Recon_SF_Spotter_Mar";
             rank="PRIVATE";
             position[]={0,-15,0};
           };

@@ -4,229 +4,224 @@
 
         class ONI_B_Rifle_Team_Urban
         {
-          name="Rifle Team Urban";
+          name="Rifle Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Urb";
+            vehicle="ONI_Recon_SF_Team_Leader_Urb";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Urb";
+            vehicle="ONI_Recon_SF_Medic_Urb";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_Urb";
+            vehicle="ONI_Recon_SF_Rifleman_Urb";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_Urb";
+            vehicle="ONI_Recon_SF_Rifleman_Urb";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };
         class ONI_B_AT_Team_Urban
         {
-          name="AT Team Urban";
+          name="AT Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Urb";
+            vehicle="ONI_Recon_SF_Team_Leader_Urb";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Urb";
+            vehicle="ONI_Recon_SF_Medic_Urb";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_AT_Urb";
+            vehicle="ONI_Recon_SF_AT_Urb";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_AT_Urb";
+            vehicle="ONI_Recon_SF_AT_Urb";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };
         class ONI_B_EOD_Team_Urban
         {
-          name="EOD Team Urban";
+          name="EOD Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Urb";
+            vehicle="ONI_Recon_SF_Team_Leader_Urb";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Urb";
+            vehicle="ONI_Recon_SF_Medic_Urb";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_Urb";
+            vehicle="ONI_Recon_SF_Rifleman_Urb";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_EOD_Urb";
+            vehicle="ONI_Recon_SF_EOD_Urb";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };
         class ONI_B_MG_Team_Urban
         {
-          name="MG Team Urban";
+          name="MG Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Urb";
+            vehicle="ONI_Recon_SF_Team_Leader_Urb";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Urb";
+            vehicle="ONI_Recon_SF_Medic_Urb";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_LMG_Urb";
+            vehicle="ONI_Recon_SF_LMG_Urb";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_MG_Urb";
+            vehicle="ONI_Recon_SF_MG_Urb";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };
         class ONI_B_MX_Team_Urban
         {
-          name="MX Team Urban";
+          name="MX Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Team_Leader_Urb";
+            vehicle="ONI_Recon_SF_Team_Leader_Urb";
             rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Medic_Urb";
+            vehicle="ONI_Recon_SF_Medic_Urb";
             rank="PRIVATE";
             position[]={0,-5,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_Urb";
+            vehicle="ONI_Recon_SF_Rifleman_Urb";
             rank="PRIVATE";
             position[]={0,-10,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Marksman_Urb";
+            vehicle="ONI_Recon_SF_Marksman_Urb";
             rank="PRIVATE";
             position[]={0,-15,0};
           };
         };        
-      };
-      class ONI_SpecOps_Urb
-      {
-        name="Special Forces (Urban)";
-
         class ONI_B_HMG_Team_Urban
         {
-          name="HMG Team Urban";
+          name="HMG Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_HMG_Urb";
+            vehicle="ONI_Recon_SF_HMG_Urb";
             rank="PRIVATE";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_IC_HMG_Urb";
+            vehicle="ONI_Recon_SF_IC_HMG_Urb";
             rank="COLONEL";
             position[]={0,-15,0};
           };
           class Unit2
           {
             side=1;
-            vehicle="ONI_Recon_Medic_HMG_Urb";
+            vehicle="ONI_Recon_SF_Medic_HMG_Urb";
             rank="PRIVATE";
             position[]={0,-30,0};
           };
           class Unit3
           {
             side=1;
-            vehicle="ONI_Recon_Rifleman_HMG_Urb";
+            vehicle="ONI_Recon_SF_Rifleman_HMG_Urb";
             rank="PRIVATE";
             position[]={0,-45,0};
           };
         };
         class ONI_B_Sniper_Team_Urban
         {
-          name="Sniper Team Urban";
+          name="Sniper Team";
           faction="ONI_Recon_Faction";
           side=1;
           class Unit0
           {
             side=1;
-            vehicle="ONI_Recon_Sniper_Urb";
+            vehicle="ONI_Recon_SF_Sniper_Urb";
             rank="COLONEL";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
-            vehicle="ONI_Recon_Spotter_Urb";
+            vehicle="ONI_Recon_SF_Spotter_Urb";
             rank="PRIVATE";
             position[]={0,-15,0};
           };

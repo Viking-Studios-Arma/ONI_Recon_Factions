@@ -19,10 +19,52 @@ class cfgPatches
 
 class cfgFactionClasses
 {
-  class ONI_Recon_Faction
+  class ONI_Recon_Faction_Blk
   {
-    icon="\VSF\ONI_Recon.paa";
-    displayName="ONI Recon";
+    icon="\x\VS_ONI\Factions\ONI_Recon.paa";
+    displayName="ONI Recon (Black)";
+    side=1;
+    priority=1;
+  };
+  class ONI_Recon_Faction_Mar
+  {
+    icon="\x\VS_ONI\Factions\ONI_Recon.paa";
+    displayName="ONI Recon (Marine)";
+    side=1;
+    priority=1;
+  };
+  class ONI_Recon_Faction_Urb
+  {
+    icon="\x\VS_ONI\Factions\ONI_Recon.paa";
+    displayName="ONI Recon (Urban)";
+    side=1;
+    priority=1;
+  };
+  class ONI_Recon_Faction_Wdl
+  {
+    icon="\x\VS_ONI\Factions\ONI_Recon.paa";
+    displayName="ONI Recon (Woodland)";
+    side=1;
+    priority=1;
+  };
+  class ONI_Recon_Faction_Avi
+  {
+    icon="\x\VS_ONI\Factions\ONI_Recon.paa";
+    displayName="ONI Recon Aviation";
+    side=1;
+    priority=1;
+  };
+    class ONI_Recon_Faction_GS
+  {
+    icon="\x\VS_ONI\Factions\ONI_Recon.paa";
+    displayName="ONI Recon Ground Support";
+    side=1;
+    priority=1;
+  };
+    class ONI_Recon_Faction_Cus
+  {
+    icon="\x\VS_ONI\Factions\ONI_Recon.paa";
+    displayName="ONI Recon (Customs)";
     side=1;
     priority=1;
   };
@@ -88,17 +130,17 @@ class cfgVehicles
 #include "Ground_Support\IFV.hpp"
 #include "Ground_Support\Artillery.hpp"
 #include "Ground_Support\Boats.hpp"
+#include "Ground_Support\Crew.hpp"
 //Aviation
 #include "Aviation\Drones.hpp"
 #include "Aviation\Helicopters.hpp"
+#include "Aviation\Crew.hpp"
 //Special Forces
 #include "SF\Backpacks\Backpacks.hpp"
 #include "SF\Men\blk.hpp"
 #include "SF\Men\urb.hpp"
 #include "SF\Men\Wdl.hpp"
 #include "SF\Men\Mar.hpp"
-//Crew
-#include "Crew\Men\Crew.hpp"
 //Custom
 #include "Custom\Men\Custom.hpp"
 };

@@ -1,7 +1,7 @@
 
   class ONI_Recon_M12_LRV_Warthog_MG: OPTRE_M12_LRV
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Cars";
     side=1;
     displayName="M12 LRV Warthog MG";
@@ -12,7 +12,7 @@
 
   class ONI_Recon_M914_Repair_Hog: OPTRE_M914_RV
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Cars";
     side=1;
     displayName="M914 Repair Hog";
@@ -23,7 +23,7 @@
 
   class ONI_Recon_M831_Troop_Transport: OPTRE_M813_TT
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Cars";
     side=1;
     displayName="M831 Troop Transport";
@@ -34,7 +34,7 @@
 
   class ONI_Recon_M12_FAV: OPTRE_M12_FAV
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Cars";
     side=1;
     displayName="M12 FAV";
@@ -45,7 +45,7 @@
 
   class ONI_Recon_M12_APC: OPTRE_M12_FAV_APC
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Cars";
     side=1;
     displayName="M12 APC";

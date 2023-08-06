@@ -1,6 +1,6 @@
   class ONI_Recon_UH144_Falcon: OPTRE_UNSC_falcon // Pew
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Avi";
     editorSubcategory = "ONI_Recon_Faction_Helicopters";
     side=1;
     crew="ONI_Recon_Pilot";
@@ -17,7 +17,7 @@
 
   class ONI_Recon_UH144_Falcon_Unarmed: OPTRE_UNSC_falcon_unarmed // No Pew
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_Avi";
     editorSubcategory = "ONI_Recon_Faction_Helicopters";
     side=1;
     displayName="UH144 Falcon (Unarmed)";

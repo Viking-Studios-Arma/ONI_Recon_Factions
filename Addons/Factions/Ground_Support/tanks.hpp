@@ -1,6 +1,6 @@
   class ONI_Recon_M808S_Lockdown_Scorpion_MBT: OPTRE_M808L
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Tanks";
     side=1;
     displayName="M808S Lockdown Scorpion MBT";
@@ -11,7 +11,7 @@
 
   class ONI_Recon_M808B2_Sun_Devil: OPTRE_M808B2
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Tanks";
     side=1;
     displayName="M808B2 Sun Devil";
@@ -22,7 +22,7 @@
 
   class ONI_Recon_M808S_Scorpion_MBT: OPTRE_M808S //Shall i make an anime waifu version?
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Tanks";
     side=1;
     displayName="M808S Scorpion MBT";
@@ -33,7 +33,7 @@
 
   class ONI_Recon_M808BM_Scorpion_MBT: OPTRE_M808BM_UNSC
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Tanks";
     side=1;
     displayName="M808BM Scorpion MBT";
@@ -44,7 +44,7 @@
 
   class ONI_Recon_M808B_Scorpion_MBT: OPTRE_M808B_UNSC
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Tanks";
     side=1;
     displayName="M808B Scorpion MBT";

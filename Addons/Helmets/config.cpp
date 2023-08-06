@@ -37,11 +37,13 @@ class cfgWeapons
 	class ONI_Recon_Helmet_SF: ONI_Recon_Helmet_SF_Base
 	{
 		scope = 2;
+		scopeArsenal = 2;
+		scopeCurator = 2;
 		author = "Viking Studios";
-		displayName = "ONI Helmet SF";
+		displayName = "[ONI] Special Forces Helmet";
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Black_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Black_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\x\VS_ONI\Helmets\data\ONI.rvmat","\x\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet_SF";
@@ -50,8 +52,8 @@ class cfgWeapons
 		class ItemInfo: ItemInfo
         {
             hiddenSelections[]={"camo1", "camo2"};
-			hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Black_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
-			hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};            
+			hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Black_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+			hiddenSelectionsMaterials[]= {"\x\VS_ONI\Helmets\data\ONI.rvmat","\x\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};            
         };
 	};
 	class ONI_Recon_Helmet_SF_dp: ONI_Recon_Helmet_SF
@@ -62,9 +64,9 @@ class cfgWeapons
 	};
 	class ONI_Recon_Helmet_SF_Medic: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Medic_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
-		displayName = "ONI Medic";
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Medic_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\x\VS_ONI\Helmets\data\ONI.rvmat","\x\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
+		displayName = "[ONI] Medic";
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet_SF";
@@ -79,9 +81,9 @@ class cfgWeapons
 	};
 	class ONI_Recon_Helmet_SF_Carmichael: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Carmichael_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
-		displayName = "Carmichael";
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Carmichael_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\x\VS_ONI\Helmets\data\ONI.rvmat","\x\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
+		displayName = "[ONI] Carmichael";
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet_SF";
@@ -97,9 +99,9 @@ class cfgWeapons
 	};
 	class ONI_Recon_Helmet_SF_Celt: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Celt_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
-		displayName = "ONI Celt";
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Celt_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\x\VS_ONI\Helmets\data\ONI.rvmat","\x\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
+		displayName = "[ONI] Celt";
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet_SF";
@@ -114,9 +116,9 @@ class cfgWeapons
 	};
 	class ONI_Recon_Helmet_SF_Hex: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Hex_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
-		displayName = "ONI Hex";
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Hex_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\x\VS_ONI\Helmets\data\ONI.rvmat","\x\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
+		displayName = "[ONI] Hex";
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet_SF";
@@ -131,9 +133,9 @@ class cfgWeapons
 	};
 	class ONI_Recon_Helmet_SF_Storm: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Stormwire_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
-		displayName = "ONI Storm";
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Stormwire_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\x\VS_ONI\Helmets\data\ONI.rvmat","\x\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
+		displayName = "[ONI] Storm";
 		class XtdGearInfo
 		{
 			model = "ONI_Helmet_SF";
@@ -149,7 +151,7 @@ class cfgWeapons
 	class ONI_Recon_Flight_Pilot: OPTRE_UNSC_VX16_Helmet_blk
 	{
 		author = "Viking Studios";
-		displayName = "ONI Pilot";
+		displayName = "[ONI] Pilot";
 		class XtdGearInfo
 		{
 			model = "ONI_Flight_Pilot";
@@ -165,7 +167,7 @@ class cfgWeapons
 	class ONI_Recon_Flight_Pilot_two: OPTRE_UNSC_Operator_Helmet
 	{
 		author = "Viking Studios";
-		displayName = "ONI Pilot 2";
+		displayName = "[ONI] Pilot 2";
 	};
 	class ONI_Recon_Flight_Pilot_Two_dp: ONI_Recon_Flight_Pilot_two
 	{
@@ -176,7 +178,7 @@ class cfgWeapons
 	class ONI_Recon_Pilot_Helmet_VA: OPTRE_UNSC_VX16_HelmetV_blk
 	{
 		author = "Viking Studios";
-		displayName = "ONI Pilot";
+		displayName = "[ONI] Pilot";
 		class XtdGearInfo
 		{
 			model = "ONI_Flight_Pilot";
@@ -192,7 +194,7 @@ class cfgWeapons
 	class ONI_Recon_Pilot_LT_Helmet_VA: OPTRE_UNSC_VX16_Helmet_Mask_blk
 	{
 		author = "Viking Studios";
-		displayName = "ONI Pilot PO2";
+		displayName = "[ONI] Pilot PO2";
 		class XtdGearInfo
 		{
 			model = "ONI_Flight_LT";
@@ -208,7 +210,7 @@ class cfgWeapons
 	class ONI_Recon_Pilot_LT_Helmet_VBB: OPTRE_UNSC_VX16_Helmet_MaskV_blk
 	{
 		author = "Viking Studios";
-		displayName = "ONI Pilot PO2";
+		displayName = "[ONI] Pilot PO2";
 		class XtdGearInfo
 		{
 			model = "ONI_Flight_LT";
@@ -224,7 +226,7 @@ class cfgWeapons
 	class ONI_Recon_Pilot_CPT_Helmet_VBB: OPTRE_UNSC_VX16_Helmet_MaskSV
 	{
 		author = "Viking Studios";
-		displayName = "ONI Pilot WO2";
+		displayName = "[ONI] Pilot WO2";
 		class XtdGearInfo
 		{
 			model = "ONI_Flight_CPT";
@@ -240,7 +242,7 @@ class cfgWeapons
 	class ONI_Recon_Pilot_CPT_Helmet_VAB: OPTRE_UNSC_VX16_Helmet_MaskS_blk
 	{
 		author = "Viking Studios";
-		displayName = "ONI Pilot WO2";
+		displayName = "[ONI] Pilot WO2";
 		class XtdGearInfo
 		{
 			model = "ONI_Flight_CPT";
@@ -258,15 +260,15 @@ class XtdGearModels
 {
 	class CfgWeapons
 	{
-		class ONI_Recon_Helmet_SF
+		class ONI_Helmet_SF
 		{
-			label = "ONI Helmet SF";
+			label = "[ONI] Helmet SF";
 			author = "Viking Studios";
 			options[] = {"camo"};
 			class camo
 			{
 				changeingame = 0;
-				values[] = {"A","B","sheepshagger","X","H","S"};
+				values[] = {"A","B","H","S","sheepshagger","X"};
 				class A { label = "Rifleman"; };
 				class B	{ label = "Medic"; };
 				class H	{ label = "Hex"; };
@@ -275,9 +277,9 @@ class XtdGearModels
 				class X	{ label = "Carmichael"; };
 			};
 		};
-		class ONI_Recon_Flight_Pilot
+		class ONI_Flight_Pilot
 		{
-			label = "ONI Pilot Helmets";
+			label = "[ONI] Pilot Helmets";
 			author = "Viking Studios";
 			options[] = {"Visor"};
 			class visor
@@ -288,9 +290,9 @@ class XtdGearModels
 				class A { label = "Down"; };
 			};
 		};
-		class ONI_Recon_Flight_LT
+		class ONI_Flight_LT
 		{
-			label = "ONI Pilot Helmets";
+			label = "[ONI] Pilot Helmets";
 			author = "Viking Studios";
 			options[] = {"Visor"};
 			class visor {
@@ -300,9 +302,9 @@ class XtdGearModels
 				class A { label = "Down"; };
 			};
 		};
-		class ONI_Recon_Flight_CPT
+		class ONI_Flight_CPT
 		{
-			label = "ONI Pilot Helmets";
+			label = "[ONI] Pilot Helmets";
 			author = "Viking Studios";
 			options[] = {"Visor","mask"};
 			class visor

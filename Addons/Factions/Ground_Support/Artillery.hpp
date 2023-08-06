@@ -1,6 +1,6 @@
   class ONI_Recon_M875_Scorpion_Self_Propelled_Howitzer: OPTRE_M875_SPH //Long range boom boom
   {
-    faction="ONI_Recon_Faction";
+    faction="ONI_Recon_Faction_GS";
     editorSubcategory = "ONI_Recon_Faction_Artillery";
     side=1;
     displayName="M875 Scorpion Self Propelled Howitzer";
