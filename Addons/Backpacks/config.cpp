@@ -1,6 +1,5 @@
-//Hi welcome to my code, hope you have fun playing arma. PS. Drink Water
 class CfgPatches {
-	class ONI_Recon_Backpacks {
+    	class ONI_Recon_Backpacks {
 		// Addon identity
 		name = "ONI Recon - Backpacks";
 		author = "Viking Studios";
@@ -14,6 +13,7 @@ class CfgPatches {
         requiredAddons[] = {"OPTRE_Core"};
     };
 };
+//Hi welcome to my code, hope you have fun playing arma. PS. Drink Water
 //what is the meaning of life, The Universe and everything?
 class cfgVehicles
 {
