@@ -56,7 +56,7 @@ class cfgWeapons
         scope = 2;
         author = "Viking Studios";
         displayName = "ONI Armour Crew";
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
         class ItemInfo: ItemInfo 
         {
         containerclass = Supply210;
@@ -71,7 +71,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Viking Studios";
 		displayName = "ONI Armour";
-		hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_co.paa"};
+		hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
             class ItemInfo: ItemInfo
             {
                 containerclass = Supply210;
@@ -82,7 +82,7 @@ class cfgWeapons
         };
     };
     class ONI_Recon_Armour_SF_Medic: ONI_Recon_Armour_SF {
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_medic_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_medic_co.paa"};
         displayName = "ONI Armour Medic";
         class XtdGearInfo {
         	model= "ONI SF Armour";
@@ -90,7 +90,7 @@ class cfgWeapons
         };
     };
     class ONI_Recon_Armour_SF_Mx: ONI_Recon_Armour_Base_SF_MX { // Lomg range Acurate pew pew
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
         displayName = "ONI Armour Marksman";
             class ItemInfo: ItemInfo
             {
@@ -102,15 +102,15 @@ class cfgWeapons
         };
     };
     class ONI_Recon_Armour_SF_Sniper: OPTRE_UNSC_M52D_Armor_Sniper { // Very Long range pew pews
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
         displayName = "ONI Armour Sniper";
         class XtdGearInfo {
-            model= "ONI SF Armour"
+            model= "ONI SF Armour";
             camo = "D";
         };
     };
     class ONI_Recon_Armour_SF_Scout: ONI_Recon_Armour_Base_SF_SC { // For the sneaky sneak boys
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
         displayName = "ONI Armour Scout";
             class ItemInfo: ItemInfo
             {
@@ -122,7 +122,7 @@ class cfgWeapons
         };
     };
     class ONI_Recon_Armour_SF_Demo: ONI_Recon_Armour_Base_SF_Demo { // For those who like to make things go BOOM
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_co.paa"};
         displayName = "ONI Armour Demo/EOD";
                 class ItemInfo: ItemInfo
             {
@@ -134,7 +134,7 @@ class cfgWeapons
         };
     };
     class ONI_Recon_Armour_SF_Carmichael: ONI_Recon_Armour_Base_SF_MX { // Is me mario (Ps. im not actually called mario)
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_Carmichael_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_Carmichael_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_Carmichael_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_Carmichael_co.paa"};
         displayName = "ONI Armour Carmichael";
                 class ItemInfo: ItemInfo
             {
@@ -146,7 +146,7 @@ class cfgWeapons
         };
     };
     class ONI_Recon_Armour_SF_Hex: ONI_Recon_Armour_SF_Demo {
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_Hex_co.paa","\VSA\data\ONI_Legs_Hex_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_Hex_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_Hex_co.paa","\VS_ONI\Armour\data\ONI_Legs_Hex_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_Hex_co.paa"};
         displayName = "ONI Armour Hex";
                 class ItemInfo: ItemInfo
             {
@@ -158,7 +158,7 @@ class cfgWeapons
         };
     };
     class ONI_Recon_Armour_SF_Celt: ONI_Recon_Armour_SF_Scout {
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_Celt_co.paa","\VSA\data\Armour_ONI_Celt_co.paa","\VSA\data\ONI_Legs_Celt_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_Celt_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_Celt_co.paa","\VS_ONI\Armour\data\Armour_ONI_Celt_co.paa","\VS_ONI\Armour\data\ONI_Legs_Celt_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_Celt_co.paa"};
         displayName = "ONI Armour Celt";
                 class ItemInfo: ItemInfo
             {
@@ -170,7 +170,7 @@ class cfgWeapons
         };
     };
     class ONI_Recon_Armour_SF_Storm: ONI_Recon_Armour_Base_SF {
-        hiddenSelectionsTextures[] = {"\VSA\data\ONI_Vest_co.paa","\VSA\data\armour_ONI_co.paa","\VSA\data\ONI_Legs_storm_co.paa","\VSA\data\ghillie_woodland_co.paa","\VSA\data\ONI SF Armour_Storm_co.paa"};
+        hiddenSelectionsTextures[] = {"\VS_ONI\Armour\data\ONI_Vest_co.paa","\VS_ONI\Armour\data\armour_ONI_co.paa","\VS_ONI\Armour\data\ONI_Legs_storm_co.paa","\VS_ONI\Armour\data\ghillie_woodland_co.paa","\VS_ONI\Armour\data\ONI SF Armour_Storm_co.paa"};
         displayName = "ONI Armour Storm";
                 class ItemInfo: ItemInfo
             {

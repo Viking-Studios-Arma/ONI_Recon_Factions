@@ -33,26 +33,26 @@ class cfgWeapons
 	class ONI_Recon_Helmet_SF_Base: OPTRE_UNSC_Commando_Helmet
 	{
 		class ItemInfo;
-	}
+	};
 	class ONI_Recon_Helmet_SF: ONI_Recon_Helmet_SF_Base
 	{
 		scope = 2;
 		author = "Viking Studios";
-		displayName = "ONI Helmet";
+		displayName = "ONI Helmet SF";
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Black_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Black_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
 		class XtdGearInfo
 		{
-			model = "ONI_Helmet";
+			model = "ONI_Helmet_SF";
 			camo = "A";
 		};
 		class ItemInfo: ItemInfo
         {
             hiddenSelections[]={"camo1", "camo2"};
-			hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Black_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
-			hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};            
-        }
+			hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Black_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+			hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};            
+        };
 	};
 	class ONI_Recon_Helmet_SF_dp: ONI_Recon_Helmet_SF
 	{
@@ -62,12 +62,12 @@ class cfgWeapons
 	};
 	class ONI_Recon_Helmet_SF_Medic: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Medic_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Medic_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Medic";
 		class XtdGearInfo
 		{
-			model = "ONI_Helmet";
+			model = "ONI_Helmet_SF";
 			camo = "B";
 		};
 	};
@@ -76,15 +76,15 @@ class cfgWeapons
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-	}
+	};
 	class ONI_Recon_Helmet_SF_Carmichael: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Carmichael_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Carmichael_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
 		displayName = "Carmichael";
 		class XtdGearInfo
 		{
-			model = "ONI_Helmet";
+			model = "ONI_Helmet_SF";
 			camo = "X";
 		};
 	};
@@ -97,12 +97,12 @@ class cfgWeapons
 	};
 	class ONI_Recon_Helmet_SF_Celt: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Celt_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Celt_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Celt";
 		class XtdGearInfo
 		{
-			model = "ONI_Helmet";
+			model = "ONI_Helmet_SF";
 			camo = "sheepshagger";
 		};
 	};
@@ -111,15 +111,15 @@ class cfgWeapons
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-	}
+	};
 	class ONI_Recon_Helmet_SF_Hex: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Hex_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Hex_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Hex";
 		class XtdGearInfo
 		{
-			model = "ONI_Helmet";
+			model = "ONI_Helmet_SF";
 			camo = "H";
 		};
 	};
@@ -128,15 +128,15 @@ class cfgWeapons
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-	}
+	};
 	class ONI_Recon_Helmet_SF_Storm: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\VSH\data\ONI_Helmet_Stormwire_co.paa","\VSH\data\ONI_Visor_Silver_co.paa"};
-		hiddenSelectionsMaterials[]= {"\VSH\data\ONI.rvmat","\VSH\data\ONI_Visor_Silver.rvmat"};
+		hiddenSelectionsTextures[] = {"\VS_ONI\Helmets\data\ONI_Helmet_Stormwire_co.paa","\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsMaterials[]= {"\VS_ONI\Helmets\data\ONI.rvmat","\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
 		displayName = "ONI Storm";
 		class XtdGearInfo
 		{
-			model = "ONI_Helmet";
+			model = "ONI_Helmet_SF";
 			camo = "S";
 		};
 	};
@@ -260,7 +260,7 @@ class XtdGearModels
 	{
 		class ONI_Recon_Helmet_SF
 		{
-			label = "ONI Helmets";
+			label = "ONI Helmet SF";
 			author = "Viking Studios";
 			options[] = {"camo"};
 			class camo

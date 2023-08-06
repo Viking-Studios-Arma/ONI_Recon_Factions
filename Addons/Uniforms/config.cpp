@@ -111,7 +111,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "A";
-            Trousers = "A"
+            Trousers = "A";
         };
         class ItemInfo: ItemInfo
         {
@@ -125,7 +125,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "A";
-            Trousers = "B"
+            Trousers = "B";
         };
         class ItemInfo: ItemInfo
         {
@@ -139,7 +139,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "A";
-            Trousers = "C"
+            Trousers = "C";
         };
         class ItemInfo: ItemInfo
         {
@@ -153,7 +153,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "A";
-            Trousers = "D"
+            Trousers = "D";
         };
         class ItemInfo: ItemInfo
         {
@@ -167,7 +167,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "B";
-            Trousers = "A"
+            Trousers = "A";
         };
         class ItemInfo: ItemInfo
         {
@@ -181,7 +181,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "B";
-            Trousers = "B"
+            Trousers = "B";
         };
         class ItemInfo: ItemInfo
         {
@@ -195,7 +195,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "B";
-            Trousers = "C"
+            Trousers = "C";
         };
         class ItemInfo: ItemInfo
         {
@@ -209,7 +209,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "B";
-            Trousers = "D"
+            Trousers = "D";
         };
         class ItemInfo: ItemInfo
         {
@@ -223,7 +223,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "C";
-            Trousers = "A"
+            Trousers = "A";
         };
         class ItemInfo: ItemInfo
         {
@@ -238,7 +238,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "C";
-            Trousers = "B"
+            Trousers = "B";
         };
         class ItemInfo: ItemInfo
         {
@@ -252,7 +252,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "C";
-            Trousers = "C"
+            Trousers = "C";
         };
         class ItemInfo: ItemInfo
         {
@@ -266,7 +266,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "C";
-            Trousers = "D"
+            Trousers = "D";
         };
         class ItemInfo: ItemInfo
         {
@@ -280,7 +280,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "D";
-            Trousers = "A"
+            Trousers = "A";
         };
         class ItemInfo: ItemInfo
         {
@@ -294,7 +294,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "D";
-            Trousers = "B"
+            Trousers = "B";
         };
         class ItemInfo: ItemInfo
         {
@@ -308,7 +308,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "D";
-            Trousers = "C"
+            Trousers = "C";
         };
         class ItemInfo: ItemInfo
         {
@@ -322,7 +322,7 @@ class CfgWeapons
         {
             model = "ONI_BDU";
             Top = "D";
-            Trousers = "D"
+            Trousers = "D";
         };
         class ItemInfo: ItemInfo
         {
