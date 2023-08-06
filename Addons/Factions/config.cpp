@@ -30,90 +30,7 @@ class cfgFactionClasses
 
 class CfgEditorSubcategories
 {
-    class ONI_Recon_Faction_Blk
-  {
-    displayName="Men (Black)";
-  };
-    class ONI_Recon_Faction_Urb
-  {
-    displayName="Men (Urban)";
-  };
-    class ONI_Recon_Faction_Cars
-  {
-    displayName="Cars";
-  };
-    class ONI_Recon_Faction_Tanks
-  {
-    displayName="Tanks";
-  };
-    class ONI_Recon_Faction_IFV
-  {
-    displayName="IFV";
-  };
-    class ONI_Recon_Faction_Artillery
-  {
-    displayName="Artillery";
-  };
-    class ONI_Recon_Faction_Boats
-  {
-    displayName="Boats";
-  };
-    class ONI_Recon_Faction_Drones
-  {
-    displayName="Drones";
-  };
-    class ONI_Recon_Faction_Helicopters
-  {
-    displayName="Helicopters";
-  };
-    class ONI_Recon_Faction_HMG
-  {
-    displayName="Men HMG (Black)";
-  };
-    class ONI_Recon_Faction_HMGUrb
-  {
-    displayName="Men HMG (Urban)";
-  };
-    class ONI_Recon_Faction_Crew
-  {
-    displayName="Men (Crew)";
-  };
-    class ONI_Recon_Faction_Snipers_Blk
-  {
-    displayName="Men Snipers (Black)";
-  };
-    class ONI_Recon_Faction_Snipers_Urb
-  {
-    displayName="Men Snipers (Urban)";
-  };
-    class ONI_Recon_Faction_Mar
-  {
-    displayName="Men (Marine)";
-  };
-    class ONI_Recon_Faction_HMGMar
-  {
-    displayName="Men HMG (Marine)";
-  };
-    class ONI_Recon_Faction_Custom
-  {
-    displayName="Unit Members (Custom)";
-  };
-    class ONI_Recon_Faction_Snipers_Mar
-  {
-    displayName="Men Snipers (Marine)";
-  };
-    class ONI_Recon_Faction_Snipers_Wdl
-  {
-    displayName="Men Snipers (Woodland)";
-  };
-    class ONI_Recon_Faction_HMGWdl
-  {
-    displayName="Men HMG (Woodland)";
-  };
-    class ONI_Recon_Faction_Wdl
-  {
-    displayName="Men (Woodland)";
-  };
+#include "hpp\Editor_Sub_Categories.hpp"
 };
 
 class cfgWeapons
@@ -132,7 +49,7 @@ class cfgWeapons
   class OPTRE_SRS99C;
   class OPTRE_Commando_Black;
   class hgun_P07_F;
-#include "Weapons\Weapons.hpp"
+#include "hpp\Weapons.hpp"
 };
 
 class cfgVehicles
@@ -165,20 +82,25 @@ class cfgVehicles
   class OPTRE_UNSC_falcon;
   class OPTRE_UNSC_falcon_unarmed;
 //I didn't want a long config file so here have some includes 
-#include "Men\blk.hpp"
-#include "Men\urb.hpp"
-#include "Men\Wdl.hpp"
-#include "Men\Mar.hpp"
-#include "Men\Crew.hpp"
-#include "Men\Custom.hpp"
-#include "cars\cars.hpp"
-#include "tanks\tanks.hpp"
-#include "IFV\IFV.hpp"
-#include "Artillery\Artillery.hpp"
-#include "Boats\Boats.hpp"
-#include "Drones\Drones.hpp"
-#include "Helicopters\Helicopters.hpp"
-#include "Backpacks\Backpacks.hpp"
+//Ground Support
+#include "Ground_Support\cars.hpp"
+#include "Ground_Support\tanks.hpp"
+#include "Ground_Support\IFV.hpp"
+#include "Ground_Support\Artillery.hpp"
+#include "Ground_Support\Boats.hpp"
+//Aviation
+#include "Aviation\Drones.hpp"
+#include "Aviation\Helicopters.hpp"
+//Special Forces
+#include "SF\Backpacks\Backpacks.hpp"
+#include "SF\Men\blk.hpp"
+#include "SF\Men\urb.hpp"
+#include "SF\Men\Wdl.hpp"
+#include "SF\Men\Mar.hpp"
+//Crew
+#include "Crew\Men\Crew.hpp"
+//Custom
+#include "Custom\Men\Custom.hpp"
 };
 
 class cfgGroups
@@ -189,11 +111,11 @@ class cfgGroups
     class ONI_Recon_Faction
     {
       name="ONI Recon";
-    
-    #include "Groups\Blk.hpp"
-    #include "Groups\Urb.hpp"
-    #include "Groups\Wdl.hpp"
-    #include "Groups\Mar.hpp"
+    //Special Forces
+    #include "SF\Groups\Blk.hpp"
+    #include "SF\Groups\Urb.hpp"
+    #include "SF\Groups\Wdl.hpp"
+    #include "SF\Groups\Mar.hpp"
 
     };
   };
