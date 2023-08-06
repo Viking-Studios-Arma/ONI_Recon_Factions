@@ -2,7 +2,7 @@
 class CfgPatches {
 	class ONI_Recon_Backpacks {
 		// Addon identity
-		name = "ONI Recon Essentials - Backpacks";
+		name = "ONI Recon - Backpacks";
 		author = "Viking Studios";
 		authors[] = {"Amateur-god"};
 		url = "https://discord.gg/bkdGvUNFbb";

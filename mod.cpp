@@ -1,7 +1,7 @@
-name = "ONI Recon Essentials";
+name = "ONI Recon - Factions and Equipment";
 picture = "ONI_Recon.paa";
 hidePicture = "true";
 hideName = "false";
 actionName = "Discord";
-action = "https://discord.gg/UjmVpqrEqW";
-description = "Custom ONI Recon mod, making the ONI a more fun/varied (however non-canonical) agency/Faction to play";
+action = "https://discord.gg/9pJTHHzaFC";
+description = "Halo Custom Faction and equipment textures for non-canon ONI Recon Faction";

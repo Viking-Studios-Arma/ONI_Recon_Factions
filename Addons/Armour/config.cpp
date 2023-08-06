@@ -4,7 +4,7 @@ class CfgPatches
 	class ONI_Recon_Armour
 	{
 		// Addon identity
-		name = "ONI Recon Essentials - Armour";
+		name = "ONI Recon - Armour";
 		author = "Viking Studios";
 		authors[] = {"Amateur-god"};
 		url = "https://discord.gg/bkdGvUNFbb";
@@ -199,10 +199,10 @@ class cfgWeapons
                 class D { label = "Sniper"; };
                 class E { label = "Scout"; };
                 class F { label = "Demolitions"; };
-                class G { label = "Carmichael"; };
-                class H { label = "Hex"; };
+                class AG { label = "Carmichael"; }; // AG for Amteur-God
+                class H { label = "Hex"; }; // H for Hex
                 class sheepshagger { label = "Celt"; }; // <-- I wrote this classname months ago and i still laugh at it everytime i see it in the code 
-                class purple { label = "Storm"; };
+                class purple { label = "Storm"; }; // Because he loves purple
 
             };
         };
