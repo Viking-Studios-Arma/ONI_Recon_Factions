@@ -60,7 +60,7 @@ class cfgVehicles
     class ONI_Recon_Rucksack: ONI_Recon_Rucksack_Base
     {
         scope = 2;
-        displayName = "[ONI] Backpacks";
+        displayName = "[ONI] Backpack";
         maximumLoad = 650;
             class XtdGearInfo {
             model = "ONI_Recon_Backpack";
@@ -71,7 +71,7 @@ class cfgVehicles
         class ONI_Recon_Rucksack_Medic: ONI_Recon_Rucksack_Base_Medic
     {
         scope = 2;
-        displayName = "[ONI] Backpacks";
+        displayName = "[ONI] Medic Backpack";
         maximumLoad = 700;
             class XtdGearInfo {
             model = "ONI_Recon_Backpack";
@@ -86,7 +86,7 @@ class cfgVehicles
         class ONI_Recon_Rucksack_IC: ONI_Recon_Rucksack_Base_IC
     {
         scope = 2;
-        displayName = "[ONI] Backpacks";        
+        displayName = "[ONI] IC Backpack";        
         maximumLoad = 450;
             class XtdGearInfo {
             model = "ONI_Recon_Backpack";
