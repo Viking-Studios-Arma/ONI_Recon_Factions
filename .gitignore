@@ -4,7 +4,7 @@ tools/inc.tmp
 tools/user.txt
 archives/
 *texHeaders.bin
-.vscode
+/.vscode
 *.log
 .build/
 .builds/

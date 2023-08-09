@@ -2,7 +2,8 @@
 
   class ONI_Recon_Rifleman_pack: ONI_Recon_Rucksack
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_32Rnd_762x51_Mag {count=5;magazine="OPTRE_32Rnd_762x51_Mag";};
@@ -19,7 +20,8 @@
 
   class ONI_Recon_AT_pack: ONI_Recon_Rucksack
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_32Rnd_762x51_Mag {count=5;magazine="OPTRE_32Rnd_762x51_Mag";};
@@ -39,7 +41,8 @@
 
   class ONI_Recon_Medic_pack: ONI_Recon_Rucksack_Medic // Lots of drugs
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_8Rnd_127x40_Mag {count=2;magazine="OPTRE_8Rnd_127x40_Mag";};
@@ -68,7 +71,8 @@
 
   class ONI_Recon_Team_Leader_pack: ONI_Recon_Rucksack_IC
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_1Rnd_HE_Grenade_shell {count=5;magazine="1Rnd_HE_Grenade_shell";};
@@ -89,7 +93,8 @@
 
   class ONI_Recon_EOD_pack: ONI_Recon_Rucksack
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_8Rnd_127x40_Mag {count=2;magazine="OPTRE_8Rnd_127x40_Mag";};
@@ -113,7 +118,8 @@
 
   class ONI_Recon_Marksman_pack: ONI_Recon_Rucksack
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines{};
     class TransportItems
     {
@@ -126,7 +132,8 @@
 
   class ONI_Recon_LMG_pack: ONI_Recon_Rucksack
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_8Rnd_127x40_Mag {count=2;magazine="OPTRE_8Rnd_127x40_Mag";};
@@ -143,7 +150,8 @@
 
   class ONI_Recon_MG_pack: ONI_Recon_Rucksack
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_8Rnd_127x40_Mag {count=2;magazine="OPTRE_8Rnd_127x40_Mag";};
@@ -161,7 +169,8 @@
 
   class ONI_Recon_HMG_pack: ONI_Recon_Rucksack // Big Gun boy
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_8Rnd_127x40_Mag {count=2;magazine="OPTRE_8Rnd_127x40_Mag";};
@@ -179,7 +188,8 @@
 
   class ONI_Recon_Rifleman_HMG_pack: ONI_Recon_Rucksack
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_8Rnd_127x40_Mag {count=2;magazine="OPTRE_8Rnd_127x40_Mag";};
@@ -195,7 +205,8 @@
 
   class ONI_Recon_IC_HMG_pack: ONI_Recon_Rucksack_IC
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_8Rnd_127x40_Mag {count=2;magazine="OPTRE_8Rnd_127x40_Mag";};
@@ -211,7 +222,8 @@
 
   class ONI_Recon_Medic_HMG_pack: ONI_Recon_Rucksack_Medic
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_8Rnd_127x40_Mag {count=2;magazine="OPTRE_8Rnd_127x40_Mag";};
@@ -239,7 +251,8 @@
 
   class ONI_Recon_Sniper_pack: ONI_Recon_Rucksack_IC
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_4Rnd_145x114_HEDP_Mag {count=6;magazine="OPTRE_4Rnd_145x114_HEDP_Mag";};
@@ -267,7 +280,8 @@
 
   class ONI_Recon_Spotter_pack: ONI_Recon_Rucksack_IC
   {
-    scope=1;
+    scope=1; 
+    scopeArsenal =1;
     class TransportMagazines
     {
      class _xx_OPTRE_8Rnd_127x40_Mag {count=2;magazine="OPTRE_8Rnd_127x40_Mag";};
