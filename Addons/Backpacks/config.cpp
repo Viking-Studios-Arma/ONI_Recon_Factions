@@ -120,27 +120,46 @@ class cfgVehicles
 };
 //IDK why im writing this stuff in here, no one is going to read it.
  /*42*/
-/* Has decided it does not want to work
+ class XtdGearInfos
+{
+    class CfgVehicles
+    {
+        class ONI_Recon_Rucksack
+        {
+            model = "ONI_Recon_Backpack";
+            variant = "rifleman";
+        };
+        class ONI_Recon_Rucksack_Medic
+        {
+            model = "ONI_Recon_Backpack";
+            variant = "medic";
+        };
+        class ONI_Recon_Rucksack_IC
+        {
+            model = "ONI_Recon_Backpack";
+            variant = "IC";
+        };
+    };
+};
+
 class XtdGearModels 
 {
-    class cfgVehicles 
+    class CfgVehicles 
     {
         class ONI_Recon_Backpack
         {
             label = "[ONI] Bacpacks";
             author = "Viking Studios";
-            options[] = {"Variant"};
+            options[] = {"variant"};
 
-            class Variant 
+            class variant 
             {
                 changeingame = 0;
-                values[] = {"A","B","C"};
-
-                class A { label = "Rifleman"; };
-                class B { label = "Medic"; };
-                class C { label = "IC"; };
+                values[] = {"rifleman","medic","IC"};
+                class rifleman { label = "Rifleman"; };
+                class medic { label = "Medic"; };
+                class IC { label = "IC"; };
             };
         };
     };
 };
-*/
