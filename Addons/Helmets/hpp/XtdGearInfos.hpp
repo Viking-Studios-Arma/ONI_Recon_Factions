@@ -20,7 +20,7 @@ class XtdGearInfos {
 			model = "ONI_Helmet_SF";
 			camo = "H";
 		};
-		class class ONI_Recon_Helmet_SF_Storm {
+		class ONI_Recon_Helmet_SF_Storm {
 			model = "ONI_Helmet_SF";
 			camo = "S";
 		};
