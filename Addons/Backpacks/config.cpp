@@ -15,7 +15,7 @@ class CfgPatches {
 };
 //Hi welcome to my code, hope you have fun playing arma. PS. Drink Water
 //what is the meaning of life, The Universe and everything?
-class cfgVehicles
+class CfgVehicles
 {
     class OPTRE_ANPRC_521_Black;
     class OPTRE_ILCS_Rucksack_Heavy;
@@ -76,12 +76,6 @@ class cfgVehicles
         scopeCurator = 2;
         displayName = "[ONI] Rifleman";
         maximumLoad = 450;
-        /*
-            class XtdGearInfo {
-            model = "ONI_Recon_Backpack";
-            camo = "A";
-        };
-        */
     };
     // Medic BackPack
         class ONI_Recon_Rucksack_Medic: ONI_Recon_Rucksack_Base_Medic
@@ -91,12 +85,6 @@ class cfgVehicles
         scopeCurator = 2;
         displayName = "[ONI] Medic";
         maximumLoad = 500;
-        /*
-            class XtdGearInfo {
-            model = "ONI_Recon_Backpack";
-            camo = "B";
-        };
-        */
     };
     /* 
     Did you know the %Chance that aliens are out there is higher than the %chance that they arent
@@ -110,37 +98,10 @@ class cfgVehicles
         scopeCurator = 2;
         displayName = "[ONI] IC";        
         maximumLoad = 350;
-            /*
-            class XtdGearInfo {
-            model = "ONI_Recon_Backpack";
-            camo = "C";
-        };
-        */
     };
 };
 //IDK why im writing this stuff in here, no one is going to read it.
- /*42*/
-/* Has decided it does not want to work
-class XtdGearModels 
-{
-    class cfgVehicles 
-    {
-        class ONI_Recon_Backpack
-        {
-            label = "[ONI] Bacpacks";
-            author = "Viking Studios";
-            options[] = {"Variant"};
+/*42*/
 
-            class Variant 
-            {
-                changeingame = 0;
-                values[] = {"A","B","C"};
-
-                class A { label = "Rifleman"; };
-                class B { label = "Medic"; };
-                class C { label = "IC"; };
-            };
-        };
-    };
-};
-*/
+#include "XtdGearInfos.hpp"
+#include "XtdGearModels.hpp"
