@@ -25,7 +25,7 @@ class cfgVehicles
     {
         scope = 1;
         scopeArsenal = 1;
-        scopeCurator = 1;
+        scopeCurator = 2;
         isbackpack = 1;
         reversed = 1;
         mapSize = 2;
@@ -40,7 +40,7 @@ class cfgVehicles
         scope = 1;
         scopeArsenal = 1;
         //<-----This  
-        scopeCurator = 1;      
+        scopeCurator = 2;      
         isbackpack = 1;
         reversed = 1;
         mapSize = 2;
@@ -53,7 +53,7 @@ class cfgVehicles
     {
         scope = 1;
         scopeArsenal = 1;
-        scopeCurator = 1;
+        scopeCurator = 2;
         isbackpack = 1;
         reversed = 1;
         mapSize = 2;
@@ -66,8 +66,10 @@ class cfgVehicles
     class ONI_Recon_Rucksack: ONI_Recon_Rucksack_Base
     {
         scope = 2;
+        scopeArsenal = 2;
+        scopeCurator = 2;
         displayName = "[ONI] Backpack";
-        maximumLoad = 650;
+        maximumLoad = 450;
             class XtdGearInfo {
             model = "ONI_Recon_Backpack";
             camo = "A";
@@ -77,8 +79,10 @@ class cfgVehicles
         class ONI_Recon_Rucksack_Medic: ONI_Recon_Rucksack_Base_Medic
     {
         scope = 2;
+        scopeArsenal = 2;
+        scopeCurator = 2;
         displayName = "[ONI] Medic Backpack";
-        maximumLoad = 700;
+        maximumLoad = 500;
             class XtdGearInfo {
             model = "ONI_Recon_Backpack";
             camo = "B";
@@ -92,8 +96,10 @@ class cfgVehicles
         class ONI_Recon_Rucksack_IC: ONI_Recon_Rucksack_Base_IC
     {
         scope = 2;
+        scopeArsenal = 2;
+        scopeCurator = 2;
         displayName = "[ONI] IC Backpack";        
-        maximumLoad = 450;
+        maximumLoad = 350;
             class XtdGearInfo {
             model = "ONI_Recon_Backpack";
             camo = "C";
@@ -110,9 +116,9 @@ class XtdGearModels
         {
             label = "[ONI] Bacpacks";
             author = "Viking Studios";
-            options[] = {"Type"};
+            options[] = {"Variant"};
 
-            class Type 
+            class Variant 
             {
                 changeingame = 0;
                 values[] = {"A","B","C"};
