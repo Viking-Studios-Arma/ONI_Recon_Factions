@@ -76,12 +76,6 @@ class cfgVehicles
         scopeCurator = 2;
         displayName = "[ONI] Rifleman";
         maximumLoad = 450;
-        /*
-            class XtdGearInfo {
-            model = "ONI_Recon_Backpack";
-            camo = "A";
-        };
-        */
     };
     // Medic BackPack
         class ONI_Recon_Rucksack_Medic: ONI_Recon_Rucksack_Base_Medic
@@ -91,12 +85,6 @@ class cfgVehicles
         scopeCurator = 2;
         displayName = "[ONI] Medic";
         maximumLoad = 500;
-        /*
-            class XtdGearInfo {
-            model = "ONI_Recon_Backpack";
-            camo = "B";
-        };
-        */
     };
     /* 
     Did you know the %Chance that aliens are out there is higher than the %chance that they arent
@@ -110,12 +98,6 @@ class cfgVehicles
         scopeCurator = 2;
         displayName = "[ONI] IC";        
         maximumLoad = 350;
-            /*
-            class XtdGearInfo {
-            model = "ONI_Recon_Backpack";
-            camo = "C";
-        };
-        */
     };
 };
 //IDK why im writing this stuff in here, no one is going to read it.
