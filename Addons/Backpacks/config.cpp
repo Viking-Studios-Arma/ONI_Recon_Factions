@@ -24,6 +24,8 @@ class cfgVehicles
     class ONI_Recon_Rucksack_Base: OPTRE_ILCS_Rucksack_Heavy
     {
         scope = 1;
+        scopeArsenal = 1;
+        scopeCurator = 1;
         isbackpack = 1;
         reversed = 1;
         mapSize = 2;
@@ -35,11 +37,13 @@ class cfgVehicles
     // Base Back pack for Medic dont use in arsenal
     class ONI_Recon_Rucksack_Base_Medic: OPTRE_ILCS_Rucksack_Medical
     {
-        scope = 1;      
+        scope = 1;
+        scopeArsenal = 1;
+        //<-----This  
+        scopeCurator = 1;      
         isbackpack = 1;
         reversed = 1;
         mapSize = 2;
-        //<-----This  
         vehicleClass = Backpacks;
         displayName = "[ONI] Rucksacks Base Medic";
         maximumLoad = 2000;
@@ -48,6 +52,8 @@ class cfgVehicles
     class ONI_Recon_Rucksack_Base_IC: OPTRE_ANPRC_521_Black
     {
         scope = 1;
+        scopeArsenal = 1;
+        scopeCurator = 1;
         isbackpack = 1;
         reversed = 1;
         mapSize = 2;
