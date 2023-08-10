@@ -12,3 +12,5 @@ class CfgPatches {
 };
 
 #include "hpp\CfgWeapons.hpp"
+#include "hpp\XtdGearInfos.hpp"
+#include "hpp\XtdGearModels.hpp"
