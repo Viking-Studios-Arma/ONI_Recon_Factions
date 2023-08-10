@@ -1,5 +1,5 @@
 name = "ONI Recon - Factions and Equipment";
-picture = "ONI_Recon.paa";
+picture = "ONI-Recon.paa";
 hidePicture = "true";
 hideName = "false";
 actionName = "Discord";
