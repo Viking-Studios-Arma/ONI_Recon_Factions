@@ -386,7 +386,7 @@ class XtdGearInfos {
 			model = ONI_Pilum;
 			camo = "A";
 		};
-		class ONI_Weapon_M57_Pilum_b
+		class ONI_Weapon_M57_Pilum_black
 		{
 			model = ONI_Pilum;
 			camo = "B";

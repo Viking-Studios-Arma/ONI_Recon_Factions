@@ -346,9 +346,9 @@ class CfgWeapons {
 		displayName = "[ONI] M96 LAW";
 		baseWeapon = ONI_Weapon_M96_LAW;
 	};
-	class ONI_Weapon_M57_Pilum_b: TCF_M57_Pilum_b{
-		displayName = "[ONI] M57 Pilum b";
-		baseWeapon = ONI_Weapon_M57_Pilum_b;
+	class ONI_Weapon_M57_Pilum_black: TCF_M57_Pilum_b{
+		displayName = "[ONI] M57 Pilum black";
+		baseWeapon = ONI_Weapon_M57_Pilum_black;
 	};
 	class ONI_Weapon_M57_Pilum: TCF_M57_Pilum{
 		displayName = "[ONI] M57 Pilum";
@@ -361,10 +361,10 @@ class CfgWeapons {
 	};
 	class ONI_Weapon_UNSC_Knife: UNSC_Knife{
 		displayName = "[ONI] UNSC Knife";
-		baseWeapon = ONI_Weapon_Knife;
+		baseWeapon = ONI_Weapon_UNSC_Knife;
 	};
 	class ONI_Weapon_UNSC_Knife_reversed: UNSC_Knife_reversed{
 		displayName = "[ONI] UNSC Knife reversed";
-		baseWeapon = ONI_Weapon_Knife_reversed;
+		baseWeapon = ONI_Weapon_UNSC_Knife_reversed;
 	};
 };
