@@ -205,6 +205,72 @@ class CfgWeapons {
 		displayName = "[ONI] SRS99D";
 		baseWeapon = ONI_Weapon_SRS99D;
 	};
+	class ONI_Weapon_BR55_HB: MA_BR55_HB{
+		displayName = "[ONI] BR55 HB";
+		baseWeapon = ONI_Weapon_BR55_HB;
+		//No XtdGearInfo
+	};
+	class ONI_Weapon_GRL_45: MA_GRL_45{
+		displayName = "[ONI] GRL 45";
+		baseWeapon = ONI_Weapon_GRL_45;
+		//No XtdGearInfo
+	};
+	class ONI_Weapon_ARM37_SHT: TCF_ARM37_SHT{
+		displayName = "[ONI] ARM37 SHT";
+		baseWeapon = ONI_Weapon_ARM37_SHT;
+	};
+	class ONI_Weapon_ARM37: TCF_ARM37{
+		displayName = "[ONI] ARM37";
+		baseWeapon = ONI_Weapon_ARM37;
+	};
+	class ONI_Weapon_ARM37_GL: TCF_ARM37_GL{
+		displayName = "[ONI] ARM37 GL";
+		baseWeapon = ONI_Weapon_ARM37_GL;
+	};
+	class ONI_Weapon_ARMX: TCF_ARMX{
+		displayName = "[ONI] ARMX";
+		baseWeapon = ONI_Weapon_ARMX;
+	};
+	class ONI_Weapon_ARMX_light: TCF_ARMX_light{
+		displayName = "[ONI] ARMX light";
+		baseWeapon = ONI_Weapon_ARMX_light;
+	};
+	class ONI_Weapon_ARMX_GL: TCF_ARMX_GL{
+		displayName = "[ONI] ARMX GL";
+		baseWeapon = ONI_Weapon_ARMX_GL;
+	};
+	class ONI_Weapon_ARMX_GL_light: TCF_ARMX_GL_light{
+		displayName = "[ONI] ARMX GL light";
+		baseWeapon = ONI_Weapon_ARMX_GL_light;
+	};
+	class ONI_Weapon_BR37: OPTRE_BR37{
+		displayName = "[ONI] BR37";
+		baseWeapon = ONI_Weapon_BR37;
+		//no XtdGearInfo
+	};
+	class ONI_Weapon_BR45: OPTRE_BR45{
+		displayName = "[ONI] BR45";
+		baseWeapon = ONI_Weapon_BR45;
+		//No XtdGearInfo
+	};
+	class ONI_Weapon_BR55: OPTRE_BR55{
+		displayName = "[ONI] BR55";
+		baseWeapon = ONI_Weapon_BR55;
+	};
+	class ONI_Weapon_BR55HB: OPTRE_BR55HB{
+		displayName = "[ONI] BR55HB";
+		baseWeapon = ONI_Weapon_BR55HB;
+	};
+	class ONI_Weapon_M247H_Etilka: OPTRE_M247H_Etilka{
+		displayName = "[ONI] M247H Etilka";
+		baseWeapon = ONI_Weapon_M247H_Etilka;
+		//NoXtdGearInfo
+	};
+	class ONI_Weapon_HMG38: OPTRE_HMG38{
+		displayName = "[ONI] HMG38";
+		baseWeapon = ONI_Weapon_HMG38;
+		//XtdGearInfo
+	};
 	// Pistols
 	class ONI_Weapon_FC_Plasma_Pistol: OPTRE_FC_Plasma_Pistol{
 		displayName = "[ONI] FC Plasma Pistol";
@@ -262,5 +328,43 @@ class CfgWeapons {
 	class ONI_Weapon_M41_SSR: OPTRE_M41_SSR{
 		displayName = "[ONI] M41 SSR";
 		baseWeapon = ONI_Weapon_M41_SSR;
+		//No XtdGearInfo
+	};
+	class ONI_Weapon_M96_LAW_Arc: TCF_M96_LAW_Arc{
+		displayName = "[ONI] M96 LAW Arc";
+		baseWeapon = ONI_Weapon_M96_LAW_Arc;
+	};
+	class ONI_Weapon_M96_LAW_Blk: TCF_M96_LAW_Blk{
+		displayName = "[ONI] M96 LAW Blk";
+		baseWeapon = ONI_Weapon_M96_LAW_Blk;
+	};
+	class ONI_Weapon_M96_LAW_Des: TCF_M96_LAW_Des{
+		displayName = "[ONI] M96 LAW Des";
+		baseWeapon = ONI_Weapon_M96_LAW_Des;
+	};
+	class ONI_Weapon_M96_LAW: TCF_M96_LAW{
+		displayName = "[ONI] M96 LAW";
+		baseWeapon = ONI_Weapon_M96_LAW;
+	};
+	class ONI_Weapon_M57_Pilum_b: TCF_M57_Pilum_b{
+		displayName = "[ONI] M57 Pilum b";
+		baseWeapon = ONI_Weapon_M57_Pilum_b;
+	};
+	class ONI_Weapon_M57_Pilum: TCF_M57_Pilum{
+		displayName = "[ONI] M57 Pilum";
+		baseWeapon = ONI_Weapon_M57_Pilum;
+	};
+//melee
+	class ONI_Weapon_m3: Knife_m3{
+		displayName = "[ONI] M3";
+		baseWeapon = ONI_Weapon_m3;
+	};
+	class ONI_Weapon_UNSC_Knife: UNSC_Knife{
+		displayName = "[ONI] UNSC Knife";
+		baseWeapon = ONI_Weapon_Knife;
+	};
+	class ONI_Weapon_UNSC_Knife_reversed: UNSC_Knife_reversed{
+		displayName = "[ONI] UNSC Knife reversed";
+		baseWeapon = ONI_Weapon_Knife_reversed;
 	};
 };

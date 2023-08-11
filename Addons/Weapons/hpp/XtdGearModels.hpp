@@ -211,6 +211,49 @@ class XtdGearModels {
 				class D { label = "D"; };
 			};
 		};
+		class ONI_ARM
+		{
+			label = "[ONI] ARM";
+			options[] = {"Variant","attachment","camo"};
+			class variant 
+			{
+				label = "variant";
+				changeingame = 0;
+				values[] = {"A","B"};
+				class A { label = "37"; };
+				class B { label = "X"; };
+			};
+			class attachment
+			{
+				label = "attachment";
+				changeingame = 0;
+				values[] = {"A","B","C"};
+				class A { label = "Standard"; };
+				class B { label = "UGL"; };
+				class C { label = "Breacher"; };
+			};
+			class camo
+			{
+				label = "Camo";
+				changingame = 0;
+				values[] = {"A","B"};
+				class A { label = "Dark"; };
+				class B { label = "Light"; };
+			};
+		};
+		class ONI_BR55
+		{
+			label = "[ONI] BR55";
+			options[] = {"Variant"};
+			class variant
+			{
+				label = "Variant";
+				changeingame = 0;
+				values[] = {"A","B"};
+				class A { label = "Standard"; };
+				class B { label = "HB"; };
+			};
+		};
 		// Secondaries
 		class ONI_FC_T25_Folded
 		{
@@ -248,6 +291,7 @@ class XtdGearModels {
 				class G { label = "G"; };
 			};
 		};
+		//Launchers
 		class ONI_FC_T33
 		{
 			label = "[ONI] FC-T33";
@@ -258,6 +302,47 @@ class XtdGearModels {
 				values[] = {"Unguided", "Guided"};
 				class Unguided { label = "Unguided"; };
 				class Guided { label = "Guided"; };
+			};
+		};
+		class ONI_M96_LAW
+		{
+			label = "[ONI] M96 LAW";
+			options[] = {"camo"};
+			class Camo
+			{
+				label = "Camo";
+				changeingame = 0;
+				values[] = {"A","B","C","D"};
+				class A { label = "Standard"; };
+				class B { label = "Black"; };
+				class C { label = "Desert"; };
+				class D { label = "Arc"; };
+			};
+		};
+		class ONI_Pilum
+		{
+			label = "[ONI] Pilum";
+			options[] = {"camo"};
+			class Camo
+			{
+				label = "Camo";
+				changeingame = 0;
+				values[] = {"A","B"};
+				class A { label = "Standard"; };
+				class B { label = "Black"; };
+			};
+		};
+		class ONI_Melee
+		{
+			label = "[ONI] Melee Weapons";
+			options[] = {"variant"};
+			class variant {
+				label = "Variant";
+				changeingame = 0;
+				values[] = {"A", "B","C"};
+				class A { label = "M3"; };
+				class B { label = "UNSC"; };
+				class C { label = "UNSC Reversed"; };
 			};
 		};
 	};

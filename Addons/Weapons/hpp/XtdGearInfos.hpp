@@ -253,6 +253,65 @@ class XtdGearInfos {
 			model = ONI_SRS99;
 			variant = "D";
 		};
+		class ONI_Weapon_ARM37_SHT
+		{
+			model = ONI_ARM;
+			variant = "A";
+			attachment = "C";//Breacher
+			camo = "A";
+		};
+		class ONI_Weapon_ARM37
+		{
+			model = ONI_ARM;
+			variant = "A";
+			attachment = "A";//Standard
+			camo = "A";
+		};
+		class ONI_Weapon_ARM37_GL
+		{
+			model = ONI_ARM;
+			variant = "A";
+			attachment = "B";//UGL
+			camo = "A";
+		};
+		class ONI_Weapon_ARMX
+		{
+			model = ONI_ARM;
+			variant = "B";
+			attachment = "A";//Standard
+			camo = "A";
+		};
+		class ONI_Weapon_ARMX_GL
+		{
+			model = ONI_ARM;
+			variant = "B";
+			attachment = "B";//UGL
+			camo = "A";
+		};
+		class ONI_Weapon_ARMX_Light
+		{
+			model = ONI_ARM;
+			variant = "B";
+			attachment = "A";//standard 
+			camo = "B";
+		};
+		class ONI_Weapon_ARMX_GL_light
+		{
+			model = ONI_ARM;
+			variant = "B";
+			attachment = "B";//UGL
+			camo = "B";
+		};
+		class ONI_Weapon_BR55
+		{
+			model = ONI_BR55;
+			variant = "A";
+		};
+		class ONI_Weapon_BR55HB
+		{
+			model = ONI_BR55;
+			variant = "B";
+		};
 		// Secondaries
 		// FC T25 Folded
 		class ONI_Weapon_FC_T25_Rifle_Folded
@@ -291,6 +350,7 @@ class XtdGearInfos {
 			model = ONI_M6;
 			variant = "G";
 		};
+		//launchers
 		class ONI_Weapon_FC_T33_FuelRod_Cannon
 		{
 			model = ONI_FC_T33;
@@ -300,6 +360,52 @@ class XtdGearInfos {
 		{
 			model = ONI_FC_T33;
 			variant = "Guided";
+		};
+		class ONI_Weapon_M96_LAW
+		{
+			model = ONI_M96_LAW;
+			camo = "A"; //Standard
+		};
+		class ONI_Weapon_M96_LAW_Blk
+		{
+			model = ONI_M96_LAW;
+			camo = "B"; //Blk
+		};
+		class ONI_Weapon_M96_LAW_Des
+		{
+			model = ONI_M96_LAW;
+			camo = "C"; //Desert
+		};
+		class ONI_Weapon_M96_LAW_Arc
+		{
+			model = ONI_M96_LAW;
+			camo = "D"; //Arc
+		};
+		class ONI_Weapon_M57_Pilum
+		{
+			model = ONI_Pilum;
+			camo = "A";
+		};
+		class ONI_Weapon_M57_Pilum_b
+		{
+			model = ONI_Pilum;
+			camo = "B";
+		};
+		//Melee
+		class ONI_Weapon_m3
+		{
+			Model = ONI_Melee;
+			variant = "A";
+		};
+		class ONI_Weapon_UNSC_Knife
+		{
+			Model = ONI_Melee;
+			variant = "B";
+		};
+		class ONI_Weapon_UNSC_Knife_reversed
+		{
+			Model = ONI_Melee;
+			variant = "C";
 		};
 	};
 };
