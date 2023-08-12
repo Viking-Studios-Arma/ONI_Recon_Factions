@@ -138,9 +138,7 @@ class CfgWeapons
     };
     class ONI_Recon_Armour_SF_gumbekk: ONI_Recon_Armour_SF_Basic
     {
-        scope = 2;
-        scopearsenal = 2;
-        curatorScope = 2;
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa", "\x\VS_ONI\Armour\data\armour_ONI_gumbekk_co.paa", "\x\VS_ONI\Armour\data\ONI_Legs_co_.paa", "\x\VS_ONI\Armour\data\ghillie_woodland_co.paa", "\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
         displayName = "[ONI] Special Forces Armour Gumbekk";
         class ItemInfo: ItemInfo 
         {
