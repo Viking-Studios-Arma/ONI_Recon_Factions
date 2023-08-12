@@ -24,6 +24,10 @@ class XtdGearInfos {
 			model = "ONI_Helmet_SF";
 			camo = "S";
 		};
+		class ONI_Recon_Helmet_SF_gumbekk {
+			model = "ONI_Helmet_SF";
+			camo = "american";
+		};
 		class ONI_Recon_Flight_Pilot {
 			model = "ONI_Helmet_Flight";
 			visor = "B";

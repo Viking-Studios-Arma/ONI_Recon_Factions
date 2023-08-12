@@ -136,9 +136,11 @@ class CfgWeapons
             containerclass = Supply210;
         };
     };
-    class ONI_Recon_Armor_SF_gumbekk: ONI_Recon_Armour_Base_SF_Basic
+    class ONI_Recon_Armor_SF_gumbekk: ONI_Recon_Armour_SF_Basic
     {
-        scope = 1;
+        scope = 2;
+        scopearsenal = 2;
+        curatorScope = 2;
         displayName = "[ONI] Special Forces Armour Gumbekk";
         class ItemInfo: ItemInfo 
         {
