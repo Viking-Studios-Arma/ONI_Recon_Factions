@@ -98,6 +98,13 @@ class CfgWeapons
 		scopeArsenal = 1;
 		scopeCurator = 1;
 	};
+	class ONI_Recon_Helmet_SF_gumbekk: ONI_Recon_Helmet_SF
+	{
+		displayname = "[ONI] Gumbekk";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+	};
 	class ONI_Recon_Flight_Pilot: OPTRE_UNSC_VX16_Helmet_blk
 	{
 		author = "Viking Studios";

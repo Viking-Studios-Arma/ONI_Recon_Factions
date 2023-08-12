@@ -139,6 +139,8 @@ class CfgWeapons
     class ONI_Recon_Armor_SF_gumbekk: ONI_Recon_Armour_Base_SF_Basic
     {
         scope = 1;
+        scopeArsenal = 1;
+        scopeCurator = 1;
         displayName = "[ONI] Special Forces Armour Gumbekk";
         class ItemInfo: ItemInfo 
         {

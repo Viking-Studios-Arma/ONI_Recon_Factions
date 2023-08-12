@@ -12,7 +12,7 @@
 			{
                 changeingame = 0;
                 values[] = {"G", "A", "B", "C", "D", "E", "F", "AG", "H", "sheepshagger", "purple","american"};
-                class G { label = "Basic";}
+                class G { label = "Basic"; };
                 class A { label = "Rifleman"; };
                 class B { label = "Medic"; };
                 class C { label = "Marksman"; };

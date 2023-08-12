@@ -367,4 +367,99 @@ class CfgWeapons {
 		displayName = "[ONI] UNSC Knife reversed";
 		baseWeapon = ONI_Weapon_Knife_reversed;
 	};
+	class Mode_SemiAuto;
+	class Mode_Burst;
+	class Mode_FullAuto;
+	class Noob_Auto :Mode_SemiAuto
+	{
+		showToPlayer = 0;
+		showSwitchAction = 0;
+		enableAttack = 0;
+		displayName = "Noob";
+		textureType = "burst";
+		recoil = "recoil_auto_primary_3outof10";
+		recoilProne = "recoil_auto_primary_prone_3outof10";
+		aiDispersionCoefY = 2.4;
+		aiDispersionCoefX = 1.9;
+		soundBurst = 0;
+		multiplier = 2;
+		reloadTime = 1;
+		burst = 0;
+		autofire = 0;	
+		dispersion = 0.4;
+		aiRateOfFire = 1;
+		aiRateOfFireDistance = 10;
+		minRange = 0;
+		minRangeProbab = 0.01;
+		midRange = 1;
+		midRangeProbab = 0.01;
+		maxRange = 2;
+		maxRangeProbab = 0.01;
+		soundContinuous=false;
+		sounds[] = {"StandardSound"};
+		class StandardSound
+		{
+			begin1[] = {"A3\Sounds_F\weapons\HMG\HMG_grenade",1.0,1,300};
+			soundBegin[] = {"begin1",1};
+		};
+		useAction=false;
+		useActionTitle="";
+		artillerydispersion = 0.4;
+
+	};
+	class SlotInfo;
+	class CowsSlot;
+	class ItemCore;
+	class PointerSlot;
+	class asdg_FrontSideRail;
+	class asdg_OpticRail1913;
+	class asdg_OpticRail1913_short;
+	class asdg_UnderSlot;
+	class asdg_MuzzleSlot;
+	class asdg_MuzzleSlot_556;
+	class asdg_MuzzleSlot_762;
+
+
+	class Pistol;
+	class Pistol_Base_F: Pistol
+	{
+		class WeaponSlotsInfo;
+	};
+	class Rifle;
+	class Rifle_Base_F: Rifle
+	{
+		class WeaponSlotsInfo;
+		class GunParticles;
+	};
+	class Launcher;
+	class launcher_weapon_base: Launcher
+	{
+		class WeaponSlotsInfo;
+	};
+	class GrenadeLauncher;	
+	class NGL: GrenadeLauncher
+	{
+		magazines[] = {};
+		magazineWell[] = {};
+		displayName = "Noob GL";
+		modes[] = {"Noob_Auto"};
+		enableAttack = 0;
+		showToPlayer = 0;
+		class Noob_Auto: Noob_Auto{};
+	};
+	class ONI_Weapon_ARM37_bcsewpn: ONI_Weapon_ARM37
+	{
+		enableAttack = 0;
+		type = 4;
+		scope = 1;    
+		scopeArsenal = 0;
+		handAnim[] = {};
+		class Noob_Auto{};
+		modes[] = {"Noob_Auto"};
+		class NGL: NGL{};
+		muzzles[] = {"this","NGL"};
+		baseWeapon = "";
+		hiddenSelections[] = {"zasleh"};
+		hiddenSelectionsTextures[] = {""};
+	};
 };
