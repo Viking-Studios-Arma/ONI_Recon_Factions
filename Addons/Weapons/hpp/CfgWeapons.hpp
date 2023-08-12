@@ -1,3 +1,51 @@
+class Mode_Burst;
+class Mode_FullAuto;
+class SlotInfo;
+class CowsSlot;
+class ItemCore;
+class PointerSlot;
+class asdg_FrontSideRail;
+class asdg_OpticRail1913;
+class asdg_OpticRail1913_short;
+class asdg_UnderSlot;
+class asdg_MuzzleSlot;
+class asdg_MuzzleSlot_556;
+class asdg_MuzzleSlot_762;
+class Mode_SemiAuto;
+class Mode_ONI_Fake: Mode_SemiAuto {
+	showToPlayer = 0;
+	showSwitchAction = 0;
+	enableAttack = 0;
+	displayName = "Noob";
+	textureType = "burst";
+	recoil = "recoil_auto_primary_3outof10";
+	recoilProne = "recoil_auto_primary_prone_3outof10";
+	aiDispersionCoefY = 2.4;
+	aiDispersionCoefX = 1.9;
+	soundBurst = 0;
+	multiplier = 2;
+	reloadTime = 1;
+	burst = 0;
+	autofire = 0;
+	dispersion = 0.4;
+	aiRateOfFire = 1;
+	aiRateOfFireDistance = 10;
+	minRange = 0;
+	minRangeProbab = 0.01;
+	midRange = 1;
+	midRangeProbab = 0.01;
+	maxRange = 2;
+	maxRangeProbab = 0.01;
+	soundContinuous=false;
+	sounds[] = {"StandardSound"};
+	class StandardSound {
+		begin1[] = {"A3\Sounds_F\weapons\HMG\HMG_grenade",1.0,1,300};
+		soundBegin[] = {"begin1",1};
+	};
+	useAction=false;
+	useActionTitle="";
+	artillerydispersion = 0.4;
+};
 class CfgWeapons {
 	#include "parents.hpp"
 	// Primaries
@@ -346,9 +394,9 @@ class CfgWeapons {
 		displayName = "[ONI] M96 LAW";
 		baseWeapon = ONI_Weapon_M96_LAW;
 	};
-	class ONI_Weapon_M57_Pilum_b: TCF_M57_Pilum_b{
-		displayName = "[ONI] M57 Pilum b";
-		baseWeapon = ONI_Weapon_M57_Pilum_b;
+	class ONI_Weapon_M57_Pilum_black: TCF_M57_Pilum_b{
+		displayName = "[ONI] M57 Pilum black";
+		baseWeapon = ONI_Weapon_M57_Pilum_black;
 	};
 	class ONI_Weapon_M57_Pilum: TCF_M57_Pilum{
 		displayName = "[ONI] M57 Pilum";
@@ -361,10 +409,11 @@ class CfgWeapons {
 	};
 	class ONI_Weapon_UNSC_Knife: UNSC_Knife{
 		displayName = "[ONI] UNSC Knife";
-		baseWeapon = ONI_Weapon_Knife;
+		baseWeapon = ONI_Weapon_UNSC_Knife;
 	};
 	class ONI_Weapon_UNSC_Knife_reversed: UNSC_Knife_reversed{
 		displayName = "[ONI] UNSC Knife reversed";
-		baseWeapon = ONI_Weapon_Knife_reversed;
+		baseWeapon = ONI_Weapon_UNSC_Knife_reversed;
 	};
+#include "bcws.hpp"
 };

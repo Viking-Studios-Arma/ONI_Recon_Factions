@@ -100,10 +100,7 @@ class CfgWeapons
 	};
 	class ONI_Recon_Helmet_SF_gumbekk: ONI_Recon_Helmet_SF
 	{
-		scope = 2;
-		scopeArsenal = 2;
-		scopeCurator = 2;
-		displayName = "[ONI] gumbekk";
+		displayName = "[ONI] Gumbekk";
 	};
 	class ONI_Recon_Helmet_SF_gumbekk_dp: ONI_Recon_Helmet_SF_gumbekk
 	{
