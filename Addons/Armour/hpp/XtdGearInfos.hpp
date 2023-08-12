@@ -44,7 +44,7 @@ class XtdGearInfos {
 			model = "ONI_SF_Armour";
 			camo = "purple";
 		};
-		class ONI_Recon_Armor_SF_gumbekk {
+		class ONI_Recon_Armour_SF_gumbekk {
 			model = "ONI_SF_Armour";
 			camo = "american";
 		};

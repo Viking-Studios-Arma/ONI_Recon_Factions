@@ -6,13 +6,14 @@ class XtdGearModels {
 			options[] = {"camo"};
 			class camo {
 				changeingame = 0;
-				values[] = {"A","B","H","S","sheepshagger","AG"};
+				values[] = {"A","B","H","S","sheepshagger","AG", "american"};
 				class A { label = "Rifleman"; };
 				class B	{ label = "Medic"; };
 				class H	{ label = "Hex"; };
 				class S	{ label = "Stormwire"; };
 				class sheepshagger { label = "Celt"; };
-				class AG	{ label = "Carmichael"; };
+				class AG { label = "Carmichael"; };
+				class american { label = "Gumbekk"; };
 			};
 		};
 		class ONI_Flight_Pilot {

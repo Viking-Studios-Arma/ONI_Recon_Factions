@@ -10,7 +10,7 @@ class CfgWeapons
     class OPTRE_UNSC_M52A_Armor_Pilot_AF;
 
     //Base armour do not use in the arsenal
-    class ONI_Recon_Armour_Base_SF: OPTRE_UNSC_M52D_Armor_Rifleman
+    class ONI_Recon_Armour_Base_SF_Rifleman: OPTRE_UNSC_M52D_Armor_Rifleman
     {
         class ItemInfo;
     };
@@ -61,11 +61,11 @@ class CfgWeapons
         containerclass = Supply210;
         };
     };
-    class ONI_Recon_Armour_SF: ONI_Recon_Armour_Base_SF
+    class ONI_Recon_Armour_SF: ONI_Recon_Armour_Base_SF_Rifleman
 	{
 		scope = 2;
 		author = "Viking Studios";
-		displayName = "[ONI] Special Forces Armour";
+		displayName = "[ONI] Special Forces Armour Rifleman";
 		hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
         class ItemInfo: ItemInfo
         {
@@ -128,7 +128,7 @@ class CfgWeapons
             containerclass = Supply210;
         };  
     };
-    class ONI_Recon_Armour_SF_Storm: ONI_Recon_Armour_Base_SF {
+    class ONI_Recon_Armour_SF_Storm: ONI_Recon_Armour_Base_SF_Rifleman {
         hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_storm_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_Storm_co.paa"};
         displayName = "[ONI] Special Forces Armour Storm";
         class ItemInfo: ItemInfo
@@ -136,11 +136,11 @@ class CfgWeapons
             containerclass = Supply210;
         };
     };
-    class ONI_Recon_Armor_SF_gumbekk: ONI_Recon_Armour_Base_SF_Basic
+    class ONI_Recon_Armour_SF_gumbekk: ONI_Recon_Armour_SF_Basic
     {
-        scope = 1;
-        scopeArsenal = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopearsenal = 2;
+        curatorScope = 2;
         displayName = "[ONI] Special Forces Armour Gumbekk";
         class ItemInfo: ItemInfo 
         {

@@ -23,8 +23,7 @@
                 class H { label = "Hex"; }; // H for Hex
                 class sheepshagger { label = "Celt"; }; // <-- I wrote this classname months ago and i still laugh at it everytime i see it in the code 
                 class purple { label = "Storm"; }; // Because he loves purple
-                class american { label = "gumbekk"; }; // Because he loves America
-
+                class american { label = "gumbekk"; }; // Because he loves America // And is a CUNT
             };
         };
         class ONI_Recon_Crew_Armour 
