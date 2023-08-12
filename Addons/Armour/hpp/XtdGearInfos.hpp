@@ -1,5 +1,9 @@
 class XtdGearInfos {
 	class CfgWeapons {
+		class ONI_Recon_Armour_SF_Basic {
+			model = "ONI_SF_Armour";
+			camo = "G";
+		};
 		class ONI_Recon_Armour_SF {
 			model = "ONI_SF_Armour";
 			camo = "A";
@@ -39,6 +43,10 @@ class XtdGearInfos {
 		class ONI_Recon_Armour_SF_Storm {
 			model = "ONI_SF_Armour";
 			camo = "purple";
+		};
+		class ONI_Recon_Armor_SF_gumbekk {
+			model = "ONI_SF_Armour";
+			camo = "american";
 		};
 	};
 };

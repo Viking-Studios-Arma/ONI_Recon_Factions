@@ -11,8 +11,8 @@
             class camo 
 			{
                 changeingame = 0;
-                values[] = {"A", "B", "C", "D", "E", "F", "AG", "H", "sheepshagger", "purple"};
-
+                values[] = {"G", "A", "B", "C", "D", "E", "F", "AG", "H", "sheepshagger", "purple","american"};
+                class G { label = "Basic";}
                 class A { label = "Rifleman"; };
                 class B { label = "Medic"; };
                 class C { label = "Marksman"; };
@@ -23,6 +23,7 @@
                 class H { label = "Hex"; }; // H for Hex
                 class sheepshagger { label = "Celt"; }; // <-- I wrote this classname months ago and i still laugh at it everytime i see it in the code 
                 class purple { label = "Storm"; }; // Because he loves purple
+                class american { label = "gumbekk"; }; // Because he loves America
 
             };
         };
