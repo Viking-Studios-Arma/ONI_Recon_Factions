@@ -107,6 +107,7 @@ class CfgWeapons
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Carmichael_co.paa"};
 	};
 	class ONI_Recon_Flight_Pilot: OPTRE_UNSC_VX16_Helmet_blk
 	{
