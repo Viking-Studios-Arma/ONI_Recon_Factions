@@ -96,6 +96,20 @@ class CfgWeapons
             containerclass = Supply210;
         };  
     };
+    class ONI_Recon_Armour_SF_IC: ONI_Recon_Armour_Base_SF_Basic
+    {
+        scope = 2;
+        author = "Viking Studios";
+        displayName = "[ONI] Special Forces Armour IC";
+        hiddenSelections[]={"camo","camo2","camo3","camo4","camo5","A_Base","A_Ghillie","A_ChestArmor","A_KneesLeft","A_KneesRight","A_KneesMarLeft","A_KneesMarRight","A_ODST","A_ShinArmorLeft","A_ShinArmorRight","A_TacPad","A_ThighArmorLeft","A_ThighArmorRight","AS_BaseLeft","AS_BaseRight","AS_LargeLeft","AS_LargeRight","AS_MediumLeft","AS_MediumRight","AS_ODSTCQBLeft","AS_ODSTCQBRight","AS_ODSTLeft","AS_ODSTRight","AS_ODSTSniperLeft","AS_ODSTSniperRight","AS_SmallLeft","AS_SmallRight","AP_Canteen","AP_GL","AP_Knife","AP_MGThigh","AP_AR","AP_BR","AP_Pack","AP_Pistol","AP_Rounds","AP_SG","AP_SMG","AP_Sniper","AP_Thigh","AP_Frag","AP_Smoke","APO_AR","APO_BR","APO_Knife","APO_SMG","APO_Sniper","CustomKit_Scorch"};
+        hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
+        class ItemInfo: ItemInfo 
+        {
+            hiddenSelections[]={"camo","camo2","camo3","camo4","camo5","A_Ghillie","A_KneesMarLeft","APO_BR","AP_Knife","A_KneesMarRight","AS_LargeLeft","AS_LargeRight","AS_MediumLeft","AS_MediumRight","AP_Canteen","AS_ODSTCQBLeft","AS_ODSTCQBRight","AS_ODSTSniperLeft","AS_ODSTSniperRight","AS_SmallLeft","AS_SmallRight","AP_MGThigh","AP_AR","AP_BR","AP_Pack","AP_Pistol","AP_SG","AP_SMG","AP_Sniper","AP_Thigh","APO_AR","APO_Knife","APO_SMG","APO_Sniper","CustomKit_Scorch"};
+            hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
+            containerclass = Supply210;
+        };
+    };
     class ONI_Recon_Armour_SF_Demo: ONI_Recon_Armour_Base_SF_Demo { // For those who like to make things go BOOM
         hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_co.paa"};
         displayName = "[ONI] Special Forces Armour Demo/EOD";
@@ -104,11 +118,14 @@ class CfgWeapons
             containerclass = Supply210;
         };  
     };
-    class ONI_Recon_Armour_SF_Carmichael: ONI_Recon_Armour_Base_SF_MX { // Is me mario (Ps. im not actually called mario)
+    class ONI_Recon_Armour_SF_Carmichael: ONI_Recon_Armour_Base_SF_Basic { // Is me mario (Ps. im not actually called mario)
+        hiddenSelections[]={"camo","camo2","camo3","camo4","camo5","A_Base","A_Ghillie","A_ChestArmor","A_KneesLeft","A_KneesRight","A_KneesMarLeft","A_KneesMarRight","A_ODST","A_ShinArmorLeft","A_ShinArmorRight","A_TacPad","A_ThighArmorLeft","A_ThighArmorRight","AS_BaseLeft","AS_BaseRight","AS_LargeLeft","AS_LargeRight","AS_MediumLeft","AS_MediumRight","AS_ODSTCQBLeft","AS_ODSTCQBRight","AS_ODSTLeft","AS_ODSTRight","AS_ODSTSniperLeft","AS_ODSTSniperRight","AS_SmallLeft","AS_SmallRight","AP_Canteen","AP_GL","AP_Knife","AP_MGThigh","AP_AR","AP_BR","AP_Pack","AP_Pistol","AP_Rounds","AP_SG","AP_SMG","AP_Sniper","AP_Thigh","AP_Frag","AP_Smoke","APO_AR","APO_BR","APO_Knife","APO_SMG","APO_Sniper","CustomKit_Scorch"};
         hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_Carmichael_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_Carmichael_co.paa"};
         displayName = "[ONI] Special Forces Armour Carmichael";
         class ItemInfo: ItemInfo
         {
+            hiddenSelections[]={"camo","camo2","camo3","camo4","camo5","A_Ghillie","A_KneesMarLeft","APO_BR","A_KneesMarRight","AS_LargeLeft","AS_LargeRight","AS_MediumLeft","AS_MediumRight","AP_Canteen","AS_ODSTCQBLeft","AS_ODSTRight","AS_ODSTSniperLeft","AS_ODSTSniperRight","AS_SmallLeft","AS_SmallRight","AP_GL","AP_MGThigh","AP_AR","AP_BR","AP_Pack","AP_Pistol","AP_SG","AP_SMG","AP_Sniper","AP_Thigh","APO_AR","APO_Knife","APO_SMG","APO_Sniper","CustomKit_Scorch"};
+            hiddenSelectionsTextures[] = {"\x\VS_ONI\Armour\data\ONI_Vest_co.paa","\x\VS_ONI\Armour\data\armour_ONI_co.paa","\x\VS_ONI\Armour\data\ONI_Legs_Carmichael_co.paa","\x\VS_ONI\Armour\data\ghillie_woodland_co.paa","\x\VS_ONI\Armour\data\ONI_Armour_Carmichael_co.paa"};
             containerclass = Supply210;
         };  
     };

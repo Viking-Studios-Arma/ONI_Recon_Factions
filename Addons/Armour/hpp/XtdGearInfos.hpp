@@ -28,6 +28,10 @@ class XtdGearInfos {
 			model = "ONI_SF_Armour";
 			camo = "F";
 		};
+		class ONI_Recon_Armour_SF_IC {
+			model = "ONI_SF_Armour";
+			camo = "IC";
+		};
 		class ONI_Recon_Armour_SF_Carmichael {
 			model = "ONI_SF_Armour";
 			camo = "AG";
