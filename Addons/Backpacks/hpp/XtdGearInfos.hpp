@@ -13,5 +13,9 @@ class XtdGearInfos
             model = "ONI_Recon_Backpack";
             variant = "IC";
         };
+        class ONI_Recon_Rucksack_IC_Invisible {
+            model = "ONI_Recon_Backpack";
+            variant = "IC_I";
+        };
     };
 };

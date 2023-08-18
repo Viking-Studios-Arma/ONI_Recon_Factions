@@ -11,10 +11,11 @@ class XtdGearModels
             class variant 
             {
                 changeingame = 0;
-                values[] = {"rifleman","medic","IC"};
+                values[] = {"rifleman","medic","IC","IC_I"};
                 class rifleman { label = "Rifleman"; };
                 class medic { label = "Medic"; };
                 class IC { label = "IC"; };
+                class IC_I { label = "IC (Invisible)"; };
             };
         };
     };

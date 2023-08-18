@@ -51,7 +51,7 @@ class CfgWeapons
 	};
 	class ONI_Recon_Helmet_SF_Carmichael: ONI_Recon_Helmet_SF
 	{
-		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Carmichael_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Carmichael_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Carmichael_co.paa"};
 		hiddenSelectionsMaterials[]= {"\x\VS_ONI\Helmets\data\ONI.rvmat","\x\VS_ONI\Helmets\data\ONI_Visor_Silver.rvmat"};
 		displayName = "[ONI] Carmichael";
 	};

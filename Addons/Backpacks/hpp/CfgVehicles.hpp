@@ -58,7 +58,7 @@ class CfgVehicles
         scopeArsenal = 2;
         scopeCurator = 2;
         displayName = "[ONI] Rifleman";
-        maximumLoad = 450;
+        maximumLoad = 400;
     };
     // Medic BackPack
         class ONI_Recon_Rucksack_Medic: ONI_Recon_Rucksack_Base_Medic
@@ -67,7 +67,7 @@ class CfgVehicles
         scopeArsenal = 2;
         scopeCurator = 2;
         displayName = "[ONI] Medic";
-        maximumLoad = 500;
+        maximumLoad = 400;
     };
     /* 
     Did you know the %Chance that aliens are out there is higher than the %chance that they arent
@@ -80,6 +80,16 @@ class CfgVehicles
         scopeArsenal = 2;
         scopeCurator = 2;
         displayName = "[ONI] IC";        
-        maximumLoad = 350;
+        maximumLoad = 300;
+    };
+        class ONI_Recon_Rucksack_IC_Invisible: ONI_Recon_Rucksack_Base_IC
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        scopeCurator = 2;
+        model = "\A3\weapons_f\empty";
+        displayName = "[ONI] IC (invisible)";
+        hiddenSelectionsTextures[]={""};        
+        maximumLoad = 300;
     };
 };
