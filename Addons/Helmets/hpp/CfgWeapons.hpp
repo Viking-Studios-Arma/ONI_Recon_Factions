@@ -101,13 +101,14 @@ class CfgWeapons
 	class ONI_Recon_Helmet_SF_gumbekk: ONI_Recon_Helmet_SF
 	{
 		displayName = "[ONI] Gumbekk";
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_Gumbekk_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Silver_co.paa"};
 	};
 	class ONI_Recon_Helmet_SF_gumbekk_dp: ONI_Recon_Helmet_SF_gumbekk
 	{
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Carmichael_co.paa"};
+		hiddenSelectionsTextures[] = {"\x\VS_ONI\Helmets\data\ONI_Helmet_gumbekk_co.paa","\x\VS_ONI\Helmets\data\ONI_Visor_Carmichael_co.paa"};
 	};
 	class ONI_Recon_Flight_Pilot: OPTRE_UNSC_VX16_Helmet_blk
 	{
