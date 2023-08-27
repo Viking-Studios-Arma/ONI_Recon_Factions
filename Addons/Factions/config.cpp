@@ -96,33 +96,7 @@ class cfgWeapons
 
 class cfgVehicles
 {
-  class OPTRE_UNSC_Airforce_Soldier_Airman;
-  class OPTRE_UNSC_Marine_Soldier_Rifleman_AR;
-  class ONI_Recon_Rucksack;
-  class OPTRE_UNSC_Marine_Soldier_Corpsman;
-  class ONI_Recon_Rucksack_Medic;
-  class OPTRE_UNSC_Marine_Soldier_TeamLead;
-  class ONI_Recon_Rucksack_IC;
-  class OPTRE_M12_LRV;
-  class OPTRE_M914_RV;
-  class OPTRE_M813_TT;
-  class OPTRE_M12_FAV;
-  class OPTRE_M12_FAV_APC;
-  class OPTRE_M808L;
-  class OPTRE_M808B2;
-  class OPTRE_M808S;
-  class OPTRE_M808BM_UNSC;
-  class OPTRE_M808B_UNSC;
-  class OPTRE_M412_IFV_UNSC;
-  class OPTRE_M413_MGS_UNSC;
-  class OPTRE_M875_SPH;
-  class optre_catfish_mg_f;
-  class optre_catfish_unarmed_f;
-  class OPTRE_Wombat_S;
-  class OPTRE_Wombat;
-  class OPTRE_Wombat_B;
-  class OPTRE_UNSC_falcon;
-  class OPTRE_UNSC_falcon_armed;
+#include "hpp\parents.hpp"
 //I didn't want a long config file so here have some includes 
 //Aviation
 #include "Aviation\Drones.hpp"
@@ -143,6 +117,7 @@ class cfgVehicles
 #include "Ground_Support\Artillery.hpp"
 #include "Ground_Support\Boats.hpp"
 #include "Ground_Support\Crew.hpp"
+#include "Ground_Support\Drones.hpp"
 };
 
 class cfgGroups
