@@ -30,3 +30,33 @@
     crew="B_UAV_AI";
     typicalCargo[]={"B_UAV_AI"};
   };
+  class ONI_Recon_MQ221: VES_MQ221
+  {
+    faction="ONI_Recon_Faction_Avi";
+    editorSubcategory = "ONI_Recon_Faction_Drones";
+    side=1;
+    displayName="MQ221";
+    hiddenSelectionsTextures[]={"v_fz_air_vehicles\data\dragonfly\a_mq221_blk_co.paa","v_fz_air_vehicles\data\dragonfly\a_mq221_blk_a_co.paa",""};
+    crew="B_AI_F";
+    typicalCargo[]={"B_AI_F"};
+  };
+  class ONI_Recon_MQ94: TCF_UAV_01_F
+  {
+    faction="ONI_Recon_Faction_Avi";
+    editorSubcategory = "ONI_Recon_Faction_Drones";
+    side=1;
+    displayName="MQ94";
+    hiddenSelectionsTextures[]={};
+    crew="B_AI_F";
+    typicalCargo[]={"B_AI_F"};
+  };
+  class ONI_Recon_Reaper: B_UAV_02_dynamicLoadout_F
+  {
+    faction="ONI_Recon_Faction_Avi";
+    editorSubcategory = "ONI_Recon_Faction_Drones";
+    side=1;
+    displayName="Reaper";
+    hiddenSelectionsTextures[]={"a3\drones_f\air_f_gamma\uav_02\data\uav_02_co.paa"};
+    crew="B_AI_F";
+    typicalCargo[]={"B_AI_F"};
+  };
