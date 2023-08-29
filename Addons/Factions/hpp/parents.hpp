@@ -42,3 +42,4 @@
   class B_UGV_02_Demining_F;
   class OPTRE_UNSC_falcon_s;
   class OPTRE_UNSC_falcon_armed_s;
+  class B_UAV_AI;
