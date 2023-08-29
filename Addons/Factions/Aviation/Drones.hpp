@@ -47,9 +47,10 @@ class ONI_Recon_MQ94: TCF_UAV_01_F
     side=1;
     scope=2;
     displayName="MQ94";
+    hiddenSelectionsTextures[]={};
     crew="B_UAV_AI";
     typicalCargo[]={"B_UAV_AI"};
-};
+  };
   class ONI_Recon_Reaper: B_UAV_02_dynamicLoadout_F
   {
     faction="ONI_Recon_Faction_Avi";
