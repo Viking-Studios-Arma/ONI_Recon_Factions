@@ -1,6 +1,6 @@
   class ONI_Recon_Armour_Crew: OPTRE_UNSC_Marine_Soldier_Rifleman_AR //Ground Boy
   {
-    faction="ONI_Recon_Faction_GS";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Crew";
     side=1;
     displayName="Armour Crew";

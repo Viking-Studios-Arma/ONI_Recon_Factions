@@ -1,8 +1,9 @@
   class ONI_Recon_Pilot: OPTRE_UNSC_Airforce_Soldier_Airman //Flying Boy
   {
-    faction="ONI_Recon_Faction_Avi";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Crew";
     side=1;
+    scope = 2;
     displayName="Pilot";
     uniformClass="OPTRE_UNSC_Navy_Uniform_ONI";
     weapons[]={"ONI_Recon_OPTRE_MA37K_acc_pointer_IROPTRE_M12_Optic","ONI_Recon_OPTRE_M6B_OPTRE_M6G_Flashlight","Put","Throw"};
