@@ -1072,4 +1072,4 @@ class ONI_Weapon_M6G_bcsewpn: ONI_Weapon_M6G
     baseWeapon = "";
     hiddenSelections[] = {"zasleh"};
     hiddenSelectionsTextures[] = {""};
-}; */
+};
