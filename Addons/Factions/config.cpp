@@ -19,7 +19,7 @@ class cfgPatches
 
 class cfgFactionClasses
 {
-  class ONI_Recon_Faction_Blk
+  /*class ONI_Recon_Faction_Blk
   {
     icon="\x\VS_ONI\Factions\ONI_Recon.paa";
     displayName="ONI Recon (Black)";
@@ -47,14 +47,14 @@ class cfgFactionClasses
     side=1;
     priority=1;
   };
-  class ONI_Recon_Faction_Avi
+  class ONI_Recon_Faction_Air
   {
     icon="\x\VS_ONI\Factions\ONI_Recon.paa";
     displayName="ONI Recon Aviation";
     side=1;
     priority=1;
   };
-    class ONI_Recon_Faction_GS
+    class ONI_Recon_Faction_Ground
   {
     icon="\x\VS_ONI\Factions\ONI_Recon.paa";
     displayName="ONI Recon Ground Support";
@@ -65,6 +65,14 @@ class cfgFactionClasses
   {
     icon="\x\VS_ONI\Factions\ONI_Recon.paa";
     displayName="ONI Recon (Customs)";
+    side=1;
+    priority=1;
+  };
+};*/
+class ONI_Recon_Faction
+  {
+    icon="\x\VS_ONI\Factions\ONI_Recon.paa";
+    displayName="ONI Recon";
     side=1;
     priority=1;
   };
@@ -125,7 +133,7 @@ class cfgGroups
   class WEST
   {
     name="BLUFOR";
-    class ONI_Recon_Faction
+    class ONI_Recon_Faction_Group
     {
       name="ONI Recon";
     //Special Forces

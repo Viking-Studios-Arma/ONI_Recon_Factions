@@ -1,6 +1,6 @@
   class ONI_Recon_SF_Rifleman: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="Rifleman";
@@ -18,7 +18,7 @@
 
   class ONI_Recon_SF_AT: ONI_Recon_SF_Rifleman
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="AT";
@@ -35,7 +35,7 @@
 
   class ONI_Recon_SF_Medic: OPTRE_UNSC_Marine_Soldier_Corpsman
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="Medic";
@@ -53,7 +53,7 @@
 
   class ONI_Recon_SF_Team_Leader: OPTRE_UNSC_Marine_Soldier_TeamLead //Hi Future me........ Go eat, we both know you probably havent eaten at all today and youve probably been sat with your head in code for the past 9 hours, so go eat....
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="Team Leader";
@@ -71,7 +71,7 @@
 
   class ONI_Recon_SF_EOD: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="EOD";
@@ -89,7 +89,7 @@
 
   class ONI_Recon_SF_Marksman: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="Marksman";
@@ -107,7 +107,7 @@
 
   class ONI_Recon_SF_LMG: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="LMG";
@@ -125,7 +125,7 @@
 
   class ONI_Recon_SF_MG: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="MG";
@@ -142,7 +142,7 @@
   };
   class ONI_Recon_SF_HMG: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="HMG";
@@ -160,7 +160,7 @@
 
   class ONI_Recon_SF_Rifleman_HMG: OPTRE_UNSC_Marine_Soldier_Rifleman_AR
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="Rifleman HMG";
@@ -178,7 +178,7 @@
 
   class ONI_Recon_SF_IC_HMG: ONI_Recon_SF_Team_Leader
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="IC HMG";
@@ -196,7 +196,7 @@
 
   class ONI_Recon_SF_Medic_HMG: ONI_Recon_SF_Medic
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="Medic HMG";
@@ -214,7 +214,7 @@
 
   class ONI_Recon_SF_Sniper: ONI_Recon_SF_Team_Leader
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="Sniper";
@@ -232,7 +232,7 @@
 
   class ONI_Recon_SF_Spotter: ONI_Recon_SF_Medic
   {
-    faction="ONI_Recon_Faction_Blk";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_SF_Blk";
     side=1;
     displayName="Spotter";

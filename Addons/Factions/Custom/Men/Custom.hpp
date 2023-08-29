@@ -1,6 +1,6 @@
   class ONI_Recon_Carmichael: ONI_Recon_SF_Team_Leader
   {
-    faction="ONI_Recon_Faction_Cus";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Custom";
     side=1;
     displayName="Carmichael";
@@ -17,7 +17,7 @@
   };
   class ONI_Recon_Celt: ONI_Recon_SF_Team_Leader
   {
-    faction="ONI_Recon_Faction_Cus";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Custom";
     side=1;
     displayName="Celt";
@@ -34,7 +34,7 @@
   };
   class ONI_Recon_Storm: ONI_Recon_SF_Team_Leader
   {
-    faction="ONI_Recon_Faction_Cus";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Custom";
     side=1;
     displayName="Stormwire";
@@ -51,7 +51,7 @@
   };
   class ONI_Recon_Hex: ONI_Recon_SF_EOD
   {
-    faction="ONI_Recon_Faction_Cus";
+    faction="ONI_Recon_Faction";
     editorSubcategory = "ONI_Recon_Faction_Custom";
     side=1;
     displayName="Hex";
