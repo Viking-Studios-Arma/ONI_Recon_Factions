@@ -5,8 +5,8 @@
     side=1;
     displayName="ED 1E";
     hiddenSelectionsTextures[]={"a3\soft_f_enoch\ugv_02\data\ugv_co.paa","a3\soft_f_enoch\ugv_02\data\tracks_co.paa","a3\soft_f_enoch\ugv_02\data\ugv2_mdf_ca.paa"};
-    crew="B_AI_F";
-    typicalCargo[]={"B_AI_F"};
+    crew="B_AI_F"; //Carmichael try to get AI crew correct challenge (impossible)
+    typicalCargo[]={"B_UAV_AI"}; 
   };
 
   class ONI_Recon_ED_1D: B_UGV_02_Demining_F
@@ -17,5 +17,5 @@
     displayName="ED 1D";
     hiddenSelectionsTextures[]={"a3\soft_f_enoch\ugv_02\data\ugv_co.paa","a3\soft_f_enoch\ugv_02\data\tracks_co.paa","a3\soft_f_enoch\ugv_02\data\ugv2_mdf_ca.paa"};
     crew="B_AI_F";
-    typicalCargo[]={"B_AI_F"};
+    typicalCargo[]={"B_UAV_AI"};
   };
