@@ -35,7 +35,7 @@
     editorSubcategory = "EdSubcat_Helicopters";
     side=1;
     displayName="Pelican (Unarmed)";
-    hiddenSelectionsTextures[]={"optre_vehicles\pelican\data\pelicanexterior_black_co.paa","","","","",""};
+    hiddenSelectionsTextures[]={"optre_vehicles_air\pelican\data\pelicanexterior_black_co.paa","","","","",""};
     crew="ONI_Recon_Pilot";
     typicalCargo[]={"ONI_Recon_Pilot"};
     tf_range = 25000;
@@ -50,7 +50,7 @@
     editorSubcategory = "EdSubcat_Helicopters";
     side=1;
     displayName="Pelican (Armed)";
-    hiddenSelectionsTextures[]={"optre_vehicles\pelican\data\pelicanexterior_black_co.paa","","","",""};
+    hiddenSelectionsTextures[]={"optre_vehicles_air\pelican\data\pelicanexterior_black_co.paa","","","",""};
     crew="ONI_Recon_Pilot";
     typicalCargo[]={"ONI_Recon_Pilot"};
 		tf_range = 25000;
