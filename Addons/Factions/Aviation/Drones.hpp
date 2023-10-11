@@ -6,7 +6,7 @@
     scope = 2;
     scopeCurator = 2;
     displayName="F99 Wombat";
-    hiddenSelectionsTextures[]={"optre_vehicles\wombat\data\wombat_co.paa","optre_vehicles\wombat\data\wombat_weapons_co.paa","",""};
+    hiddenSelectionsTextures[]={"optre_vehicles_air\wombat\data\wombat_co.paa","optre_vehicles_air\wombat\data\wombat_weapons_co.paa","",""};
     crew="B_UAV_AI"; //Used to be B_UAV_AI how did you mess this one up that badly, it even could've just been inherited fine
     typicalCargo[]={"B_UAV_AI"};
   };
@@ -19,7 +19,7 @@
     scope = 2;
     scopeCurator = 2;
     displayName="F99 Wombat GunPod";
-    hiddenSelectionsTextures[]={"optre_vehicles\wombat\data\wombat_co.paa","optre_vehicles\wombat\data\wombat_weapons_co.paa",""};
+    hiddenSelectionsTextures[]={"optre_vehicles_air\wombat\data\wombat_co.paa","optre_vehicles_air\wombat\data\wombat_weapons_co.paa",""};
     crew="B_UAV_AI";
     typicalCargo[]={"B_UAV_AI"};
   };
@@ -32,7 +32,7 @@
     scope = 2;
     scopeCurator = 2;
     displayName="F99 Wombat MissilePod";
-    hiddenSelectionsTextures[]={"optre_vehicles\wombat\data\wombat_co.paa","optre_vehicles\wombat\data\wombat_weapons_co.paa",""};
+    hiddenSelectionsTextures[]={"optre_vehicles_air\wombat\data\wombat_co.paa","optre_vehicles_air\wombat\data\wombat_weapons_co.paa",""};
     crew="B_UAV_AI";
     typicalCargo[]={"B_UAV_AI"};
   };
