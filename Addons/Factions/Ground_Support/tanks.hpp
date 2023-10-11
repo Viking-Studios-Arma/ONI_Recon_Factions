@@ -15,7 +15,7 @@
     editorSubcategory = "EdSubcat_Tanks";
     side=1;
     displayName="M808B2 Sun Devil";
-    hiddenSelectionsTextures[]={"optre_vehicles\m808b2\data\lckdw\body_lckdw_lopo_co.paa","optre_vehicles\m808b2\data\lckdw\cing_dv_lckdw_co.paa","optre_vehicles\m808b2\data\lckdw\cing_rt_lckdw_co.paa","optre_vehicles\m808b2\data\lckdw\turretbase_lckdw_lopo_co.paa","optre_vehicles\m808b2\data\night\sun_devil_head_lopo_co.paa","optre_vehicles\m808b2\data\night\sun_devil_gun_lopo_co.paa"};
+    hiddenSelectionsTextures[]={"optre_vehicles_tracked\m808b2\data\lckdw\body_lckdw_lopo_co.paa","optre_vehicles_tracked\m808b2\data\lckdw\cing_dv_lckdw_co.paa","optre_vehicles_tracked\m808b2\data\lckdw\cing_rt_lckdw_co.paa","optre_vehicles_tracked\m808b2\data\lckdw\turretbase_lckdw_lopo_co.paa","optre_vehicles_tracked\m808b2\data\night\sun_devil_head_lopo_co.paa","optre_vehicles_tracked\m808b2\data\night\sun_devil_gun_lopo_co.paa"};
     crew="ONI_Recon_Armour_Crew";
     typicalCargo[]={"ONI_Recon_Armour_Crew"};
   };
@@ -26,7 +26,7 @@
     editorSubcategory = "EdSubcat_Tanks";
     side=1;
     displayName="M808S Scorpion MBT";
-    hiddenSelectionsTextures[]={"optre_vehicles\m808b2\data\lckdw\body_lckdw_lopo_co.paa","optre_vehicles\m808b2\data\lckdw\cing_dv_lckdw_co.paa","optre_vehicles\m808b2\data\lckdw\cing_rt_lckdw_co.paa","optre_vehicles\m808b2\data\lckdw\turretbase_lckdw_lopo_co.paa","optre_vehicles\m808b2\data\lckdw\turrethead_lckdw_lopo_co.paa","optre_vehicles\m808b2\data\night\turretguns_lopo_co.paa","optre_vehicles\m808b2\data\lckdw\ghammer_lckdw_lopo_co.paa"};
+    hiddenSelectionsTextures[]={"optre_vehicles_tracked\m808b2\data\lckdw\body_lckdw_lopo_co.paa","optre_vehicles_tracked\m808b2\data\lckdw\cing_dv_lckdw_co.paa","optre_vehicles_tracked\m808b2\data\lckdw\cing_rt_lckdw_co.paa","optre_vehicles_tracked\m808b2\data\lckdw\turretbase_lckdw_lopo_co.paa","optre_vehicles_tracked\m808b2\data\lckdw\turrethead_lckdw_lopo_co.paa","optre_vehicles_tracked\m808b2\data\night\turretguns_lopo_co.paa","optre_vehicles_tracked\m808b2\data\lckdw\ghammer_lckdw_lopo_co.paa"};
     crew="ONI_Recon_Armour_Crew";
     typicalCargo[]={"ONI_Recon_Armour_Crew"};
   };
