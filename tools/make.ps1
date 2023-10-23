@@ -4,15 +4,15 @@ param(
 
 $projectRoot    = Split-Path -Parent $PSScriptRoot
 $toolsPath      = "$projectRoot\tools"
-$buildPath      = "$projectRoot\.build\@ONI Recon - Factions and Equipment"
+$buildPath      = "$projectRoot\.build\@ONI Recon - Core"
 $cachePath      = "$projectRoot\.build\cache"
-$modPrefix      = "VS_ONI_"
+$modPrefix      = "VS_ONI_C_"
 $releasePage    = "https://github.com/KoffeinFlummi/armake/releases"
 $downloadPage   = "https://github.com/KoffeinFlummi/armake/releases/download/v*.*.*/armake_v*.*.*.zip"
 $armake2        = "$projectRoot\tools\armake2.exe"
 $armake         = "$projectRoot\tools\armake.exe"
 $tag            = git describe --tag | %{$_ -replace "-.*-", "-"}
-$privateKeyFile = "E:\Viking Studios\Keys\BiKey\VikingStudios.biprivatekey"
+$privateKeyFile = "$cachePath\keys\$modPrefix$tag.biprivatekey"
 $publicKeyFile  = "$buildPath\keys\$modPrefix$tag.bikey"
 $timestamp      = Get-Date -UFormat "%T"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
