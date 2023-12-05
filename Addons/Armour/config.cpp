@@ -6,7 +6,7 @@ class CfgPatches
 		// Addon identity
 		name = "ONI Recon - Armour";
 		author = "Viking Studios";
-		authors[] = {"Amateur-God", "gumbekk", "Carmichael"};
+		authors[] = {"Amateur-God (Carmichael)", "gumbekk",};
 		url = "https://discord.gg/bkdGvUNFbb";
 		version = 1.0;
 		versionAr[] = {1,0,0,0};
