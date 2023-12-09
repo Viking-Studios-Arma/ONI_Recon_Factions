@@ -1,6 +1,7 @@
   class ONI_Recon_F99_Wombat: OPTRE_Wombat_S
   {
     faction="ONI_Recon_Faction";
+    editorCategory="ONI_Recon_Faction";
     editorSubcategory = "EdSubcat_Drones";
     side=1;
     scope = 2;
@@ -11,9 +12,10 @@
     typicalCargo[]={"B_UAV_AI"};
   };
 
-  class ONI_Recon_F99_Wombat_GunPod: OPTRE_Wombat // Where Man?
+  class ONI_Recon_F99_Wombat_GunPod: OPTRE_Wombat 
   {
     faction="ONI_Recon_Faction";
+    editorCategory="ONI_Recon_Faction";
     editorSubcategory = "EdSubcat_Drones";
     side=1;
     scope = 2;
@@ -27,6 +29,7 @@
   class ONI_Recon_F99_Wombat_MissilePod: OPTRE_Wombat_B
   {
     faction="ONI_Recon_Faction";
+    editorCategory="ONI_Recon_Faction";
     editorSubcategory = "EdSubcat_Drones";
     side=1;
     scope = 2;
@@ -39,6 +42,7 @@
   class ONI_Recon_MQ221: VES_MQ221
   {
     faction="ONI_Recon_Faction";
+    editorCategory="ONI_Recon_Faction";
     editorSubcategory = "EdSubcat_Drones";
     side=1;
     scope = 2;
@@ -51,9 +55,10 @@
 class ONI_Recon_MQ94: TCF_UAV_01_F 
 {
     faction="ONI_Recon_Faction";
+    editorCategory="ONI_Recon_Faction";
     editorSubcategory = "EdSubcat_Drones";
     side=1;
-    scope=2;
+    scope = 2;
     scopeCurator = 2;
     displayName="MQ94 (Recon)";
     hiddenSelectionsTextures[]={};
@@ -63,6 +68,7 @@ class ONI_Recon_MQ94: TCF_UAV_01_F
   class ONI_Recon_Reaper: B_UAV_02_dynamicLoadout_F
   {
     faction="ONI_Recon_Faction";
+    editorCategory="ONI_Recon_Faction";
     editorSubcategory = "EdSubcat_Drones";
     side=1;
     scope = 2;

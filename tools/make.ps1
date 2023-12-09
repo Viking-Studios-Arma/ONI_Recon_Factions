@@ -4,7 +4,7 @@ param(
 
 $projectRoot    = Split-Path -Parent $PSScriptRoot
 $toolsPath      = "$projectRoot\tools"
-$buildPath      = "$projectRoot\.build\@ONI Recon - Core"
+$buildPath      = "$projectRoot\.build\@ONI Recon - Factions and Equipment"
 $cachePath      = "$projectRoot\.build\cache"
 $modPrefix      = "VS_ONI_C_"
 $releasePage    = "https://github.com/KoffeinFlummi/armake/releases"
