@@ -25,7 +25,13 @@
 	</a>
 </p>
 
-<p align="center"><sup><strong>Introducing a new Non-Canon UNSC ONI Faction to OPTRE and making life easier for members of ONI Recon.</strong></sup></p>
+<p align="center"><sup><strong>Introducing a fresh, non-canon UNSC ONI faction to the OPTRE universe!
+
+This expansion mod introduces a new combat element for the Office of Naval Intelligence, named ONI Recon. It enhances the game with custom textures for ONI Recon units, including armor, helmets, and uniforms (currently a work in progress). Additionally, it boosts the carrying capacity of backpacks and armor specifically used by ONI Recon units (also in development). The mod further extends compatibility with the ACE Extended Arsenal for all ONI Recon equipment.
+
+Moreover, the mod introduces drones as a new toolkit item. These drones can be deployed and subsequently packed away using the ACE interface, adding a dynamic new tactical element to gameplay. 
+
+Currently, the mod is undergoing an extensive overhaul to expand the faction further, adding both light and heavy infantry units to diversify and enhance combat scenarios.</strong></sup></p>
 
 ## Dependencies
 ### Required
