@@ -188,15 +188,15 @@ function Get-LatestArmakeVersion {
     $client.dispose()
 
     # Updated regex to match the latest version from the releases page
-    $matches = [regex]::Matches($content, 'href="/KoffeinFlummi/armake/releases/download/v([\d\.]+)/armake_v[\d\.]+\.zip"')
+    $versionMatches = [regex]::Matches($content, 'href="/KoffeinFlummi/armake/releases/download/v([\d\.]+)/armake_v[\d\.]+\.zip"')
 
-    if ($matches.Count -eq 0) {
+    if ($versionMatches.Count -eq 0) {
         Write-Error -Message "[$timestamp] Failed to find valid armake download link."
         return "0.0.0"
     }
 
     # Get the highest version number from the matches
-    $versions = $matches | ForEach-Object { $_.Groups[1].Value }
+    $versions = $versionMatches | ForEach-Object { $_.Groups[1].Value }
     $latestVersion = $versions | Sort-Object -Descending | Select-Object -First 1
 
     return $latestVersion
@@ -291,7 +291,7 @@ function Remove-ObsoleteFiles {
     }
 }
 
-function Build-PBO {
+function New-PBO {
     param(
         [Parameter(Mandatory=$True)]
         $Source,
@@ -358,7 +358,7 @@ function Build-PBO {
     }
 
     if ($LastExitCode -ne 0) {
-        Write-Error -Message "[$timestamp] Failed to build $component."
+        Write-Error -Message "[$timestamp] Failed to create PBO $component."
     }
 
     # Store this for later comparisons
@@ -373,7 +373,7 @@ function Copy-SupportFiles {
     Set-Location -Path $projectRoot
 
     foreach ($file in $supportFiles) {
-        $fileName = $(Get-ChildItem -Path $file).Name
+        $fileName = Get-ChildItem -Path $file | Select-Object -ExpandProperty Name
 
         Write-Output -InputObject "  [$timestamp] Copying $fileName"
         Copy-Item -Path $file -Destination $buildPath -Force -Recurse
@@ -415,14 +415,14 @@ function Main {
         New-Item -Path "$projectRoot\optionals" -ItemType "directory" -Force | Out-Null
 
         foreach ($component in Get-ChildItem -File -Path "$projectRoot\optionals") {
-            Build-PBO -Source $component -Prebuilt $True
+            New-PBO -Source $component -Prebuilt $True
         }
 
         foreach ($component in Get-ChildItem -Directory -Path "$projectRoot\addons") {
-            Build-PBO -Source $component
+            New-PBO -Source $component
         }
 
-        foreach ($component in @(Get-ChildItem -Path "$buildPath\addons\*.pbo")) {
+        foreach ($component in Get-ChildItem -Path "$buildPath\addons\*.pbo") {
             Remove-ObsoleteFiles -addonPbo $component
         }
 
