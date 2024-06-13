@@ -43,7 +43,7 @@ function Get-FullFileHash {
 }
 
 function Get-Hash {
-    [Cmdletbinding()]
+    [CmdletBinding()]
     param(
         [Parameter(Mandatory=$True)]
         [ValidateScript({
@@ -113,22 +113,64 @@ function Get-SupportFiles {
 }
 
 function Remove-Items {
+    [CmdletBinding(SupportsShouldProcess=$true)]
+    param()
+
     $origLocation = Get-Location
     Set-Location -Path "$projectRoot\.build"
 
     Switch ($remove) {
-        "all" { Remove-Item -Path "$buildPath" -Recurse -ErrorAction SilentlyContinue }
+        "all" {
+            if ($PSCmdlet.ShouldProcess("$buildPath", "Remove all items")) {
+                Remove-Item -Path "$buildPath" -Recurse -ErrorAction SilentlyContinue
+            }
+        }
         "extras" {
             $items = Get-SupportFiles -type "Name"
             foreach ($item in $items) {
-                Remove-Item -Path "$buildPath\*" -Include $item -Force
+                if ($PSCmdlet.ShouldProcess("$buildPath\*", "Remove extras")) {
+                    Remove-Item -Path "$buildPath\*" -Include $item -Force
+                }
             }
         }
-        "addons" { Remove-Item -Path "$buildPath\addons\*" -Force }
-        "cache" { Remove-Item -Path "$cachePath" -Recurse -ErrorAction SilentlyContinue }
+        "addons" {
+            if ($PSCmdlet.ShouldProcess("$buildPath\addons\*", "Remove addons")) {
+                Remove-Item -Path "$buildPath\addons\*" -Force
+            }
+        }
+        "cache" {
+            if ($PSCmdlet.ShouldProcess("$cachePath", "Remove cache")) {
+                Remove-Item -Path "$cachePath" -Recurse -ErrorAction SilentlyContinue
+            }
+        }
     }
 
     Set-Location -Path $origLocation
+}
+
+function Remove-ObsoleteFiles {
+    [CmdletBinding(SupportsShouldProcess=$true)]
+    param(
+        [Parameter(Mandatory=$True)]
+        $addonPbo
+    )
+
+    $pboName = $addonPbo.Name
+    $addon = $pboName.Replace($modPrefix, '').Replace('.pbo', '')
+    $sourcePath = "$projectRoot\addons\$addon"
+
+    if (Select-String -Pattern "optional_" -InputObject $pboName -SimpleMatch -Quiet) {
+        $addon = $pboName.Replace($modPrefix + "optional_", '')
+        $sourcePath = "$projectRoot\optionals\$addon"
+    }
+
+    if (!(Test-Path -Path $sourcePath)) {
+        if ($PSCmdlet.ShouldProcess("$buildPath\addons\$pboName", "Remove obsolete PBO")) {
+            Remove-Item -Path "$buildPath\addons\$pboName"
+            Remove-Item -Path "$buildPath\addons\$($pboName).$modPrefix$tag.bisign" -ErrorAction SilentlyContinue
+            Write-Output -InputObject "  [$timestamp] Deleting obsolete PBO $pboName"
+        }
+    }
 }
 
 function Compare-Version {
@@ -215,7 +257,7 @@ function Update-Armake {
     }
 }
 
-function Generate-PrivateKey {
+function New-PrivateKey {
     $cachedKeysPath = Split-Path -Parent $privateKeyFile
     $binKeysPath    = Split-Path -Parent $publicKeyFile
 
@@ -240,28 +282,6 @@ function Generate-PrivateKey {
     # Re-check the work done above to verify they exist
     if (!((Test-Path -Path $privateKeyFile) -And (Test-Path -Path $publicKeyFile))) {
         Write-Error -Message "[$timestamp] Failed to generate key pairs $privateKeyFile"
-    }
-}
-
-function Remove-ObsoleteFiles {
-    param(
-        [Parameter(Mandatory=$True)]
-        $addonPbo
-    )
-
-    $pboName = $addonPbo.Name
-    $addon = $pboName.Replace($modPrefix, '').Replace('.pbo', '')
-    $sourcePath = "$projectRoot\addons\$addon"
-
-    if (Select-String -Pattern "optional_" -InputObject $pboName -SimpleMatch -Quiet) {
-        $addon = $pboName.Replace($modPrefix + "optional_", '')
-        $sourcePath = "$projectRoot\optionals\$addon"
-    }
-
-    if (!(Test-Path -Path $sourcePath)) {
-        Remove-Item -Path "$buildPath\addons\$pboName"
-        Remove-Item -Path "$buildPath\addons\$($pboName).$modPrefix$tag.bisign" -ErrorAction SilentlyContinue
-        Write-Output -InputObject "  [$timestamp] Deleting obsolete PBO $pboName"
     }
 }
 
@@ -382,7 +402,7 @@ function Main {
     $origLocation = Get-Location
     Set-Location -Path $buildPath
 
-    Generate-PrivateKey
+    New-PrivateKey
 
     if (Test-Path -Path $privateKeyFile) {
         New-Item -Path "$buildPath\addons" -ItemType "directory" -Force | Out-Null
