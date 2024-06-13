@@ -148,31 +148,6 @@ function Remove-Items {
     Set-Location -Path $origLocation
 }
 
-function Remove-ObsoleteFiles {
-    [CmdletBinding(SupportsShouldProcess=$true)]
-    param(
-        [Parameter(Mandatory=$True)]
-        $addonPbo
-    )
-
-    $pboName = $addonPbo.Name
-    $addon = $pboName.Replace($modPrefix, '').Replace('.pbo', '')
-    $sourcePath = "$projectRoot\addons\$addon"
-
-    if (Select-String -Pattern "optional_" -InputObject $pboName -SimpleMatch -Quiet) {
-        $addon = $pboName.Replace($modPrefix + "optional_", '')
-        $sourcePath = "$projectRoot\optionals\$addon"
-    }
-
-    if (!(Test-Path -Path $sourcePath)) {
-        if ($PSCmdlet.ShouldProcess("$buildPath\addons\$pboName", "Remove obsolete PBO")) {
-            Remove-Item -Path "$buildPath\addons\$pboName"
-            Remove-Item -Path "$buildPath\addons\$($pboName).$modPrefix$tag.bisign" -ErrorAction SilentlyContinue
-            Write-Output -InputObject "  [$timestamp] Deleting obsolete PBO $pboName"
-        }
-    }
-}
-
 function Compare-Version {
     param(
         [Parameter(Mandatory=$True)]
@@ -258,30 +233,61 @@ function Update-Armake {
 }
 
 function New-PrivateKey {
+    [CmdletBinding(SupportsShouldProcess=$true)]
+    param()
+
     $cachedKeysPath = Split-Path -Parent $privateKeyFile
     $binKeysPath    = Split-Path -Parent $publicKeyFile
 
     # Do we need to clean up first?
-    if (Test-Path -Path "$binKeysPath\*" -Exclude "$modPrefix$tag.*") {
-        Remove-Item -Path "$cachedKeysPath\*" -Exclude "$modPrefix$tag.*"
-        Remove-Item -Path "$binKeysPath\*" -Exclude "$modPrefix$tag.*"
-        Remove-Item -Path "$buildPath\addons\*.bisign" -Exclude "*$tag.bisign"
+    if ($PSCmdlet.ShouldProcess("Cleaning up old keys")) {
+        if (Test-Path -Path "$binKeysPath\*" -Exclude "$modPrefix$tag.*") {
+            Remove-Item -Path "$cachedKeysPath\*" -Exclude "$modPrefix$tag.*"
+            Remove-Item -Path "$binKeysPath\*" -Exclude "$modPrefix$tag.*"
+            Remove-Item -Path "$buildPath\addons\*.bisign" -Exclude "*$tag.bisign"
 
-        Write-Output -InputObject "  [$timestamp] Cleaning up old keys. Current tag: $tag"
+            Write-Output -InputObject "  [$timestamp] Cleaning up old keys. Current tag: $tag"
+        }
     }
 
+    if ($PSCmdlet.ShouldProcess("Creating key pairs for $tag")) {
+        if (!((Test-Path -Path $privateKeyFile) -And (Test-Path -Path $publicKeyFile))) {
+            Write-Output -InputObject "  [$timestamp] Creating key pairs for $tag"
+            & $armake2 keygen "$buildPath\keys\$modPrefix$tag"
 
-    if (!((Test-Path -Path $privateKeyFile) -And (Test-Path -Path $publicKeyFile))) {
-        Write-Output -InputObject "  [$timestamp] Creating key pairs for $tag"
-        & $armake2 keygen "$buildPath\keys\$modPrefix$tag"
+            New-Item -Path "$cachePath\keys" -ItemType "directory" -ErrorAction SilentlyContinue | Out-Null
+            Move-Item -Path "$buildPath\keys\$modPrefix$tag.biprivatekey" -Destination $privateKeyFile -Force
+        }
 
-        New-Item -Path "$cachePath\keys" -ItemType "directory" -ErrorAction SilentlyContinue | Out-Null
-        Move-Item -Path "$buildPath\keys\$modPrefix$tag.biprivatekey" -Destination $privateKeyFile -Force
+        # Re-check the work done above to verify they exist
+        if (!((Test-Path -Path $privateKeyFile) -And (Test-Path -Path $publicKeyFile))) {
+            Write-Error -Message "[$timestamp] Failed to generate key pairs $privateKeyFile"
+        }
+    }
+}
+
+function Remove-ObsoleteFiles {
+    [CmdletBinding(SupportsShouldProcess=$true)]
+    param(
+        [Parameter(Mandatory=$True)]
+        $addonPbo
+    )
+
+    $pboName = $addonPbo.Name
+    $addon = $pboName.Replace($modPrefix, '').Replace('.pbo', '')
+    $sourcePath = "$projectRoot\addons\$addon"
+
+    if (Select-String -Pattern "optional_" -InputObject $pboName -SimpleMatch -Quiet) {
+        $addon = $pboName.Replace($modPrefix + "optional_", '')
+        $sourcePath = "$projectRoot\optionals\$addon"
     }
 
-    # Re-check the work done above to verify they exist
-    if (!((Test-Path -Path $privateKeyFile) -And (Test-Path -Path $publicKeyFile))) {
-        Write-Error -Message "[$timestamp] Failed to generate key pairs $privateKeyFile"
+    if (!(Test-Path -Path $sourcePath)) {
+        if ($PSCmdlet.ShouldProcess("$buildPath\addons\$pboName", "Remove obsolete PBO")) {
+            Remove-Item -Path "$buildPath\addons\$pboName"
+            Remove-Item -Path "$buildPath\addons\$($pboName).$modPrefix$tag.bisign" -ErrorAction SilentlyContinue
+            Write-Output -InputObject "  [$timestamp] Deleting obsolete PBO $pboName"
+        }
     }
 }
 
