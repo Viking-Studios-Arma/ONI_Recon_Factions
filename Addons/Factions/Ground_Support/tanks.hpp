@@ -37,7 +37,6 @@
     editorSubcategory = "EdSubcat_Tanks";
     side=1;
     displayName="M808BM Scorpion MBT";
-    hiddenSelectionsTextures[]={"optre_vehicles\scorpion\data\texture\camo\scorp_base_black_co.paa","optre_vehicles\scorpion\data\texture\camo\scorp_tur_black_co.paa","optre_vehicles\scorpion\data\texture\camo\det_3_black_co.paa","optre_vehicles\scorpion\data\texture\scorp_decals_ca.paa","optre_vehicles\scorpion\data\texture\scorp_net_wood_ca.paa","optre_vehicles\scorpion\data\texture\scorp_net_wood_ca.paa","optre_vehicles\scorpion\data\texture\camo\mine_roller_black_co.paa","optre_vehicles\scorpion\data\texture\camo\scorp_mg_black_co.paa"};
     crew="ONI_Recon_Armour_Crew";
     typicalCargo[]={"ONI_Recon_Armour_Crew"};
   };
@@ -48,7 +47,6 @@
     editorSubcategory = "EdSubcat_Tanks";
     side=1;
     displayName="M808B Scorpion MBT";
-    hiddenSelectionsTextures[]={"optre_vehicles\scorpion\data\texture\camo\scorp_base_black_co.paa","optre_vehicles\scorpion\data\texture\camo\scorp_tur_black_co.paa","optre_vehicles\scorpion\data\texture\camo\det_3_black_co.paa","optre_vehicles\scorpion\data\texture\scorp_decals_ca.paa","optre_vehicles\scorpion\data\texture\scorp_net_wood_ca.paa","optre_vehicles\scorpion\data\texture\scorp_net_wood_ca.paa","optre_vehicles\scorpion\data\texture\camo\mine_roller_black_co.paa"};
     crew="ONI_Recon_Armour_Crew";
     typicalCargo[]={"ONI_Recon_Armour_Crew"};
   };

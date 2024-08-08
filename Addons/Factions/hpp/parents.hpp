@@ -24,7 +24,7 @@
   class OPTRE_Wombat;
   class OPTRE_Wombat_B;
   class OPTRE_UNSC_falcon;
-  class OPTRE_UNSC_falcon_armed;
+  class OPTRE_UNSC_falcon_S;
   class OPTRE_Pelican_unarmed_SOCOM;
   class OPTRE_Pelican_armed_SOCOM;
   class OPTRE_M12A1_LRV;
