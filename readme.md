@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/Viking-Studios-Arma/ONI_Recon_Essentials/blob/5d17ad1523638d20144793f82f990c9eececcb5a/Falcon%20flight%20banner%20W-logo.png" alt="ONI Recon Banner Banner" />
+	<img src="https://github.com/Atlas-Commons/ONI_Recon_Essentials/blob/5d17ad1523638d20144793f82f990c9eececcb5a/Falcon%20flight%20banner%20W-logo.png" alt="ONI Recon Banner Banner" />
 	<br />
 	<a href="https://discord.gg/9pJTHHzaFC">
 		<img src="https://img.shields.io/discord/1032437213100777502.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge" alt="Discord Server">
@@ -14,14 +14,14 @@
 	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2877010969">
 		<img src="https://img.shields.io/steam/size/2877010969?label=Download&logo=steam" alt="Download" />
 	</a>
-	<a href="https://github.com/Viking-Studios-Arma/ONI_Recon_Factions/releases">
-		<img src="https://img.shields.io/github/release/Viking-Studios-Arma/ONI_Recon_Factions.svg?label=Version" alt="Version" />
+	<a href="https://github.com/Atlas-Commons/ONI_Recon_Factions/releases">
+		<img src="https://img.shields.io/github/release/Atlas-Commons/ONI_Recon_Factions.svg?label=Version" alt="Version" />
 	</a>
-	<a href="https://github.com/Viking-Studios-Arma/ONI_Recon_Factions/issues">
-		<img src="http://img.shields.io/github/issues-raw/Viking-Studios-Arma/ONI_Recon_Factions.svg?label=Issues&style=flat" alt="Issues" />
+	<a href="https://github.com/Atlas-Commons/ONI_Recon_Factions/issues">
+		<img src="http://img.shields.io/github/issues-raw/Atlas-Commons/ONI_Recon_Factions.svg?label=Issues&style=flat" alt="Issues" />
 	</a>
-	<a href="Viking-Studios-Arma/ONI_Recon_Factions/blob/main/LICENSE">
-		<img src="https://img.shields.io/github/license/Viking-Studios-Arma/ONI_Recon_Factions.svg?style=flat&label=Licence" alt="License">
+	<a href="https://github.com/Atlas-Commons/ONI_Recon_Factions/blob/main/LICENSE">
+		<img src="https://img.shields.io/github/license/Atlas-Commons/ONI_Recon_Factions.svg?style=flat&label=Licence" alt="License">
 	</a>
 </p>
 
@@ -89,3 +89,15 @@ For standardisation between class names and to prevent any possible future confl
 | 			    | 				| 			    |
 ||Standard Armour Back (Full)||
 ||<img width="1604" alt="Standard Armour Back (Full)" src="https://steamuserimages-a.akamaihd.net/ugc/2056502367325488432/71D1A6792DE875DFD75943DD658486AA62DD494A/" >
+
+---
+
+## Atlas Commons — legal notices
+
+This project is part of **Atlas Commons**, managed and financed by **Atlas Tech Solutions Ltd**. **Atlas Tech Solutions Ltd is not responsible or liable for this software** except as expressly stated in the applicable license.
+
+| Document | Purpose |
+|----------|---------|
+| [CORPORATE-LIABILITY-DISCLAIMER.md](./CORPORATE-LIABILITY-DISCLAIMER.md) | Corporate sponsor liability disclaimer |
+| [DCO](./DCO) | Developer Certificate of Origin (required for contributions) |
+| [CONTRIBUTING.md](./CONTRIBUTING.md) | Contribution guidelines and DCO sign-off |
